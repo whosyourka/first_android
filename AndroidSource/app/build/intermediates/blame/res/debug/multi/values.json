@@ -3503,8 +3503,8 @@
                     "startLine": 215,
                     "startColumn": 4,
                     "startOffset": 28857,
-                    "endColumn": 50,
-                    "endOffset": 28903
+                    "endColumn": 49,
+                    "endOffset": 28902
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\src\\main\\res\\values\\strings.xml",
@@ -3512,8 +3512,8 @@
                         "startLine": 1,
                         "startColumn": 4,
                         "startOffset": 17,
-                        "endColumn": 50,
-                        "endOffset": 63
+                        "endColumn": 49,
+                        "endOffset": 62
                     }
                 }
             },
@@ -3521,9 +3521,9 @@
                 "to": {
                     "startLine": 216,
                     "startColumn": 4,
-                    "startOffset": 28908,
+                    "startOffset": 28907,
                     "endColumn": 70,
-                    "endOffset": 28974
+                    "endOffset": 28973
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3540,9 +3540,9 @@
                 "to": {
                     "startLine": 217,
                     "startColumn": 4,
-                    "startOffset": 28979,
+                    "startOffset": 28978,
                     "endColumn": 77,
-                    "endOffset": 29052
+                    "endOffset": 29051
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3559,9 +3559,9 @@
                 "to": {
                     "startLine": 218,
                     "startColumn": 4,
-                    "startOffset": 29057,
+                    "startOffset": 29056,
                     "endColumn": 89,
-                    "endOffset": 29142
+                    "endOffset": 29141
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3578,9 +3578,9 @@
                 "to": {
                     "startLine": 219,
                     "startColumn": 4,
-                    "startOffset": 29147,
+                    "startOffset": 29146,
                     "endColumn": 87,
-                    "endOffset": 29230
+                    "endOffset": 29229
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3597,9 +3597,9 @@
                 "to": {
                     "startLine": 220,
                     "startColumn": 4,
-                    "startOffset": 29235,
+                    "startOffset": 29234,
                     "endColumn": 95,
-                    "endOffset": 29326
+                    "endOffset": 29325
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3616,10 +3616,10 @@
                 "to": {
                     "startLine": 221,
                     "startColumn": 4,
-                    "startOffset": 29331,
+                    "startOffset": 29330,
                     "endLine": 226,
                     "endColumn": 12,
-                    "endOffset": 29645
+                    "endOffset": 29644
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\src\\main\\res\\values\\styles.xml",
@@ -3637,10 +3637,10 @@
                 "to": {
                     "startLine": 227,
                     "startColumn": 4,
-                    "startOffset": 29650,
+                    "startOffset": 29649,
                     "endLine": 233,
                     "endColumn": 12,
-                    "endOffset": 30146
+                    "endOffset": 30145
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3658,9 +3658,9 @@
                 "to": {
                     "startLine": 234,
                     "startColumn": 4,
-                    "startOffset": 30151,
+                    "startOffset": 30150,
                     "endColumn": 88,
-                    "endOffset": 30235
+                    "endOffset": 30234
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3677,10 +3677,10 @@
                 "to": {
                     "startLine": 235,
                     "startColumn": 4,
-                    "startOffset": 30240,
+                    "startOffset": 30239,
                     "endLine": 238,
                     "endColumn": 12,
-                    "endOffset": 30482
+                    "endOffset": 30481
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3698,10 +3698,10 @@
                 "to": {
                     "startLine": 239,
                     "startColumn": 4,
-                    "startOffset": 30487,
+                    "startOffset": 30486,
                     "endLine": 242,
                     "endColumn": 12,
-                    "endOffset": 30763
+                    "endOffset": 30762
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3719,10 +3719,10 @@
                 "to": {
                     "startLine": 243,
                     "startColumn": 4,
-                    "startOffset": 30768,
+                    "startOffset": 30767,
                     "endLine": 247,
                     "endColumn": 12,
-                    "endOffset": 31048
+                    "endOffset": 31047
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3740,10 +3740,10 @@
                 "to": {
                     "startLine": 248,
                     "startColumn": 4,
-                    "startOffset": 31053,
+                    "startOffset": 31052,
                     "endLine": 253,
                     "endColumn": 12,
-                    "endOffset": 31441
+                    "endOffset": 31440
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3761,10 +3761,10 @@
                 "to": {
                     "startLine": 254,
                     "startColumn": 4,
-                    "startOffset": 31446,
+                    "startOffset": 31445,
                     "endLine": 260,
                     "endColumn": 12,
-                    "endOffset": 31918
+                    "endOffset": 31917
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3782,10 +3782,10 @@
                 "to": {
                     "startLine": 261,
                     "startColumn": 4,
-                    "startOffset": 31923,
+                    "startOffset": 31922,
                     "endLine": 264,
                     "endColumn": 12,
-                    "endOffset": 32140
+                    "endOffset": 32139
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3803,10 +3803,10 @@
                 "to": {
                     "startLine": 265,
                     "startColumn": 4,
-                    "startOffset": 32145,
+                    "startOffset": 32144,
                     "endLine": 268,
                     "endColumn": 12,
-                    "endOffset": 32362
+                    "endOffset": 32361
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3824,10 +3824,10 @@
                 "to": {
                     "startLine": 269,
                     "startColumn": 4,
-                    "startOffset": 32367,
+                    "startOffset": 32366,
                     "endLine": 273,
                     "endColumn": 12,
-                    "endOffset": 32630
+                    "endOffset": 32629
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3845,10 +3845,10 @@
                 "to": {
                     "startLine": 274,
                     "startColumn": 4,
-                    "startOffset": 32635,
+                    "startOffset": 32634,
                     "endLine": 277,
                     "endColumn": 12,
-                    "endOffset": 32857
+                    "endOffset": 32856
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3866,10 +3866,10 @@
                 "to": {
                     "startLine": 278,
                     "startColumn": 4,
-                    "startOffset": 32862,
+                    "startOffset": 32861,
                     "endLine": 281,
                     "endColumn": 12,
-                    "endOffset": 33087
+                    "endOffset": 33086
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3887,10 +3887,10 @@
                 "to": {
                     "startLine": 282,
                     "startColumn": 4,
-                    "startOffset": 33092,
+                    "startOffset": 33091,
                     "endLine": 285,
                     "endColumn": 12,
-                    "endOffset": 33317
+                    "endOffset": 33316
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3908,10 +3908,10 @@
                 "to": {
                     "startLine": 286,
                     "startColumn": 4,
-                    "startOffset": 33322,
+                    "startOffset": 33321,
                     "endLine": 289,
                     "endColumn": 12,
-                    "endOffset": 33547
+                    "endOffset": 33546
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3929,10 +3929,10 @@
                 "to": {
                     "startLine": 290,
                     "startColumn": 4,
-                    "startOffset": 33552,
+                    "startOffset": 33551,
                     "endLine": 293,
                     "endColumn": 12,
-                    "endOffset": 33777
+                    "endOffset": 33776
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3950,10 +3950,10 @@
                 "to": {
                     "startLine": 294,
                     "startColumn": 4,
-                    "startOffset": 33782,
+                    "startOffset": 33781,
                     "endLine": 297,
                     "endColumn": 12,
-                    "endOffset": 34004
+                    "endOffset": 34003
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3971,10 +3971,10 @@
                 "to": {
                     "startLine": 298,
                     "startColumn": 4,
-                    "startOffset": 34009,
+                    "startOffset": 34008,
                     "endLine": 301,
                     "endColumn": 12,
-                    "endOffset": 34243
+                    "endOffset": 34242
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3992,10 +3992,10 @@
                 "to": {
                     "startLine": 302,
                     "startColumn": 4,
-                    "startOffset": 34248,
+                    "startOffset": 34247,
                     "endLine": 305,
                     "endColumn": 12,
-                    "endOffset": 34469
+                    "endOffset": 34468
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4013,10 +4013,10 @@
                 "to": {
                     "startLine": 306,
                     "startColumn": 4,
-                    "startOffset": 34474,
+                    "startOffset": 34473,
                     "endLine": 309,
                     "endColumn": 12,
-                    "endOffset": 34714
+                    "endOffset": 34713
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4034,10 +4034,10 @@
                 "to": {
                     "startLine": 310,
                     "startColumn": 4,
-                    "startOffset": 34719,
+                    "startOffset": 34718,
                     "endLine": 311,
                     "endColumn": 12,
-                    "endOffset": 34844
+                    "endOffset": 34843
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4055,10 +4055,10 @@
                 "to": {
                     "startLine": 312,
                     "startColumn": 4,
-                    "startOffset": 34849,
+                    "startOffset": 34848,
                     "endLine": 313,
                     "endColumn": 12,
-                    "endOffset": 34974
+                    "endOffset": 34973
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4076,10 +4076,10 @@
                 "to": {
                     "startLine": 314,
                     "startColumn": 4,
-                    "startOffset": 34979,
+                    "startOffset": 34978,
                     "endLine": 317,
                     "endColumn": 12,
-                    "endOffset": 35204
+                    "endOffset": 35203
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4097,10 +4097,10 @@
                 "to": {
                     "startLine": 318,
                     "startColumn": 4,
-                    "startOffset": 35209,
+                    "startOffset": 35208,
                     "endLine": 321,
                     "endColumn": 12,
-                    "endOffset": 35452
+                    "endOffset": 35451
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4118,10 +4118,10 @@
                 "to": {
                     "startLine": 322,
                     "startColumn": 4,
-                    "startOffset": 35457,
+                    "startOffset": 35456,
                     "endLine": 325,
                     "endColumn": 12,
-                    "endOffset": 35671
+                    "endOffset": 35670
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4139,10 +4139,10 @@
                 "to": {
                     "startLine": 326,
                     "startColumn": 4,
-                    "startOffset": 35676,
+                    "startOffset": 35675,
                     "endLine": 330,
                     "endColumn": 12,
-                    "endOffset": 35954
+                    "endOffset": 35953
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4160,10 +4160,10 @@
                 "to": {
                     "startLine": 331,
                     "startColumn": 4,
-                    "startOffset": 35959,
+                    "startOffset": 35958,
                     "endLine": 334,
                     "endColumn": 12,
-                    "endOffset": 36162
+                    "endOffset": 36161
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4181,10 +4181,10 @@
                 "to": {
                     "startLine": 335,
                     "startColumn": 4,
-                    "startOffset": 36167,
+                    "startOffset": 36166,
                     "endLine": 337,
                     "endColumn": 12,
-                    "endOffset": 36293
+                    "endOffset": 36292
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4202,10 +4202,10 @@
                 "to": {
                     "startLine": 338,
                     "startColumn": 4,
-                    "startOffset": 36298,
+                    "startOffset": 36297,
                     "endLine": 341,
                     "endColumn": 12,
-                    "endOffset": 36520
+                    "endOffset": 36519
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4223,10 +4223,10 @@
                 "to": {
                     "startLine": 342,
                     "startColumn": 4,
-                    "startOffset": 36525,
+                    "startOffset": 36524,
                     "endLine": 345,
                     "endColumn": 12,
-                    "endOffset": 36766
+                    "endOffset": 36765
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4244,10 +4244,10 @@
                 "to": {
                     "startLine": 346,
                     "startColumn": 4,
-                    "startOffset": 36771,
+                    "startOffset": 36770,
                     "endLine": 349,
                     "endColumn": 12,
-                    "endOffset": 36991
+                    "endOffset": 36990
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4265,10 +4265,10 @@
                 "to": {
                     "startLine": 350,
                     "startColumn": 4,
-                    "startOffset": 36996,
+                    "startOffset": 36995,
                     "endLine": 353,
                     "endColumn": 12,
-                    "endOffset": 37238
+                    "endOffset": 37237
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4286,10 +4286,10 @@
                 "to": {
                     "startLine": 354,
                     "startColumn": 4,
-                    "startOffset": 37243,
+                    "startOffset": 37242,
                     "endLine": 357,
                     "endColumn": 12,
-                    "endOffset": 37459
+                    "endOffset": 37458
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4307,10 +4307,10 @@
                 "to": {
                     "startLine": 358,
                     "startColumn": 4,
-                    "startOffset": 37464,
+                    "startOffset": 37463,
                     "endLine": 361,
                     "endColumn": 12,
-                    "endOffset": 37704
+                    "endOffset": 37703
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4328,10 +4328,10 @@
                 "to": {
                     "startLine": 362,
                     "startColumn": 4,
-                    "startOffset": 37709,
+                    "startOffset": 37708,
                     "endLine": 365,
                     "endColumn": 12,
-                    "endOffset": 37980
+                    "endOffset": 37979
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4349,10 +4349,10 @@
                 "to": {
                     "startLine": 366,
                     "startColumn": 4,
-                    "startOffset": 37985,
+                    "startOffset": 37984,
                     "endLine": 369,
                     "endColumn": 12,
-                    "endOffset": 38281
+                    "endOffset": 38280
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4370,10 +4370,10 @@
                 "to": {
                     "startLine": 370,
                     "startColumn": 4,
-                    "startOffset": 38286,
+                    "startOffset": 38285,
                     "endLine": 373,
                     "endColumn": 12,
-                    "endOffset": 38605
+                    "endOffset": 38604
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4391,10 +4391,10 @@
                 "to": {
                     "startLine": 374,
                     "startColumn": 4,
-                    "startOffset": 38610,
+                    "startOffset": 38609,
                     "endLine": 377,
                     "endColumn": 12,
-                    "endOffset": 38896
+                    "endOffset": 38895
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4412,10 +4412,10 @@
                 "to": {
                     "startLine": 378,
                     "startColumn": 4,
-                    "startOffset": 38901,
+                    "startOffset": 38900,
                     "endLine": 381,
                     "endColumn": 12,
-                    "endOffset": 39210
+                    "endOffset": 39209
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4433,9 +4433,9 @@
                 "to": {
                     "startLine": 382,
                     "startColumn": 4,
-                    "startOffset": 39215,
+                    "startOffset": 39214,
                     "endColumn": 136,
-                    "endOffset": 39347
+                    "endOffset": 39346
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4452,9 +4452,9 @@
                 "to": {
                     "startLine": 383,
                     "startColumn": 4,
-                    "startOffset": 39352,
+                    "startOffset": 39351,
                     "endColumn": 130,
-                    "endOffset": 39478
+                    "endOffset": 39477
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4471,9 +4471,9 @@
                 "to": {
                     "startLine": 384,
                     "startColumn": 4,
-                    "startOffset": 39483,
+                    "startOffset": 39482,
                     "endColumn": 104,
-                    "endOffset": 39583
+                    "endOffset": 39582
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4490,10 +4490,10 @@
                 "to": {
                     "startLine": 385,
                     "startColumn": 4,
-                    "startOffset": 39588,
+                    "startOffset": 39587,
                     "endLine": 387,
                     "endColumn": 12,
-                    "endOffset": 39787
+                    "endOffset": 39786
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4511,10 +4511,10 @@
                 "to": {
                     "startLine": 388,
                     "startColumn": 4,
-                    "startOffset": 39792,
+                    "startOffset": 39791,
                     "endLine": 390,
                     "endColumn": 12,
-                    "endOffset": 39995
+                    "endOffset": 39994
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4532,10 +4532,10 @@
                 "to": {
                     "startLine": 391,
                     "startColumn": 4,
-                    "startOffset": 40000,
+                    "startOffset": 39999,
                     "endLine": 392,
                     "endColumn": 12,
-                    "endOffset": 40119
+                    "endOffset": 40118
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4553,10 +4553,10 @@
                 "to": {
                     "startLine": 393,
                     "startColumn": 4,
-                    "startOffset": 40124,
+                    "startOffset": 40123,
                     "endLine": 394,
                     "endColumn": 12,
-                    "endOffset": 40243
+                    "endOffset": 40242
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4574,9 +4574,9 @@
                 "to": {
                     "startLine": 395,
                     "startColumn": 4,
-                    "startOffset": 40248,
+                    "startOffset": 40247,
                     "endColumn": 104,
-                    "endOffset": 40348
+                    "endOffset": 40347
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4593,9 +4593,9 @@
                 "to": {
                     "startLine": 396,
                     "startColumn": 4,
-                    "startOffset": 40353,
+                    "startOffset": 40352,
                     "endColumn": 116,
-                    "endOffset": 40465
+                    "endOffset": 40464
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4612,10 +4612,10 @@
                 "to": {
                     "startLine": 397,
                     "startColumn": 4,
-                    "startOffset": 40470,
+                    "startOffset": 40469,
                     "endLine": 399,
                     "endColumn": 12,
-                    "endOffset": 40679
+                    "endOffset": 40678
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4633,10 +4633,10 @@
                 "to": {
                     "startLine": 400,
                     "startColumn": 4,
-                    "startOffset": 40684,
+                    "startOffset": 40683,
                     "endLine": 401,
                     "endColumn": 12,
-                    "endOffset": 40825
+                    "endOffset": 40824
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4654,10 +4654,10 @@
                 "to": {
                     "startLine": 402,
                     "startColumn": 4,
-                    "startOffset": 40830,
+                    "startOffset": 40829,
                     "endLine": 403,
                     "endColumn": 12,
-                    "endOffset": 40965
+                    "endOffset": 40964
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4675,10 +4675,10 @@
                 "to": {
                     "startLine": 404,
                     "startColumn": 4,
-                    "startOffset": 40970,
+                    "startOffset": 40969,
                     "endLine": 405,
                     "endColumn": 12,
-                    "endOffset": 41051
+                    "endOffset": 41050
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4696,10 +4696,10 @@
                 "to": {
                     "startLine": 406,
                     "startColumn": 4,
-                    "startOffset": 41056,
+                    "startOffset": 41055,
                     "endLine": 410,
                     "endColumn": 12,
-                    "endOffset": 41399
+                    "endOffset": 41398
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4717,9 +4717,9 @@
                 "to": {
                     "startLine": 411,
                     "startColumn": 4,
-                    "startOffset": 41404,
+                    "startOffset": 41403,
                     "endColumn": 87,
-                    "endOffset": 41487
+                    "endOffset": 41486
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4736,10 +4736,10 @@
                 "to": {
                     "startLine": 412,
                     "startColumn": 4,
-                    "startOffset": 41492,
+                    "startOffset": 41491,
                     "endLine": 415,
                     "endColumn": 12,
-                    "endOffset": 41717
+                    "endOffset": 41716
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4757,10 +4757,10 @@
                 "to": {
                     "startLine": 416,
                     "startColumn": 4,
-                    "startOffset": 41722,
+                    "startOffset": 41721,
                     "endLine": 421,
                     "endColumn": 12,
-                    "endOffset": 42135
+                    "endOffset": 42134
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4778,10 +4778,10 @@
                 "to": {
                     "startLine": 422,
                     "startColumn": 4,
-                    "startOffset": 42140,
+                    "startOffset": 42139,
                     "endLine": 425,
                     "endColumn": 12,
-                    "endOffset": 42368
+                    "endOffset": 42367
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4799,9 +4799,9 @@
                 "to": {
                     "startLine": 426,
                     "startColumn": 4,
-                    "startOffset": 42373,
+                    "startOffset": 42372,
                     "endColumn": 81,
-                    "endOffset": 42450
+                    "endOffset": 42449
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4818,10 +4818,10 @@
                 "to": {
                     "startLine": 427,
                     "startColumn": 4,
-                    "startOffset": 42455,
+                    "startOffset": 42454,
                     "endLine": 428,
                     "endColumn": 12,
-                    "endOffset": 42548
+                    "endOffset": 42547
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4839,10 +4839,10 @@
                 "to": {
                     "startLine": 429,
                     "startColumn": 4,
-                    "startOffset": 42553,
+                    "startOffset": 42552,
                     "endLine": 439,
                     "endColumn": 12,
-                    "endOffset": 43165
+                    "endOffset": 43164
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4860,9 +4860,9 @@
                 "to": {
                     "startLine": 440,
                     "startColumn": 4,
-                    "startOffset": 43170,
+                    "startOffset": 43169,
                     "endColumn": 99,
-                    "endOffset": 43265
+                    "endOffset": 43264
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4879,10 +4879,10 @@
                 "to": {
                     "startLine": 441,
                     "startColumn": 4,
-                    "startOffset": 43270,
+                    "startOffset": 43269,
                     "endLine": 444,
                     "endColumn": 12,
-                    "endOffset": 43501
+                    "endOffset": 43500
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4900,10 +4900,10 @@
                 "to": {
                     "startLine": 445,
                     "startColumn": 4,
-                    "startOffset": 43506,
+                    "startOffset": 43505,
                     "endLine": 450,
                     "endColumn": 12,
-                    "endOffset": 43925
+                    "endOffset": 43924
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4921,10 +4921,10 @@
                 "to": {
                     "startLine": 451,
                     "startColumn": 4,
-                    "startOffset": 43930,
+                    "startOffset": 43929,
                     "endLine": 454,
                     "endColumn": 12,
-                    "endOffset": 44164
+                    "endOffset": 44163
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4942,9 +4942,9 @@
                 "to": {
                     "startLine": 455,
                     "startColumn": 4,
-                    "startOffset": 44169,
+                    "startOffset": 44168,
                     "endColumn": 93,
-                    "endOffset": 44258
+                    "endOffset": 44257
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4961,9 +4961,9 @@
                 "to": {
                     "startLine": 456,
                     "startColumn": 4,
-                    "startOffset": 44263,
+                    "startOffset": 44262,
                     "endColumn": 88,
-                    "endOffset": 44347
+                    "endOffset": 44346
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4980,10 +4980,10 @@
                 "to": {
                     "startLine": 457,
                     "startColumn": 4,
-                    "startOffset": 44352,
+                    "startOffset": 44351,
                     "endLine": 460,
                     "endColumn": 12,
-                    "endOffset": 44584
+                    "endOffset": 44583
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5001,10 +5001,10 @@
                 "to": {
                     "startLine": 461,
                     "startColumn": 4,
-                    "startOffset": 44589,
+                    "startOffset": 44588,
                     "endLine": 486,
                     "endColumn": 12,
-                    "endOffset": 46535
+                    "endOffset": 46534
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5022,10 +5022,10 @@
                 "to": {
                     "startLine": 487,
                     "startColumn": 4,
-                    "startOffset": 46540,
+                    "startOffset": 46539,
                     "endLine": 490,
                     "endColumn": 12,
-                    "endOffset": 46777
+                    "endOffset": 46776
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5043,10 +5043,10 @@
                 "to": {
                     "startLine": 491,
                     "startColumn": 4,
-                    "startOffset": 46782,
+                    "startOffset": 46781,
                     "endLine": 517,
                     "endColumn": 12,
-                    "endOffset": 48859
+                    "endOffset": 48858
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5064,10 +5064,10 @@
                 "to": {
                     "startLine": 518,
                     "startColumn": 4,
-                    "startOffset": 48864,
+                    "startOffset": 48863,
                     "endLine": 672,
                     "endColumn": 12,
-                    "endOffset": 58725
+                    "endOffset": 58724
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5085,10 +5085,10 @@
                 "to": {
                     "startLine": 673,
                     "startColumn": 4,
-                    "startOffset": 58730,
+                    "startOffset": 58729,
                     "endLine": 694,
                     "endColumn": 12,
-                    "endOffset": 59992
+                    "endOffset": 59991
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5106,10 +5106,10 @@
                 "to": {
                     "startLine": 695,
                     "startColumn": 4,
-                    "startOffset": 59997,
+                    "startOffset": 59996,
                     "endLine": 849,
                     "endColumn": 12,
-                    "endOffset": 69968
+                    "endOffset": 69967
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5127,10 +5127,10 @@
                 "to": {
                     "startLine": 850,
                     "startColumn": 4,
-                    "startOffset": 69973,
+                    "startOffset": 69972,
                     "endLine": 871,
                     "endColumn": 12,
-                    "endOffset": 71249
+                    "endOffset": 71248
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5148,10 +5148,10 @@
                 "to": {
                     "startLine": 872,
                     "startColumn": 4,
-                    "startOffset": 71254,
+                    "startOffset": 71253,
                     "endLine": 878,
                     "endColumn": 12,
-                    "endOffset": 71785
+                    "endOffset": 71784
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5169,10 +5169,10 @@
                 "to": {
                     "startLine": 879,
                     "startColumn": 4,
-                    "startOffset": 71790,
+                    "startOffset": 71789,
                     "endLine": 883,
                     "endColumn": 12,
-                    "endOffset": 72115
+                    "endOffset": 72114
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5190,10 +5190,10 @@
                 "to": {
                     "startLine": 884,
                     "startColumn": 4,
-                    "startOffset": 72120,
+                    "startOffset": 72119,
                     "endLine": 904,
                     "endColumn": 12,
-                    "endOffset": 73238
+                    "endOffset": 73237
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5211,10 +5211,10 @@
                 "to": {
                     "startLine": 905,
                     "startColumn": 4,
-                    "startOffset": 73243,
+                    "startOffset": 73242,
                     "endLine": 909,
                     "endColumn": 12,
-                    "endOffset": 73494
+                    "endOffset": 73493
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5232,10 +5232,10 @@
                 "to": {
                     "startLine": 910,
                     "startColumn": 4,
-                    "startOffset": 73499,
+                    "startOffset": 73498,
                     "endLine": 914,
                     "endColumn": 12,
-                    "endOffset": 73730
+                    "endOffset": 73729
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5253,10 +5253,10 @@
                 "to": {
                     "startLine": 915,
                     "startColumn": 4,
-                    "startOffset": 73735,
+                    "startOffset": 73734,
                     "endLine": 924,
                     "endColumn": 12,
-                    "endOffset": 74277
+                    "endOffset": 74276
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5274,10 +5274,10 @@
                 "to": {
                     "startLine": 925,
                     "startColumn": 4,
-                    "startOffset": 74282,
+                    "startOffset": 74281,
                     "endLine": 933,
                     "endColumn": 12,
-                    "endOffset": 74771
+                    "endOffset": 74770
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5295,10 +5295,10 @@
                 "to": {
                     "startLine": 934,
                     "startColumn": 4,
-                    "startOffset": 74776,
+                    "startOffset": 74775,
                     "endLine": 942,
                     "endColumn": 12,
-                    "endOffset": 75376
+                    "endOffset": 75375
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5316,10 +5316,10 @@
                 "to": {
                     "startLine": 943,
                     "startColumn": 4,
-                    "startOffset": 75381,
+                    "startOffset": 75380,
                     "endLine": 945,
                     "endColumn": 12,
-                    "endOffset": 75524
+                    "endOffset": 75523
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5337,10 +5337,10 @@
                 "to": {
                     "startLine": 946,
                     "startColumn": 4,
-                    "startOffset": 75529,
+                    "startOffset": 75528,
                     "endLine": 952,
                     "endColumn": 12,
-                    "endOffset": 76112
+                    "endOffset": 76111
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5358,10 +5358,10 @@
                 "to": {
                     "startLine": 953,
                     "startColumn": 4,
-                    "startOffset": 76117,
+                    "startOffset": 76116,
                     "endLine": 960,
                     "endColumn": 12,
-                    "endOffset": 76676
+                    "endOffset": 76675
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5379,10 +5379,10 @@
                 "to": {
                     "startLine": 961,
                     "startColumn": 4,
-                    "startOffset": 76681,
+                    "startOffset": 76680,
                     "endLine": 967,
                     "endColumn": 12,
-                    "endOffset": 77051
+                    "endOffset": 77050
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5400,9 +5400,9 @@
                 "to": {
                     "startLine": 968,
                     "startColumn": 4,
-                    "startOffset": 77056,
+                    "startOffset": 77055,
                     "endColumn": 117,
-                    "endOffset": 77169
+                    "endOffset": 77168
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5419,10 +5419,10 @@
                 "to": {
                     "startLine": 969,
                     "startColumn": 4,
-                    "startOffset": 77174,
+                    "startOffset": 77173,
                     "endLine": 977,
                     "endColumn": 12,
-                    "endOffset": 77707
+                    "endOffset": 77706
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5440,10 +5440,10 @@
                 "to": {
                     "startLine": 978,
                     "startColumn": 4,
-                    "startOffset": 77712,
+                    "startOffset": 77711,
                     "endLine": 980,
                     "endColumn": 12,
-                    "endOffset": 77864
+                    "endOffset": 77863
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5461,10 +5461,10 @@
                 "to": {
                     "startLine": 981,
                     "startColumn": 4,
-                    "startOffset": 77869,
+                    "startOffset": 77868,
                     "endLine": 983,
                     "endColumn": 12,
-                    "endOffset": 78008
+                    "endOffset": 78007
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5482,10 +5482,10 @@
                 "to": {
                     "startLine": 984,
                     "startColumn": 4,
-                    "startOffset": 78013,
+                    "startOffset": 78012,
                     "endLine": 988,
                     "endColumn": 12,
-                    "endOffset": 78328
+                    "endOffset": 78327
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5503,10 +5503,10 @@
                 "to": {
                     "startLine": 989,
                     "startColumn": 4,
-                    "startOffset": 78333,
+                    "startOffset": 78332,
                     "endLine": 992,
                     "endColumn": 12,
-                    "endOffset": 78584
+                    "endOffset": 78583
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5524,10 +5524,10 @@
                 "to": {
                     "startLine": 993,
                     "startColumn": 4,
-                    "startOffset": 78589,
+                    "startOffset": 78588,
                     "endLine": 996,
                     "endColumn": 12,
-                    "endOffset": 78754
+                    "endOffset": 78753
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5545,10 +5545,10 @@
                 "to": {
                     "startLine": 997,
                     "startColumn": 4,
-                    "startOffset": 78759,
+                    "startOffset": 78758,
                     "endLine": 999,
                     "endColumn": 12,
-                    "endOffset": 78895
+                    "endOffset": 78894
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5566,9 +5566,9 @@
                 "to": {
                     "startLine": 1000,
                     "startColumn": 4,
-                    "startOffset": 78900,
+                    "startOffset": 78899,
                     "endColumn": 63,
-                    "endOffset": 78959
+                    "endOffset": 78958
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5585,10 +5585,10 @@
                 "to": {
                     "startLine": 1001,
                     "startColumn": 4,
-                    "startOffset": 78964,
+                    "startOffset": 78963,
                     "endLine": 1004,
                     "endColumn": 12,
-                    "endOffset": 79241
+                    "endOffset": 79240
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5606,10 +5606,10 @@
                 "to": {
                     "startLine": 1005,
                     "startColumn": 4,
-                    "startOffset": 79246,
+                    "startOffset": 79245,
                     "endLine": 1008,
                     "endColumn": 12,
-                    "endOffset": 79527
+                    "endOffset": 79526
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5627,10 +5627,10 @@
                 "to": {
                     "startLine": 1009,
                     "startColumn": 4,
-                    "startOffset": 79532,
+                    "startOffset": 79531,
                     "endLine": 1018,
                     "endColumn": 12,
-                    "endOffset": 80203
+                    "endOffset": 80202
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5648,10 +5648,10 @@
                 "to": {
                     "startLine": 1019,
                     "startColumn": 4,
-                    "startOffset": 80208,
+                    "startOffset": 80207,
                     "endLine": 1023,
                     "endColumn": 12,
-                    "endOffset": 80467
+                    "endOffset": 80466
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5669,10 +5669,10 @@
                 "to": {
                     "startLine": 1024,
                     "startColumn": 4,
-                    "startOffset": 80472,
+                    "startOffset": 80471,
                     "endLine": 1030,
                     "endColumn": 12,
-                    "endOffset": 80805
+                    "endOffset": 80804
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5690,10 +5690,10 @@
                 "to": {
                     "startLine": 1031,
                     "startColumn": 4,
-                    "startOffset": 80810,
+                    "startOffset": 80809,
                     "endLine": 1036,
                     "endColumn": 12,
-                    "endOffset": 81158
+                    "endOffset": 81157
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5711,9 +5711,9 @@
                 "to": {
                     "startLine": 1037,
                     "startColumn": 4,
-                    "startOffset": 81163,
+                    "startOffset": 81162,
                     "endColumn": 93,
-                    "endOffset": 81252
+                    "endOffset": 81251
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5730,10 +5730,10 @@
                 "to": {
                     "startLine": 1038,
                     "startColumn": 4,
-                    "startOffset": 81257,
+                    "startOffset": 81256,
                     "endLine": 1040,
                     "endColumn": 12,
-                    "endOffset": 81438
+                    "endOffset": 81437
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5751,10 +5751,10 @@
                 "to": {
                     "startLine": 1041,
                     "startColumn": 4,
-                    "startOffset": 81443,
+                    "startOffset": 81442,
                     "endLine": 1044,
                     "endColumn": 12,
-                    "endOffset": 81744
+                    "endOffset": 81743
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5772,10 +5772,10 @@
                 "to": {
                     "startLine": 1045,
                     "startColumn": 4,
-                    "startOffset": 81749,
+                    "startOffset": 81748,
                     "endLine": 1049,
                     "endColumn": 12,
-                    "endOffset": 82006
+                    "endOffset": 82005
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5793,10 +5793,10 @@
                 "to": {
                     "startLine": 1050,
                     "startColumn": 4,
-                    "startOffset": 82011,
+                    "startOffset": 82010,
                     "endLine": 1051,
                     "endColumn": 12,
-                    "endOffset": 82131
+                    "endOffset": 82130
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5814,10 +5814,10 @@
                 "to": {
                     "startLine": 1052,
                     "startColumn": 4,
-                    "startOffset": 82136,
+                    "startOffset": 82135,
                     "endLine": 1053,
                     "endColumn": 12,
-                    "endOffset": 82258
+                    "endOffset": 82257
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5835,10 +5835,10 @@
                 "to": {
                     "startLine": 1054,
                     "startColumn": 4,
-                    "startOffset": 82263,
+                    "startOffset": 82262,
                     "endLine": 1056,
                     "endColumn": 12,
-                    "endOffset": 82497
+                    "endOffset": 82496
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5856,10 +5856,10 @@
                 "to": {
                     "startLine": 1057,
                     "startColumn": 4,
-                    "startOffset": 82502,
+                    "startOffset": 82501,
                     "endLine": 1059,
                     "endColumn": 12,
-                    "endOffset": 82708
+                    "endOffset": 82707
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5877,10 +5877,10 @@
                 "to": {
                     "startLine": 1060,
                     "startColumn": 4,
-                    "startOffset": 82713,
+                    "startOffset": 82712,
                     "endLine": 1061,
                     "endColumn": 12,
-                    "endOffset": 82827
+                    "endOffset": 82826
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5898,10 +5898,10 @@
                 "to": {
                     "startLine": 1062,
                     "startColumn": 4,
-                    "startOffset": 82832,
+                    "startOffset": 82831,
                     "endLine": 1065,
                     "endColumn": 12,
-                    "endOffset": 83020
+                    "endOffset": 83019
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5919,10 +5919,10 @@
                 "to": {
                     "startLine": 1066,
                     "startColumn": 4,
-                    "startOffset": 83025,
+                    "startOffset": 83024,
                     "endLine": 1072,
                     "endColumn": 12,
-                    "endOffset": 83475
+                    "endOffset": 83474
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5940,10 +5940,10 @@
                 "to": {
                     "startLine": 1073,
                     "startColumn": 4,
-                    "startOffset": 83480,
+                    "startOffset": 83479,
                     "endLine": 1075,
                     "endColumn": 12,
-                    "endOffset": 83656
+                    "endOffset": 83655
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5961,10 +5961,10 @@
                 "to": {
                     "startLine": 1076,
                     "startColumn": 4,
-                    "startOffset": 83661,
+                    "startOffset": 83660,
                     "endLine": 1078,
                     "endColumn": 12,
-                    "endOffset": 83778
+                    "endOffset": 83777
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5982,10 +5982,10 @@
                 "to": {
                     "startLine": 1079,
                     "startColumn": 4,
-                    "startOffset": 83783,
+                    "startOffset": 83782,
                     "endLine": 1082,
                     "endColumn": 12,
-                    "endOffset": 84037
+                    "endOffset": 84036
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6003,10 +6003,10 @@
                 "to": {
                     "startLine": 1083,
                     "startColumn": 4,
-                    "startOffset": 84042,
+                    "startOffset": 84041,
                     "endLine": 1084,
                     "endColumn": 12,
-                    "endOffset": 84150
+                    "endOffset": 84149
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6024,10 +6024,10 @@
                 "to": {
                     "startLine": 1085,
                     "startColumn": 4,
-                    "startOffset": 84155,
+                    "startOffset": 84154,
                     "endLine": 1088,
                     "endColumn": 12,
-                    "endOffset": 84337
+                    "endOffset": 84336
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6045,10 +6045,10 @@
                 "to": {
                     "startLine": 1089,
                     "startColumn": 4,
-                    "startOffset": 84342,
+                    "startOffset": 84341,
                     "endLine": 1090,
                     "endColumn": 12,
-                    "endOffset": 84439
+                    "endOffset": 84438
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6066,10 +6066,10 @@
                 "to": {
                     "startLine": 1091,
                     "startColumn": 4,
-                    "startOffset": 84444,
+                    "startOffset": 84443,
                     "endLine": 1096,
                     "endColumn": 12,
-                    "endOffset": 84883
+                    "endOffset": 84882
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6087,10 +6087,10 @@
                 "to": {
                     "startLine": 1097,
                     "startColumn": 4,
-                    "startOffset": 84888,
+                    "startOffset": 84887,
                     "endLine": 1098,
                     "endColumn": 12,
-                    "endOffset": 85007
+                    "endOffset": 85006
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6108,10 +6108,10 @@
                 "to": {
                     "startLine": 1099,
                     "startColumn": 4,
-                    "startOffset": 85012,
+                    "startOffset": 85011,
                     "endLine": 1102,
                     "endColumn": 12,
-                    "endOffset": 85292
+                    "endOffset": 85291
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6129,10 +6129,10 @@
                 "to": {
                     "startLine": 1103,
                     "startColumn": 4,
-                    "startOffset": 85297,
+                    "startOffset": 85296,
                     "endLine": 1110,
                     "endColumn": 12,
-                    "endOffset": 85800
+                    "endOffset": 85799
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6150,10 +6150,10 @@
                 "to": {
                     "startLine": 1111,
                     "startColumn": 4,
-                    "startOffset": 85805,
+                    "startOffset": 85804,
                     "endLine": 1118,
                     "endColumn": 12,
-                    "endOffset": 86296
+                    "endOffset": 86295
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6171,10 +6171,10 @@
                 "to": {
                     "startLine": 1119,
                     "startColumn": 4,
-                    "startOffset": 86301,
+                    "startOffset": 86300,
                     "endLine": 1130,
                     "endColumn": 12,
-                    "endOffset": 87183
+                    "endOffset": 87182
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6192,10 +6192,10 @@
                 "to": {
                     "startLine": 1131,
                     "startColumn": 4,
-                    "startOffset": 87188,
+                    "startOffset": 87187,
                     "endLine": 1136,
                     "endColumn": 12,
-                    "endOffset": 87477
+                    "endOffset": 87476
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6213,10 +6213,10 @@
                 "to": {
                     "startLine": 1137,
                     "startColumn": 4,
-                    "startOffset": 87482,
+                    "startOffset": 87481,
                     "endLine": 1145,
                     "endColumn": 12,
-                    "endOffset": 88047
+                    "endOffset": 88046
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6234,10 +6234,10 @@
                 "to": {
                     "startLine": 1146,
                     "startColumn": 4,
-                    "startOffset": 88052,
+                    "startOffset": 88051,
                     "endLine": 1156,
                     "endColumn": 12,
-                    "endOffset": 88779
+                    "endOffset": 88778
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6255,10 +6255,10 @@
                 "to": {
                     "startLine": 1157,
                     "startColumn": 4,
-                    "startOffset": 88784,
+                    "startOffset": 88783,
                     "endLine": 1159,
                     "endColumn": 12,
-                    "endOffset": 88951
+                    "endOffset": 88950
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6276,10 +6276,10 @@
                 "to": {
                     "startLine": 1160,
                     "startColumn": 4,
-                    "startOffset": 88956,
+                    "startOffset": 88955,
                     "endLine": 1164,
                     "endColumn": 12,
-                    "endOffset": 89287
+                    "endOffset": 89286
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6297,10 +6297,10 @@
                 "to": {
                     "startLine": 1165,
                     "startColumn": 4,
-                    "startOffset": 89292,
+                    "startOffset": 89291,
                     "endLine": 1176,
                     "endColumn": 12,
-                    "endOffset": 90195
+                    "endOffset": 90194
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6318,10 +6318,10 @@
                 "to": {
                     "startLine": 1177,
                     "startColumn": 4,
-                    "startOffset": 90200,
+                    "startOffset": 90199,
                     "endLine": 1181,
                     "endColumn": 12,
-                    "endOffset": 90473
+                    "endOffset": 90472
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6339,10 +6339,10 @@
                 "to": {
                     "startLine": 1182,
                     "startColumn": 4,
-                    "startOffset": 90478,
+                    "startOffset": 90477,
                     "endLine": 1219,
                     "endColumn": 12,
-                    "endOffset": 93335
+                    "endOffset": 93334
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6360,10 +6360,10 @@
                 "to": {
                     "startLine": 1220,
                     "startColumn": 4,
-                    "startOffset": 93340,
+                    "startOffset": 93339,
                     "endLine": 1258,
                     "endColumn": 12,
-                    "endOffset": 96337
+                    "endOffset": 96336
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6381,9 +6381,9 @@
                 "to": {
                     "startLine": 1259,
                     "startColumn": 4,
-                    "startOffset": 96342,
+                    "startOffset": 96341,
                     "endColumn": 61,
-                    "endOffset": 96399
+                    "endOffset": 96398
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6400,10 +6400,10 @@
                 "to": {
                     "startLine": 1260,
                     "startColumn": 4,
-                    "startOffset": 96404,
+                    "startOffset": 96403,
                     "endLine": 1269,
                     "endColumn": 12,
-                    "endOffset": 97029
+                    "endOffset": 97028
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6421,10 +6421,10 @@
                 "to": {
                     "startLine": 1270,
                     "startColumn": 4,
-                    "startOffset": 97034,
+                    "startOffset": 97033,
                     "endLine": 1278,
                     "endColumn": 12,
-                    "endOffset": 97643
+                    "endOffset": 97642
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6442,9 +6442,9 @@
                 "to": {
                     "startLine": 1279,
                     "startColumn": 4,
-                    "startOffset": 97648,
+                    "startOffset": 97647,
                     "endColumn": 85,
-                    "endOffset": 97729
+                    "endOffset": 97728
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6461,10 +6461,10 @@
                 "to": {
                     "startLine": 1280,
                     "startColumn": 4,
-                    "startOffset": 97734,
+                    "startOffset": 97733,
                     "endLine": 1281,
                     "endColumn": 12,
-                    "endOffset": 97842
+                    "endOffset": 97841
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6482,10 +6482,10 @@
                 "to": {
                     "startLine": 1282,
                     "startColumn": 4,
-                    "startOffset": 97847,
+                    "startOffset": 97846,
                     "endLine": 1285,
                     "endColumn": 12,
-                    "endOffset": 98071
+                    "endOffset": 98070
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6503,10 +6503,10 @@
                 "to": {
                     "startLine": 1286,
                     "startColumn": 4,
-                    "startOffset": 98076,
+                    "startOffset": 98075,
                     "endLine": 1288,
                     "endColumn": 12,
-                    "endOffset": 98231
+                    "endOffset": 98230
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6524,10 +6524,10 @@
                 "to": {
                     "startLine": 1289,
                     "startColumn": 4,
-                    "startOffset": 98236,
+                    "startOffset": 98235,
                     "endLine": 1291,
                     "endColumn": 12,
-                    "endOffset": 98383
+                    "endOffset": 98382
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6545,10 +6545,10 @@
                 "to": {
                     "startLine": 1292,
                     "startColumn": 4,
-                    "startOffset": 98388,
+                    "startOffset": 98387,
                     "endLine": 1294,
                     "endColumn": 12,
-                    "endOffset": 98554
+                    "endOffset": 98553
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6566,10 +6566,10 @@
                 "to": {
                     "startLine": 1295,
                     "startColumn": 4,
-                    "startOffset": 98559,
+                    "startOffset": 98558,
                     "endLine": 1297,
                     "endColumn": 12,
-                    "endOffset": 98721
+                    "endOffset": 98720
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6587,10 +6587,10 @@
                 "to": {
                     "startLine": 1298,
                     "startColumn": 4,
-                    "startOffset": 98726,
+                    "startOffset": 98725,
                     "endLine": 1301,
                     "endColumn": 12,
-                    "endOffset": 98964
+                    "endOffset": 98963
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6608,10 +6608,10 @@
                 "to": {
                     "startLine": 1302,
                     "startColumn": 4,
-                    "startOffset": 98969,
+                    "startOffset": 98968,
                     "endLine": 1304,
                     "endColumn": 12,
-                    "endOffset": 99134
+                    "endOffset": 99133
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6629,10 +6629,10 @@
                 "to": {
                     "startLine": 1305,
                     "startColumn": 4,
-                    "startOffset": 99139,
+                    "startOffset": 99138,
                     "endLine": 1307,
                     "endColumn": 12,
-                    "endOffset": 99307
+                    "endOffset": 99306
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6650,10 +6650,10 @@
                 "to": {
                     "startLine": 1308,
                     "startColumn": 4,
-                    "startOffset": 99312,
+                    "startOffset": 99311,
                     "endLine": 1310,
                     "endColumn": 12,
-                    "endOffset": 99478
+                    "endOffset": 99477
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6671,10 +6671,10 @@
                 "to": {
                     "startLine": 1311,
                     "startColumn": 4,
-                    "startOffset": 99483,
+                    "startOffset": 99482,
                     "endLine": 1314,
                     "endColumn": 12,
-                    "endOffset": 99752
+                    "endOffset": 99751
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6692,10 +6692,10 @@
                 "to": {
                     "startLine": 1315,
                     "startColumn": 4,
-                    "startOffset": 99757,
+                    "startOffset": 99756,
                     "endLine": 1317,
                     "endColumn": 12,
-                    "endOffset": 99951
+                    "endOffset": 99950
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6713,10 +6713,10 @@
                 "to": {
                     "startLine": 1318,
                     "startColumn": 4,
-                    "startOffset": 99956,
+                    "startOffset": 99955,
                     "endLine": 1321,
                     "endColumn": 12,
-                    "endOffset": 100156
+                    "endOffset": 100155
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6734,10 +6734,10 @@
                 "to": {
                     "startLine": 1322,
                     "startColumn": 4,
-                    "startOffset": 100161,
+                    "startOffset": 100160,
                     "endLine": 1325,
                     "endColumn": 12,
-                    "endOffset": 100486
+                    "endOffset": 100485
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6755,9 +6755,9 @@
                 "to": {
                     "startLine": 1326,
                     "startColumn": 4,
-                    "startOffset": 100491,
+                    "startOffset": 100490,
                     "endColumn": 83,
-                    "endOffset": 100570
+                    "endOffset": 100569
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6774,9 +6774,9 @@
                 "to": {
                     "startLine": 1327,
                     "startColumn": 4,
-                    "startOffset": 100575,
+                    "startOffset": 100574,
                     "endColumn": 95,
-                    "endOffset": 100666
+                    "endOffset": 100665
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6793,9 +6793,9 @@
                 "to": {
                     "startLine": 1328,
                     "startColumn": 4,
-                    "startOffset": 100671,
+                    "startOffset": 100670,
                     "endColumn": 95,
-                    "endOffset": 100762
+                    "endOffset": 100761
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6812,9 +6812,9 @@
                 "to": {
                     "startLine": 1329,
                     "startColumn": 4,
-                    "startOffset": 100767,
+                    "startOffset": 100766,
                     "endColumn": 97,
-                    "endOffset": 100860
+                    "endOffset": 100859
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6831,9 +6831,9 @@
                 "to": {
                     "startLine": 1330,
                     "startColumn": 4,
-                    "startOffset": 100865,
+                    "startOffset": 100864,
                     "endColumn": 99,
-                    "endOffset": 100960
+                    "endOffset": 100959
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6850,9 +6850,9 @@
                 "to": {
                     "startLine": 1331,
                     "startColumn": 4,
-                    "startOffset": 100965,
+                    "startOffset": 100964,
                     "endColumn": 101,
-                    "endOffset": 101062
+                    "endOffset": 101061
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6869,9 +6869,9 @@
                 "to": {
                     "startLine": 1332,
                     "startColumn": 4,
-                    "startOffset": 101067,
+                    "startOffset": 101066,
                     "endColumn": 101,
-                    "endOffset": 101164
+                    "endOffset": 101163
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6888,9 +6888,9 @@
                 "to": {
                     "startLine": 1333,
                     "startColumn": 4,
-                    "startOffset": 101169,
+                    "startOffset": 101168,
                     "endColumn": 101,
-                    "endOffset": 101266
+                    "endOffset": 101265
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6907,9 +6907,9 @@
                 "to": {
                     "startLine": 1334,
                     "startColumn": 4,
-                    "startOffset": 101271,
+                    "startOffset": 101270,
                     "endColumn": 101,
-                    "endOffset": 101368
+                    "endOffset": 101367
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6926,9 +6926,9 @@
                 "to": {
                     "startLine": 1335,
                     "startColumn": 4,
-                    "startOffset": 101373,
+                    "startOffset": 101372,
                     "endColumn": 101,
-                    "endOffset": 101470
+                    "endOffset": 101469
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6945,9 +6945,9 @@
                 "to": {
                     "startLine": 1336,
                     "startColumn": 4,
-                    "startOffset": 101475,
+                    "startOffset": 101474,
                     "endColumn": 99,
-                    "endOffset": 101570
+                    "endOffset": 101569
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6964,9 +6964,9 @@
                 "to": {
                     "startLine": 1337,
                     "startColumn": 4,
-                    "startOffset": 101575,
+                    "startOffset": 101574,
                     "endColumn": 95,
-                    "endOffset": 101666
+                    "endOffset": 101665
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6983,9 +6983,9 @@
                 "to": {
                     "startLine": 1338,
                     "startColumn": 4,
-                    "startOffset": 101671,
+                    "startOffset": 101670,
                     "endColumn": 111,
-                    "endOffset": 101778
+                    "endOffset": 101777
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7002,9 +7002,9 @@
                 "to": {
                     "startLine": 1339,
                     "startColumn": 4,
-                    "startOffset": 101783,
+                    "startOffset": 101782,
                     "endColumn": 128,
-                    "endOffset": 101907
+                    "endOffset": 101906
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7021,9 +7021,9 @@
                 "to": {
                     "startLine": 1340,
                     "startColumn": 4,
-                    "startOffset": 101912,
+                    "startOffset": 101911,
                     "endColumn": 122,
-                    "endOffset": 102030
+                    "endOffset": 102029
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7040,10 +7040,10 @@
                 "to": {
                     "startLine": 1341,
                     "startColumn": 4,
-                    "startOffset": 102035,
+                    "startOffset": 102034,
                     "endLine": 1342,
                     "endColumn": 12,
-                    "endOffset": 102184
+                    "endOffset": 102183
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7061,10 +7061,10 @@
                 "to": {
                     "startLine": 1343,
                     "startColumn": 4,
-                    "startOffset": 102189,
+                    "startOffset": 102188,
                     "endLine": 1344,
                     "endColumn": 12,
-                    "endOffset": 102338
+                    "endOffset": 102337
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7082,9 +7082,9 @@
                 "to": {
                     "startLine": 1345,
                     "startColumn": 4,
-                    "startOffset": 102343,
+                    "startOffset": 102342,
                     "endColumn": 97,
-                    "endOffset": 102436
+                    "endOffset": 102435
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7101,9 +7101,9 @@
                 "to": {
                     "startLine": 1346,
                     "startColumn": 4,
-                    "startOffset": 102441,
+                    "startOffset": 102440,
                     "endColumn": 113,
-                    "endOffset": 102550
+                    "endOffset": 102549
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7120,9 +7120,9 @@
                 "to": {
                     "startLine": 1347,
                     "startColumn": 4,
-                    "startOffset": 102555,
+                    "startOffset": 102554,
                     "endColumn": 93,
-                    "endOffset": 102644
+                    "endOffset": 102643
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7139,10 +7139,10 @@
                 "to": {
                     "startLine": 1348,
                     "startColumn": 4,
-                    "startOffset": 102649,
+                    "startOffset": 102648,
                     "endLine": 1349,
                     "endColumn": 12,
-                    "endOffset": 102784
+                    "endOffset": 102783
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7160,10 +7160,10 @@
                 "to": {
                     "startLine": 1350,
                     "startColumn": 4,
-                    "startOffset": 102789,
+                    "startOffset": 102788,
                     "endLine": 1351,
                     "endColumn": 12,
-                    "endOffset": 102918
+                    "endOffset": 102917
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7181,9 +7181,9 @@
                 "to": {
                     "startLine": 1352,
                     "startColumn": 4,
-                    "startOffset": 102923,
+                    "startOffset": 102922,
                     "endColumn": 95,
-                    "endOffset": 103014
+                    "endOffset": 103013
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7200,9 +7200,9 @@
                 "to": {
                     "startLine": 1353,
                     "startColumn": 4,
-                    "startOffset": 103019,
+                    "startOffset": 103018,
                     "endColumn": 111,
-                    "endOffset": 103126
+                    "endOffset": 103125
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7219,9 +7219,9 @@
                 "to": {
                     "startLine": 1354,
                     "startColumn": 4,
-                    "startOffset": 103131,
+                    "startOffset": 103130,
                     "endColumn": 99,
-                    "endOffset": 103226
+                    "endOffset": 103225
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7238,9 +7238,9 @@
                 "to": {
                     "startLine": 1355,
                     "startColumn": 4,
-                    "startOffset": 103231,
+                    "startOffset": 103230,
                     "endColumn": 115,
-                    "endOffset": 103342
+                    "endOffset": 103341
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7257,9 +7257,9 @@
                 "to": {
                     "startLine": 1356,
                     "startColumn": 4,
-                    "startOffset": 103347,
+                    "startOffset": 103346,
                     "endColumn": 95,
-                    "endOffset": 103438
+                    "endOffset": 103437
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7276,9 +7276,9 @@
                 "to": {
                     "startLine": 1357,
                     "startColumn": 4,
-                    "startOffset": 103443,
+                    "startOffset": 103442,
                     "endColumn": 111,
-                    "endOffset": 103550
+                    "endOffset": 103549
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7295,10 +7295,10 @@
                 "to": {
                     "startLine": 1358,
                     "startColumn": 4,
-                    "startOffset": 103555,
+                    "startOffset": 103554,
                     "endLine": 1359,
                     "endColumn": 12,
-                    "endOffset": 103690
+                    "endOffset": 103689
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7316,9 +7316,9 @@
                 "to": {
                     "startLine": 1360,
                     "startColumn": 4,
-                    "startOffset": 103695,
+                    "startOffset": 103694,
                     "endColumn": 135,
-                    "endOffset": 103826
+                    "endOffset": 103825
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7335,10 +7335,10 @@
                 "to": {
                     "startLine": 1361,
                     "startColumn": 4,
-                    "startOffset": 103831,
+                    "startOffset": 103830,
                     "endLine": 1362,
                     "endColumn": 12,
-                    "endOffset": 103990
+                    "endOffset": 103989
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7356,9 +7356,9 @@
                 "to": {
                     "startLine": 1363,
                     "startColumn": 4,
-                    "startOffset": 103995,
+                    "startOffset": 103994,
                     "endColumn": 129,
-                    "endOffset": 104120
+                    "endOffset": 104119
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7375,10 +7375,10 @@
                 "to": {
                     "startLine": 1364,
                     "startColumn": 4,
-                    "startOffset": 104125,
+                    "startOffset": 104124,
                     "endLine": 1365,
                     "endColumn": 12,
-                    "endOffset": 104278
+                    "endOffset": 104277
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7396,10 +7396,10 @@
                 "to": {
                     "startLine": 1366,
                     "startColumn": 4,
-                    "startOffset": 104283,
+                    "startOffset": 104282,
                     "endLine": 1367,
                     "endColumn": 12,
-                    "endOffset": 104428
+                    "endOffset": 104427
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7417,9 +7417,9 @@
                 "to": {
                     "startLine": 1368,
                     "startColumn": 4,
-                    "startOffset": 104433,
+                    "startOffset": 104432,
                     "endColumn": 140,
-                    "endOffset": 104569
+                    "endOffset": 104568
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7436,10 +7436,10 @@
                 "to": {
                     "startLine": 1369,
                     "startColumn": 4,
-                    "startOffset": 104574,
+                    "startOffset": 104573,
                     "endLine": 1370,
                     "endColumn": 12,
-                    "endOffset": 104713
+                    "endOffset": 104712
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7457,9 +7457,9 @@
                 "to": {
                     "startLine": 1371,
                     "startColumn": 4,
-                    "startOffset": 104718,
+                    "startOffset": 104717,
                     "endColumn": 134,
-                    "endOffset": 104848
+                    "endOffset": 104847
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7476,9 +7476,9 @@
                 "to": {
                     "startLine": 1372,
                     "startColumn": 4,
-                    "startOffset": 104853,
+                    "startOffset": 104852,
                     "endColumn": 111,
-                    "endOffset": 104960
+                    "endOffset": 104959
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7495,9 +7495,9 @@
                 "to": {
                     "startLine": 1373,
                     "startColumn": 4,
-                    "startOffset": 104965,
+                    "startOffset": 104964,
                     "endColumn": 127,
-                    "endOffset": 105088
+                    "endOffset": 105087
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7514,10 +7514,10 @@
                 "to": {
                     "startLine": 1374,
                     "startColumn": 4,
-                    "startOffset": 105093,
+                    "startOffset": 105092,
                     "endLine": 1375,
                     "endColumn": 12,
-                    "endOffset": 105224
+                    "endOffset": 105223
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7535,10 +7535,10 @@
                 "to": {
                     "startLine": 1376,
                     "startColumn": 4,
-                    "startOffset": 105229,
+                    "startOffset": 105228,
                     "endLine": 1377,
                     "endColumn": 12,
-                    "endOffset": 105366
+                    "endOffset": 105365
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7556,10 +7556,10 @@
                 "to": {
                     "startLine": 1378,
                     "startColumn": 4,
-                    "startOffset": 105371,
+                    "startOffset": 105370,
                     "endLine": 1379,
                     "endColumn": 12,
-                    "endOffset": 105508
+                    "endOffset": 105507
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7577,9 +7577,9 @@
                 "to": {
                     "startLine": 1380,
                     "startColumn": 4,
-                    "startOffset": 105513,
+                    "startOffset": 105512,
                     "endColumn": 111,
-                    "endOffset": 105620
+                    "endOffset": 105619
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7596,9 +7596,9 @@
                 "to": {
                     "startLine": 1381,
                     "startColumn": 4,
-                    "startOffset": 105625,
+                    "startOffset": 105624,
                     "endColumn": 139,
-                    "endOffset": 105760
+                    "endOffset": 105759
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7615,9 +7615,9 @@
                 "to": {
                     "startLine": 1382,
                     "startColumn": 4,
-                    "startOffset": 105765,
+                    "startOffset": 105764,
                     "endColumn": 67,
-                    "endOffset": 105828
+                    "endOffset": 105827
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7634,9 +7634,9 @@
                 "to": {
                     "startLine": 1383,
                     "startColumn": 4,
-                    "startOffset": 105833,
+                    "startOffset": 105832,
                     "endColumn": 72,
-                    "endOffset": 105901
+                    "endOffset": 105900
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7653,9 +7653,9 @@
                 "to": {
                     "startLine": 1384,
                     "startColumn": 4,
-                    "startOffset": 105906,
+                    "startOffset": 105905,
                     "endColumn": 73,
-                    "endOffset": 105975
+                    "endOffset": 105974
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7672,9 +7672,9 @@
                 "to": {
                     "startLine": 1385,
                     "startColumn": 4,
-                    "startOffset": 105980,
+                    "startOffset": 105979,
                     "endColumn": 72,
-                    "endOffset": 106048
+                    "endOffset": 106047
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7691,9 +7691,9 @@
                 "to": {
                     "startLine": 1386,
                     "startColumn": 4,
-                    "startOffset": 106053,
+                    "startOffset": 106052,
                     "endColumn": 73,
-                    "endOffset": 106122
+                    "endOffset": 106121
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7710,10 +7710,10 @@
                 "to": {
                     "startLine": 1387,
                     "startColumn": 4,
-                    "startOffset": 106127,
+                    "startOffset": 106126,
                     "endLine": 1388,
                     "endColumn": 12,
-                    "endOffset": 106268
+                    "endOffset": 106267
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7731,10 +7731,10 @@
                 "to": {
                     "startLine": 1389,
                     "startColumn": 4,
-                    "startOffset": 106273,
+                    "startOffset": 106272,
                     "endLine": 1390,
                     "endColumn": 12,
-                    "endOffset": 106412
+                    "endOffset": 106411
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7752,10 +7752,10 @@
                 "to": {
                     "startLine": 1391,
                     "startColumn": 4,
-                    "startOffset": 106417,
+                    "startOffset": 106416,
                     "endLine": 1392,
                     "endColumn": 12,
-                    "endOffset": 106550
+                    "endOffset": 106549
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7773,9 +7773,9 @@
                 "to": {
                     "startLine": 1393,
                     "startColumn": 4,
-                    "startOffset": 106555,
+                    "startOffset": 106554,
                     "endColumn": 65,
-                    "endOffset": 106616
+                    "endOffset": 106615
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7792,9 +7792,9 @@
                 "to": {
                     "startLine": 1394,
                     "startColumn": 4,
-                    "startOffset": 106621,
+                    "startOffset": 106620,
                     "endColumn": 89,
-                    "endOffset": 106706
+                    "endOffset": 106705
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7811,9 +7811,9 @@
                 "to": {
                     "startLine": 1395,
                     "startColumn": 4,
-                    "startOffset": 106711,
+                    "startOffset": 106710,
                     "endColumn": 75,
-                    "endOffset": 106782
+                    "endOffset": 106781
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7830,9 +7830,9 @@
                 "to": {
                     "startLine": 1396,
                     "startColumn": 4,
-                    "startOffset": 106787,
+                    "startOffset": 106786,
                     "endColumn": 103,
-                    "endOffset": 106886
+                    "endOffset": 106885
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7849,9 +7849,9 @@
                 "to": {
                     "startLine": 1397,
                     "startColumn": 4,
-                    "startOffset": 106891,
+                    "startOffset": 106890,
                     "endColumn": 89,
-                    "endOffset": 106976
+                    "endOffset": 106975
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7868,9 +7868,9 @@
                 "to": {
                     "startLine": 1398,
                     "startColumn": 4,
-                    "startOffset": 106981,
+                    "startOffset": 106980,
                     "endColumn": 101,
-                    "endOffset": 107078
+                    "endOffset": 107077
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7887,9 +7887,9 @@
                 "to": {
                     "startLine": 1399,
                     "startColumn": 4,
-                    "startOffset": 107083,
+                    "startOffset": 107082,
                     "endColumn": 107,
-                    "endOffset": 107186
+                    "endOffset": 107185
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7906,9 +7906,9 @@
                 "to": {
                     "startLine": 1400,
                     "startColumn": 4,
-                    "startOffset": 107191,
+                    "startOffset": 107190,
                     "endColumn": 107,
-                    "endOffset": 107294
+                    "endOffset": 107293
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7925,9 +7925,9 @@
                 "to": {
                     "startLine": 1401,
                     "startColumn": 4,
-                    "startOffset": 107299,
+                    "startOffset": 107298,
                     "endColumn": 99,
-                    "endOffset": 107394
+                    "endOffset": 107393
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7944,9 +7944,9 @@
                 "to": {
                     "startLine": 1402,
                     "startColumn": 4,
-                    "startOffset": 107399,
+                    "startOffset": 107398,
                     "endColumn": 79,
-                    "endOffset": 107474
+                    "endOffset": 107473
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7963,9 +7963,9 @@
                 "to": {
                     "startLine": 1403,
                     "startColumn": 4,
-                    "startOffset": 107479,
+                    "startOffset": 107478,
                     "endColumn": 91,
-                    "endOffset": 107566
+                    "endOffset": 107565
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7982,9 +7982,9 @@
                 "to": {
                     "startLine": 1404,
                     "startColumn": 4,
-                    "startOffset": 107571,
+                    "startOffset": 107570,
                     "endColumn": 97,
-                    "endOffset": 107664
+                    "endOffset": 107663
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8001,10 +8001,10 @@
                 "to": {
                     "startLine": 1405,
                     "startColumn": 4,
-                    "startOffset": 107669,
+                    "startOffset": 107668,
                     "endLine": 1406,
                     "endColumn": 12,
-                    "endOffset": 107774
+                    "endOffset": 107773
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8022,9 +8022,9 @@
                 "to": {
                     "startLine": 1407,
                     "startColumn": 4,
-                    "startOffset": 107779,
+                    "startOffset": 107778,
                     "endColumn": 77,
-                    "endOffset": 107852
+                    "endOffset": 107851
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8041,9 +8041,9 @@
                 "to": {
                     "startLine": 1408,
                     "startColumn": 4,
-                    "startOffset": 107857,
+                    "startOffset": 107856,
                     "endColumn": 105,
-                    "endOffset": 107958
+                    "endOffset": 107957
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8060,9 +8060,9 @@
                 "to": {
                     "startLine": 1409,
                     "startColumn": 4,
-                    "startOffset": 107963,
+                    "startOffset": 107962,
                     "endColumn": 91,
-                    "endOffset": 108050
+                    "endOffset": 108049
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8079,9 +8079,9 @@
                 "to": {
                     "startLine": 1410,
                     "startColumn": 4,
-                    "startOffset": 108055,
+                    "startOffset": 108054,
                     "endColumn": 103,
-                    "endOffset": 108154
+                    "endOffset": 108153
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8098,9 +8098,9 @@
                 "to": {
                     "startLine": 1411,
                     "startColumn": 4,
-                    "startOffset": 108159,
+                    "startOffset": 108158,
                     "endColumn": 109,
-                    "endOffset": 108264
+                    "endOffset": 108263
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8117,10 +8117,10 @@
                 "to": {
                     "startLine": 1412,
                     "startColumn": 4,
-                    "startOffset": 108269,
+                    "startOffset": 108268,
                     "endLine": 1413,
                     "endColumn": 12,
-                    "endOffset": 108386
+                    "endOffset": 108385
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8138,10 +8138,10 @@
                 "to": {
                     "startLine": 1414,
                     "startColumn": 4,
-                    "startOffset": 108391,
+                    "startOffset": 108390,
                     "endLine": 1417,
                     "endColumn": 12,
-                    "endOffset": 108549
+                    "endOffset": 108548
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8159,10 +8159,10 @@
                 "to": {
                     "startLine": 1418,
                     "startColumn": 4,
-                    "startOffset": 108554,
+                    "startOffset": 108553,
                     "endLine": 1421,
                     "endColumn": 12,
-                    "endOffset": 108706
+                    "endOffset": 108705
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8180,9 +8180,9 @@
                 "to": {
                     "startLine": 1422,
                     "startColumn": 4,
-                    "startOffset": 108711,
+                    "startOffset": 108710,
                     "endColumn": 79,
-                    "endOffset": 108786
+                    "endOffset": 108785
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8199,9 +8199,9 @@
                 "to": {
                     "startLine": 1423,
                     "startColumn": 4,
-                    "startOffset": 108791,
+                    "startOffset": 108790,
                     "endColumn": 99,
-                    "endOffset": 108886
+                    "endOffset": 108885
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8218,9 +8218,9 @@
                 "to": {
                     "startLine": 1424,
                     "startColumn": 4,
-                    "startOffset": 108891,
+                    "startOffset": 108890,
                     "endColumn": 89,
-                    "endOffset": 108976
+                    "endOffset": 108975
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8237,9 +8237,9 @@
                 "to": {
                     "startLine": 1425,
                     "startColumn": 4,
-                    "startOffset": 108981,
+                    "startOffset": 108980,
                     "endColumn": 109,
-                    "endOffset": 109086
+                    "endOffset": 109085
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8256,9 +8256,9 @@
                 "to": {
                     "startLine": 1426,
                     "startColumn": 4,
-                    "startOffset": 109091,
+                    "startOffset": 109090,
                     "endColumn": 91,
-                    "endOffset": 109178
+                    "endOffset": 109177
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8275,10 +8275,10 @@
                 "to": {
                     "startLine": 1427,
                     "startColumn": 4,
-                    "startOffset": 109183,
+                    "startOffset": 109182,
                     "endLine": 1428,
                     "endColumn": 12,
-                    "endOffset": 109278
+                    "endOffset": 109277
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8296,10 +8296,10 @@
                 "to": {
                     "startLine": 1429,
                     "startColumn": 4,
-                    "startOffset": 109283,
+                    "startOffset": 109282,
                     "endLine": 1430,
                     "endColumn": 12,
-                    "endOffset": 109390
+                    "endOffset": 109389
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8317,10 +8317,10 @@
                 "to": {
                     "startLine": 1431,
                     "startColumn": 4,
-                    "startOffset": 109395,
+                    "startOffset": 109394,
                     "endLine": 1432,
                     "endColumn": 12,
-                    "endOffset": 109504
+                    "endOffset": 109503
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8338,10 +8338,10 @@
                 "to": {
                     "startLine": 1433,
                     "startColumn": 4,
-                    "startOffset": 109509,
+                    "startOffset": 109508,
                     "endLine": 1434,
                     "endColumn": 12,
-                    "endOffset": 109620
+                    "endOffset": 109619
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8359,10 +8359,10 @@
                 "to": {
                     "startLine": 1435,
                     "startColumn": 4,
-                    "startOffset": 109625,
+                    "startOffset": 109624,
                     "endLine": 1436,
                     "endColumn": 12,
-                    "endOffset": 109736
+                    "endOffset": 109735
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8380,9 +8380,9 @@
                 "to": {
                     "startLine": 1437,
                     "startColumn": 4,
-                    "startOffset": 109741,
+                    "startOffset": 109740,
                     "endColumn": 93,
-                    "endOffset": 109830
+                    "endOffset": 109829
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8399,9 +8399,9 @@
                 "to": {
                     "startLine": 1438,
                     "startColumn": 4,
-                    "startOffset": 109835,
+                    "startOffset": 109834,
                     "endColumn": 113,
-                    "endOffset": 109944
+                    "endOffset": 109943
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8418,9 +8418,9 @@
                 "to": {
                     "startLine": 1439,
                     "startColumn": 4,
-                    "startOffset": 109949,
+                    "startOffset": 109948,
                     "endColumn": 111,
-                    "endOffset": 110056
+                    "endOffset": 110055
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8437,10 +8437,10 @@
                 "to": {
                     "startLine": 1440,
                     "startColumn": 4,
-                    "startOffset": 110061,
+                    "startOffset": 110060,
                     "endLine": 1441,
                     "endColumn": 12,
-                    "endOffset": 110158
+                    "endOffset": 110157
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8458,10 +8458,10 @@
                 "to": {
                     "startLine": 1442,
                     "startColumn": 4,
-                    "startOffset": 110163,
+                    "startOffset": 110162,
                     "endLine": 1443,
                     "endColumn": 12,
-                    "endOffset": 110278
+                    "endOffset": 110277
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8479,10 +8479,10 @@
                 "to": {
                     "startLine": 1444,
                     "startColumn": 4,
-                    "startOffset": 110283,
+                    "startOffset": 110282,
                     "endLine": 1445,
                     "endColumn": 12,
-                    "endOffset": 110400
+                    "endOffset": 110399
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8500,9 +8500,9 @@
                 "to": {
                     "startLine": 1446,
                     "startColumn": 4,
-                    "startOffset": 110405,
+                    "startOffset": 110404,
                     "endColumn": 81,
-                    "endOffset": 110482
+                    "endOffset": 110481
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8519,9 +8519,9 @@
                 "to": {
                     "startLine": 1447,
                     "startColumn": 4,
-                    "startOffset": 110487,
+                    "startOffset": 110486,
                     "endColumn": 103,
-                    "endOffset": 110586
+                    "endOffset": 110585
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8538,9 +8538,9 @@
                 "to": {
                     "startLine": 1448,
                     "startColumn": 4,
-                    "startOffset": 110591,
+                    "startOffset": 110590,
                     "endColumn": 119,
-                    "endOffset": 110706
+                    "endOffset": 110705
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8557,9 +8557,9 @@
                 "to": {
                     "startLine": 1449,
                     "startColumn": 4,
-                    "startOffset": 110711,
+                    "startOffset": 110710,
                     "endColumn": 125,
-                    "endOffset": 110832
+                    "endOffset": 110831
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8576,9 +8576,9 @@
                 "to": {
                     "startLine": 1450,
                     "startColumn": 4,
-                    "startOffset": 110837,
+                    "startOffset": 110836,
                     "endColumn": 97,
-                    "endOffset": 110930
+                    "endOffset": 110929
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8595,9 +8595,9 @@
                 "to": {
                     "startLine": 1451,
                     "startColumn": 4,
-                    "startOffset": 110935,
+                    "startOffset": 110934,
                     "endColumn": 93,
-                    "endOffset": 111024
+                    "endOffset": 111023
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8614,9 +8614,9 @@
                 "to": {
                     "startLine": 1452,
                     "startColumn": 4,
-                    "startOffset": 111029,
+                    "startOffset": 111028,
                     "endColumn": 87,
-                    "endOffset": 111112
+                    "endOffset": 111111
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8633,9 +8633,9 @@
                 "to": {
                     "startLine": 1453,
                     "startColumn": 4,
-                    "startOffset": 111117,
+                    "startOffset": 111116,
                     "endColumn": 111,
-                    "endOffset": 111224
+                    "endOffset": 111223
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8652,9 +8652,9 @@
                 "to": {
                     "startLine": 1454,
                     "startColumn": 4,
-                    "startOffset": 111229,
+                    "startOffset": 111228,
                     "endColumn": 115,
-                    "endOffset": 111340
+                    "endOffset": 111339
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8671,9 +8671,9 @@
                 "to": {
                     "startLine": 1455,
                     "startColumn": 4,
-                    "startOffset": 111345,
+                    "startOffset": 111344,
                     "endColumn": 121,
-                    "endOffset": 111462
+                    "endOffset": 111461
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8690,9 +8690,9 @@
                 "to": {
                     "startLine": 1456,
                     "startColumn": 4,
-                    "startOffset": 111467,
+                    "startOffset": 111466,
                     "endColumn": 111,
-                    "endOffset": 111574
+                    "endOffset": 111573
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8709,10 +8709,10 @@
                 "to": {
                     "startLine": 1457,
                     "startColumn": 4,
-                    "startOffset": 111579,
+                    "startOffset": 111578,
                     "endLine": 1459,
                     "endColumn": 12,
-                    "endOffset": 111749
+                    "endOffset": 111748
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8730,9 +8730,9 @@
                 "to": {
                     "startLine": 1460,
                     "startColumn": 4,
-                    "startOffset": 111754,
+                    "startOffset": 111753,
                     "endColumn": 115,
-                    "endOffset": 111865
+                    "endOffset": 111864
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8749,9 +8749,9 @@
                 "to": {
                     "startLine": 1461,
                     "startColumn": 4,
-                    "startOffset": 111870,
+                    "startOffset": 111869,
                     "endColumn": 85,
-                    "endOffset": 111951
+                    "endOffset": 111950
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8768,9 +8768,9 @@
                 "to": {
                     "startLine": 1462,
                     "startColumn": 4,
-                    "startOffset": 111956,
+                    "startOffset": 111955,
                     "endColumn": 91,
-                    "endOffset": 112043
+                    "endOffset": 112042
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8787,10 +8787,10 @@
                 "to": {
                     "startLine": 1463,
                     "startColumn": 4,
-                    "startOffset": 112048,
+                    "startOffset": 112047,
                     "endLine": 1464,
                     "endColumn": 12,
-                    "endOffset": 112155
+                    "endOffset": 112154
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8808,10 +8808,10 @@
                 "to": {
                     "startLine": 1465,
                     "startColumn": 4,
-                    "startOffset": 112160,
+                    "startOffset": 112159,
                     "endLine": 1466,
                     "endColumn": 12,
-                    "endOffset": 112279
+                    "endOffset": 112278
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8829,9 +8829,9 @@
                 "to": {
                     "startLine": 1467,
                     "startColumn": 4,
-                    "startOffset": 112284,
+                    "startOffset": 112283,
                     "endColumn": 66,
-                    "endOffset": 112346
+                    "endOffset": 112345
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8848,10 +8848,10 @@
                 "to": {
                     "startLine": 1468,
                     "startColumn": 4,
-                    "startOffset": 112351,
+                    "startOffset": 112350,
                     "endLine": 1469,
                     "endColumn": 12,
-                    "endOffset": 112472
+                    "endOffset": 112471
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8869,9 +8869,9 @@
                 "to": {
                     "startLine": 1470,
                     "startColumn": 4,
-                    "startOffset": 112477,
+                    "startOffset": 112476,
                     "endColumn": 67,
-                    "endOffset": 112540
+                    "endOffset": 112539
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8888,10 +8888,10 @@
                 "to": {
                     "startLine": 1471,
                     "startColumn": 4,
-                    "startOffset": 112545,
+                    "startOffset": 112544,
                     "endLine": 1472,
                     "endColumn": 12,
-                    "endOffset": 112668
+                    "endOffset": 112667
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8909,10 +8909,10 @@
                 "to": {
                     "startLine": 1473,
                     "startColumn": 4,
-                    "startOffset": 112673,
+                    "startOffset": 112672,
                     "endLine": 1474,
                     "endColumn": 12,
-                    "endOffset": 112812
+                    "endOffset": 112811
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8930,10 +8930,10 @@
                 "to": {
                     "startLine": 1475,
                     "startColumn": 4,
-                    "startOffset": 112817,
+                    "startOffset": 112816,
                     "endLine": 1476,
                     "endColumn": 12,
-                    "endOffset": 112940
+                    "endOffset": 112939
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8951,9 +8951,9 @@
                 "to": {
                     "startLine": 1477,
                     "startColumn": 4,
-                    "startOffset": 112945,
+                    "startOffset": 112944,
                     "endColumn": 68,
-                    "endOffset": 113009
+                    "endOffset": 113008
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8970,9 +8970,9 @@
                 "to": {
                     "startLine": 1478,
                     "startColumn": 4,
-                    "startOffset": 113014,
+                    "startOffset": 113013,
                     "endColumn": 94,
-                    "endOffset": 113104
+                    "endOffset": 113103
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8989,9 +8989,9 @@
                 "to": {
                     "startLine": 1479,
                     "startColumn": 4,
-                    "startOffset": 113109,
+                    "startOffset": 113108,
                     "endColumn": 114,
-                    "endOffset": 113219
+                    "endOffset": 113218
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9008,9 +9008,9 @@
                 "to": {
                     "startLine": 1480,
                     "startColumn": 4,
-                    "startOffset": 113224,
+                    "startOffset": 113223,
                     "endColumn": 112,
-                    "endOffset": 113332
+                    "endOffset": 113331
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9027,9 +9027,9 @@
                 "to": {
                     "startLine": 1481,
                     "startColumn": 4,
-                    "startOffset": 113337,
+                    "startOffset": 113336,
                     "endColumn": 98,
-                    "endOffset": 113431
+                    "endOffset": 113430
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9046,9 +9046,9 @@
                 "to": {
                     "startLine": 1482,
                     "startColumn": 4,
-                    "startOffset": 113436,
+                    "startOffset": 113435,
                     "endColumn": 108,
-                    "endOffset": 113540
+                    "endOffset": 113539
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9065,9 +9065,9 @@
                 "to": {
                     "startLine": 1483,
                     "startColumn": 4,
-                    "startOffset": 113545,
+                    "startOffset": 113544,
                     "endColumn": 110,
-                    "endOffset": 113651
+                    "endOffset": 113650
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9084,9 +9084,9 @@
                 "to": {
                     "startLine": 1484,
                     "startColumn": 4,
-                    "startOffset": 113656,
+                    "startOffset": 113655,
                     "endColumn": 110,
-                    "endOffset": 113762
+                    "endOffset": 113761
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9103,9 +9103,9 @@
                 "to": {
                     "startLine": 1485,
                     "startColumn": 4,
-                    "startOffset": 113767,
+                    "startOffset": 113766,
                     "endColumn": 100,
-                    "endOffset": 113863
+                    "endOffset": 113862
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9122,9 +9122,9 @@
                 "to": {
                     "startLine": 1486,
                     "startColumn": 4,
-                    "startOffset": 113868,
+                    "startOffset": 113867,
                     "endColumn": 104,
-                    "endOffset": 113968
+                    "endOffset": 113967
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9141,10 +9141,10 @@
                 "to": {
                     "startLine": 1487,
                     "startColumn": 4,
-                    "startOffset": 113973,
+                    "startOffset": 113972,
                     "endLine": 1488,
                     "endColumn": 12,
-                    "endOffset": 114080
+                    "endOffset": 114079
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9162,10 +9162,10 @@
                 "to": {
                     "startLine": 1489,
                     "startColumn": 4,
-                    "startOffset": 114085,
+                    "startOffset": 114084,
                     "endLine": 1490,
                     "endColumn": 12,
-                    "endOffset": 114210
+                    "endOffset": 114209
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9183,9 +9183,9 @@
                 "to": {
                     "startLine": 1491,
                     "startColumn": 4,
-                    "startOffset": 114215,
+                    "startOffset": 114214,
                     "endColumn": 90,
-                    "endOffset": 114301
+                    "endOffset": 114300
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9202,9 +9202,9 @@
                 "to": {
                     "startLine": 1492,
                     "startColumn": 4,
-                    "startOffset": 114306,
+                    "startOffset": 114305,
                     "endColumn": 122,
-                    "endOffset": 114424
+                    "endOffset": 114423
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9221,10 +9221,10 @@
                 "to": {
                     "startLine": 1493,
                     "startColumn": 4,
-                    "startOffset": 114429,
+                    "startOffset": 114428,
                     "endLine": 1494,
                     "endColumn": 12,
-                    "endOffset": 114536
+                    "endOffset": 114535
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9242,9 +9242,9 @@
                 "to": {
                     "startLine": 1495,
                     "startColumn": 4,
-                    "startOffset": 114541,
+                    "startOffset": 114540,
                     "endColumn": 85,
-                    "endOffset": 114622
+                    "endOffset": 114621
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9261,9 +9261,9 @@
                 "to": {
                     "startLine": 1496,
                     "startColumn": 4,
-                    "startOffset": 114627,
+                    "startOffset": 114626,
                     "endColumn": 103,
-                    "endOffset": 114726
+                    "endOffset": 114725
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9280,10 +9280,10 @@
                 "to": {
                     "startLine": 1497,
                     "startColumn": 4,
-                    "startOffset": 114731,
+                    "startOffset": 114730,
                     "endLine": 1498,
                     "endColumn": 12,
-                    "endOffset": 114834
+                    "endOffset": 114833
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9301,10 +9301,10 @@
                 "to": {
                     "startLine": 1499,
                     "startColumn": 4,
-                    "startOffset": 114839,
+                    "startOffset": 114838,
                     "endLine": 1500,
                     "endColumn": 12,
-                    "endOffset": 114934
+                    "endOffset": 114933
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9322,10 +9322,10 @@
                 "to": {
                     "startLine": 1501,
                     "startColumn": 4,
-                    "startOffset": 114939,
+                    "startOffset": 114938,
                     "endLine": 1502,
                     "endColumn": 12,
-                    "endOffset": 115052
+                    "endOffset": 115051
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9343,10 +9343,10 @@
                 "to": {
                     "startLine": 1503,
                     "startColumn": 4,
-                    "startOffset": 115057,
+                    "startOffset": 115056,
                     "endLine": 1504,
                     "endColumn": 12,
-                    "endOffset": 115156
+                    "endOffset": 115155
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9364,10 +9364,10 @@
                 "to": {
                     "startLine": 1505,
                     "startColumn": 4,
-                    "startOffset": 115161,
+                    "startOffset": 115160,
                     "endLine": 1506,
                     "endColumn": 12,
-                    "endOffset": 115260
+                    "endOffset": 115259
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9385,10 +9385,10 @@
                 "to": {
                     "startLine": 1507,
                     "startColumn": 4,
-                    "startOffset": 115265,
+                    "startOffset": 115264,
                     "endLine": 1508,
                     "endColumn": 12,
-                    "endOffset": 115386
+                    "endOffset": 115385
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9406,9 +9406,9 @@
                 "to": {
                     "startLine": 1509,
                     "startColumn": 4,
-                    "startOffset": 115391,
+                    "startOffset": 115390,
                     "endColumn": 87,
-                    "endOffset": 115474
+                    "endOffset": 115473
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9425,9 +9425,9 @@
                 "to": {
                     "startLine": 1510,
                     "startColumn": 4,
-                    "startOffset": 115479,
+                    "startOffset": 115478,
                     "endColumn": 107,
-                    "endOffset": 115582
+                    "endOffset": 115581
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9444,9 +9444,9 @@
                 "to": {
                     "startLine": 1511,
                     "startColumn": 4,
-                    "startOffset": 115587,
+                    "startOffset": 115586,
                     "endColumn": 99,
-                    "endOffset": 115682
+                    "endOffset": 115681
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9463,9 +9463,9 @@
                 "to": {
                     "startLine": 1512,
                     "startColumn": 4,
-                    "startOffset": 115687,
+                    "startOffset": 115686,
                     "endColumn": 89,
-                    "endOffset": 115772
+                    "endOffset": 115771
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9482,9 +9482,9 @@
                 "to": {
                     "startLine": 1513,
                     "startColumn": 4,
-                    "startOffset": 115777,
+                    "startOffset": 115776,
                     "endColumn": 109,
-                    "endOffset": 115882
+                    "endOffset": 115881
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9501,9 +9501,9 @@
                 "to": {
                     "startLine": 1514,
                     "startColumn": 4,
-                    "startOffset": 115887,
+                    "startOffset": 115886,
                     "endColumn": 83,
-                    "endOffset": 115966
+                    "endOffset": 115965
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9520,9 +9520,9 @@
                 "to": {
                     "startLine": 1515,
                     "startColumn": 4,
-                    "startOffset": 115971,
+                    "startOffset": 115970,
                     "endColumn": 83,
-                    "endOffset": 116050
+                    "endOffset": 116049
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9539,9 +9539,9 @@
                 "to": {
                     "startLine": 1516,
                     "startColumn": 4,
-                    "startOffset": 116055,
+                    "startOffset": 116054,
                     "endColumn": 53,
-                    "endOffset": 116104
+                    "endOffset": 116103
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9558,9 +9558,9 @@
                 "to": {
                     "startLine": 1517,
                     "startColumn": 4,
-                    "startOffset": 116109,
+                    "startOffset": 116108,
                     "endColumn": 63,
-                    "endOffset": 116168
+                    "endOffset": 116167
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9577,9 +9577,9 @@
                 "to": {
                     "startLine": 1518,
                     "startColumn": 4,
-                    "startOffset": 116173,
+                    "startOffset": 116172,
                     "endColumn": 105,
-                    "endOffset": 116274
+                    "endOffset": 116273
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9596,9 +9596,9 @@
                 "to": {
                     "startLine": 1519,
                     "startColumn": 4,
-                    "startOffset": 116279,
+                    "startOffset": 116278,
                     "endColumn": 109,
-                    "endOffset": 116384
+                    "endOffset": 116383
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9615,9 +9615,9 @@
                 "to": {
                     "startLine": 1520,
                     "startColumn": 4,
-                    "startOffset": 116389,
+                    "startOffset": 116388,
                     "endColumn": 83,
-                    "endOffset": 116468
+                    "endOffset": 116467
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9634,9 +9634,9 @@
                 "to": {
                     "startLine": 1521,
                     "startColumn": 4,
-                    "startOffset": 116473,
+                    "startOffset": 116472,
                     "endColumn": 119,
-                    "endOffset": 116588
+                    "endOffset": 116587
                 },
                 "from": {
                     "file": "C:\\home\\project\\FirstAndroid\\AndroidSource\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",

@@ -2,7 +2,7 @@
 manifest
 ADDED from C:\home\project\FirstAndroid\AndroidSource\app\src\main\AndroidManifest.xml:2:1-20:12
 	package
-		ADDED from C:\home\project\FirstAndroid\AndroidSource\app\src\main\AndroidManifest.xml:3:5-54
+		ADDED from C:\home\project\FirstAndroid\AndroidSource\app\src\main\AndroidManifest.xml:3:5-53
 		INJECTED from C:\home\project\FirstAndroid\AndroidSource\app\src\main\AndroidManifest.xml
 		INJECTED from C:\home\project\FirstAndroid\AndroidSource\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -32,7 +32,7 @@ MERGED from [com.android.support:support-v4:23.4.0] C:\home\project\FirstAndroid
 		ADDED from C:\home\project\FirstAndroid\AndroidSource\app\src\main\AndroidManifest.xml:7:9-43
 	android:theme
 		ADDED from C:\home\project\FirstAndroid\AndroidSource\app\src\main\AndroidManifest.xml:10:9-40
-activity#com.example.administrator.androidsource.MainActivity
+activity#com.example.administrator.firstandroid.MainActivity
 ADDED from C:\home\project\FirstAndroid\AndroidSource\app\src\main\AndroidManifest.xml:11:9-17:20
 	android:name
 		ADDED from C:\home\project\FirstAndroid\AndroidSource\app\src\main\AndroidManifest.xml:11:19-47
