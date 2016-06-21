@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <!-- 加载动画 -->
+    <com.chinanetcenter.commonlibrary.view.ProgressLayout
+        android:clickable="true"
+        android:id="@+id/prog_data_before"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+
+    <!-- 网络异常，且无缓存 -->
+    <com.chinanetcenter.commonlibrary.view.DataLoadFailureLayout
+        android:id="@+id/dlfl_data_failure"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+    </com.chinanetcenter.commonlibrary.view.DataLoadFailureLayout>
+
+
+</FrameLayout>
