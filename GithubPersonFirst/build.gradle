@@ -3,11 +3,14 @@
 buildscript {
     repositories {
         jcenter()
+        google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.1.0'
+        classpath 'com.android.tools.build:gradle:3.0.1'
+
         classpath 'me.tatarka:gradle-retrolambda:3.2.0'//set retrolambda object
-        classpath "net.rdrei.android.buildtimetracker:gradle-plugin:0.5.+"//build-time-tracker
+
+        classpath 'com.github.typ0520:fastdex-gradle:0.8.6'//类似instant run
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
@@ -16,30 +19,15 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
+        google()
+        //兼容libs里面的aar
+        flatDir {
+            dirs 'libs'
+        }
     }
 }
 
 apply from:"config.gradle"//配置通用module
-//buildtimetracker {
-//    reporters {
-//        csv {
-//
-//            output "build/timec.csv"
-//            append true
-//            header true
-//        }
-//
-//        summary {
-//            ordered false
-//            threshold 50
-//            barstyle "unicode"
-//        }
-//
-////        csvSummary {
-////            csv "build/timec.csv"
-////        }
-//    }
-//}
 
 task clean(type: Delete) {
     delete rootProject.buildDir

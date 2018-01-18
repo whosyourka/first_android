@@ -1,40 +1,36 @@
 apply plugin: 'com.android.library'
 apply plugin: 'me.tatarka.retrolambda'//retrolambda使用
-def myconfig(){
-//    android.dexOptions {
-//        incremental true
-//    }
-
+//setDefaultCon()
+android {
     android.compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }//jdk8
 
-//    android.lintOptions {
-//        // turn off checking the given issue id's
-//        disable 'TypographyFractions', 'TypographyQuotes'
-//
-//        // turn on the given issue id's
-//        enable 'RtlHardcoded', 'RtlCompat', 'RtlEnabled'
-//
-//        // check *only* the given issue id's
-//        check 'NewApi', 'InlinedApi'
-//
-//        // turn off  error occur
-//        abortOnError false
-//    }
-}
-myconfig()
-
-android {
     compileSdkVersion rootProject.ext.android.compileSdkVersion
     buildToolsVersion rootProject.ext.android.buildToolsVersion
 
     defaultConfig {
+//        javaCompileOptions {
+//            annotationProcessorOptions {
+//                arguments = [eventBusIndex: 'com.xlan.unionpay.MyEventBusIndex']
+//            }
+//        }//eventbus新特性优化
         minSdkVersion rootProject.ext.android.minSdkVersion
         targetSdkVersion rootProject.ext.android.targetSdkVeersion
         versionCode 1
         versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+//        buildConfigField("String", "APP_ID_NAME", "\"" + appName + "\"")
+//        manifestPlaceholders = [
+//                app_id_name: appName
+//        ]
+    }
+    dexOptions {
+        preDexLibraries true
+        javaMaxHeapSize "3g"
+        dexInProcess = true
+        maxProcessCount 12
     }
     buildTypes {
         release {
@@ -47,8 +43,8 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
-
     }
+    //    sourceSets { main { assets.srcDirs = ['src/main/assets', 'src/main/assets/'] }
 }
 
 dependencies {
@@ -56,8 +52,31 @@ dependencies {
     compile rootProject.ext.dependencies["appcompat-v7"]
     compile rootProject.ext.dependencies["support-v4"]
     compile rootProject.ext.dependencies["recyclerview-v7"]
-//    compile rootProject.ext.dependencies["design"]
-//    compile rootProject.ext.dependencies["junit"]
+    compile rootProject.ext.dependencies["design"]
+//        implementation 'com.android.support:percent:27.0.2'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+
+    testCompile rootProject.ext.dependencies["junit"]
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    //rxjava andrdoid
+    compile rootProject.ext.dependencies["rxandroid"]
+    compile rootProject.ext.dependencies["rxjava"]
+    //okhttp retrofit
+    compile rootProject.ext.dependencies["retrofit2"]
+    compile rootProject.ext.dependencies["okhttp3"]
+    //gson
+    compile 'com.google.code.gson:gson:2.6.2'
+    //log输出
+    compile rootProject.ext.dependencies["logger"]
+    //图片框架
+    compile 'com.github.bumptech.glide:glide:4.4.0'
+    //性能检测
+    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5.4'
+    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.4'
+
     //中文转英语
 //    compile files('libs/pinyin4j-2.5.0.jar')
     //官方设计
@@ -72,40 +91,16 @@ dependencies {
 //    compile 'com.jakewharton.rxbinding:rxbinding-design:0.3.0'
 //    compile 'com.jakewharton.rxbinding:rxbinding-support-v4:0.3.0'
 //    compile 'com.jakewharton.rxbinding:rxbinding-appcompat-v7:0.3.0'
-    //rxjava andrdoid
-    compile rootProject.ext.dependencies["rxandroid"]
-    compile rootProject.ext.dependencies["rxjava"]
-    //auto-layout
-//    compile rootProject.ext.dependencies["autolayout"]
-
-//    compile rootProject.ext.dependencies["recyclerview-v7"]
-//    compile rootProject.ext.dependencies["design"]
-
     //stickygrid
 //    compile 'com.tonicartos:stickygridheaders:1.0.1'
-
-    //okhttp
-    //    compile 'com.squareup.retrofit2:retrofit:2.0.0-beta4'
-//    compile 'com.squareup.okhttp3:okhttp:3.2.0'
-    compile rootProject.ext.dependencies["retrofit2"]
-//    compile 'com.squareup.retrofit2:retrofit:2.0.2'
-    compile rootProject.ext.dependencies["okhttp3"]
     //抓包
 //    compile 'com.facebook.stetho:stetho:1.0.1'
-    //gson
-//    compile 'com.google.code.gson:gson:2.6.2'
-    //图片框架
-    //    compile 'com.facebook.fresco:fresco:0.9.0+'
-//    compile rootProject.ext.dependencies["universalimageloader"]
+    //解析xml tag
+//    implementation 'org.jsoup:jsoup:1.9.2'
     //友盟
-//        compile 'com.umeng.analytics:analytics:latest.integration'
 //    compile rootProject.ext.dependencies["umeng"]
-    //log输出
-    compile rootProject.ext.dependencies["logger"]
-//性能检测
-//    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.4-beta2'
-//    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.4-beta2'
-//    testCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.4-beta2'
+
+
 }
 
 
