@@ -2,128 +2,181 @@ package com.katekit.common.util;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.text.TextUtils;
 
 
 public class SPHelper {
-    public static final String ROUTER_SHARE_PREFERENCE_NAME = "router";
+    private static final String FILENAME = "ShareManager";
 
-    public static boolean writeSP( Context context,String key,String name){
-        SharedPreferences settings = context.getSharedPreferences(ROUTER_SHARE_PREFERENCE_NAME, Context.MODE_PRIVATE);
-        SharedPreferences.Editor editor = settings.edit();
-        DesUtil.init(context);
-        String encryptData="";
+    /**
+     * 获取应用程序的SharedPreferences句柄，只是在本类使用。
+     *
+     * @param context 不能为null,如果为null，那么返回null。
+     * @return
+     */
+    private static SharedPreferences getAppSharedPreferences(Context context) {
+        if (context == null) {
+            return null;
+        }
+        return context.getSharedPreferences(FILENAME, Context.MODE_PRIVATE);
+    }
+
+
+    /**
+     * 功能说明:保存设置开关值。
+     *
+     * @param context
+     * @param key
+     * @param value
+     * @return
+     * @throws null
+     * @since v1.0
+     */
+    public static boolean setBooleanValue(Context context, String key,
+                                          boolean value) {
+        if (context == null) {
+            return false;
+        }
         try {
-            encryptData = DesUtil.encrypt(name);
+            SharedPreferences share = getAppSharedPreferences(context);
+            SharedPreferences.Editor edi = share.edit();
+            edi.putBoolean(key, value);
+            edi.commit();
+            return true;
         } catch (Exception e) {
             e.printStackTrace();
         }
-        editor.putString(key, encryptData);
-        editor.commit();
-        return true;
-    }
-    public static String readSP(Context context,String key){
-        SharedPreferences settings = context.getSharedPreferences(ROUTER_SHARE_PREFERENCE_NAME, Context.MODE_PRIVATE);
-        DesUtil.init(context);
-        String encryptData = settings.getString(key, "");
-        if (TextUtils.isEmpty(encryptData)) {
-            return "";
-        }
+        return false;
 
-        String decryptData="";
+    }
+
+    /**
+     * 功能说明:获取值。
+     *
+     * @param context
+     * @param key
+     * @return
+     * @throws null
+     * @since v1.0
+     */
+    public static boolean getBooleanValue(Context context, String key,
+                                          boolean defaultValue) {
+        if (context == null) {
+            return defaultValue;
+        }
         try {
-            decryptData = DesUtil.decrypt(encryptData);
+            SharedPreferences share = getAppSharedPreferences(context);
+            return share.getBoolean(key, defaultValue);
         } catch (Exception e) {
             e.printStackTrace();
         }
+        return defaultValue;
 
-        return decryptData;
     }
-    public static String readSP(Context context,String key,String name){
-        SharedPreferences settings = context.getSharedPreferences(name, Context.MODE_PRIVATE);
-        DesUtil.init(context);
-        String encryptData = settings.getString(key, "");
-        if (TextUtils.isEmpty(encryptData)) {
-            return "";
-        }
 
-        String decryptData="";
+    /**
+     * 功能说明:设置值。
+     *
+     * @param context
+     * @param key
+     * @param value
+     * @return
+     * @throws null
+     * @since v1.0
+     */
+    public static boolean setValue(Context context, String key, String value) {
+        if (context == null) {
+            return false;
+        }
         try {
-            decryptData = DesUtil.decrypt(encryptData);
+            SharedPreferences share = getAppSharedPreferences(context);
+            SharedPreferences.Editor edi = share.edit();
+            edi.putString(key, value);
+            edi.commit();
+            return true;
         } catch (Exception e) {
             e.printStackTrace();
         }
+        return false;
 
-        return decryptData;
     }
 
-    public static boolean writeSP( Context context,String key,boolean name){
-        SharedPreferences settings = context.getSharedPreferences(ROUTER_SHARE_PREFERENCE_NAME, Context.MODE_PRIVATE);
-        SharedPreferences.Editor editor = settings.edit();
-        editor.putBoolean(key, name);
-        editor.commit();
-        return true;
-    }
-    public static boolean writeSP( Context context,String key,long value){
-        SharedPreferences settings = context.getSharedPreferences(ROUTER_SHARE_PREFERENCE_NAME, Context.MODE_PRIVATE);
-        SharedPreferences.Editor editor = settings.edit();
-        editor.putLong(key, value);
-        editor.commit();
-        return true;
-    }
-    public static boolean readBooleanSP( Context context,String key){
-        SharedPreferences settings = context.getSharedPreferences(ROUTER_SHARE_PREFERENCE_NAME, Context.MODE_PRIVATE);
-        return settings.getBoolean(key, false);
-    }
-    public static boolean readBooleanSPTrue( Context context,String key){
-        SharedPreferences settings = context.getSharedPreferences(ROUTER_SHARE_PREFERENCE_NAME, Context.MODE_PRIVATE);
-        return settings.getBoolean(key, true);
-    }
-    public static long readLongSP( Context context,String key){
-        SharedPreferences settings = context.getSharedPreferences(ROUTER_SHARE_PREFERENCE_NAME, Context.MODE_PRIVATE);
-        return settings.getLong(key, 0);
-    }
-
-
-
-    public enum Pref {
-        APP("app"), USER("user");
-
-        private String ns;
-
-        private Pref(String ns) {
-            this.ns = ns;
+    /**
+     * 功能说明:获取值。
+     *
+     * @param context
+     * @param key
+     * @param defValue 默认值
+     * @return
+     * @throws null
+     */
+    public static String getValue(Context context, String key,
+                                  String defValue) {
+        if (context == null) {
+            return defValue;
         }
+        try {
+            SharedPreferences share = getAppSharedPreferences(context);
+            return share.getString(key, defValue);
 
-        public String getNameSpace() {
-            return this.ns;
+        } catch (Exception e) {
+            e.printStackTrace();
         }
-    }
+        return defValue;
 
-    public static final SharedPreferences getPref(Context context, Pref pref) {
-        return context.getSharedPreferences(pref.getNameSpace(), Context.MODE_PRIVATE);
-    }
-
-    public static boolean needGuide(Context context) {
-        SharedPreferences sp = getPref(context, Pref.APP);
-        return sp.getBoolean("needGuide", true);
-    }
-
-    public static void cancelGuide(Context context) {
-        SharedPreferences sp = getPref(context, Pref.APP);
-        sp.edit().putBoolean("needGuide", false).commit();
     }
 
 
-    public static boolean isCommentGood(Context context, String commentId) {
-        SharedPreferences sp = getPref(context, Pref.APP);
-        return sp.getBoolean("c" + commentId, false);
+
+    /**
+     * 功能说明:设置值。
+     *
+     * @param context
+     * @param key
+     * @param value
+     * @throws null
+     * @since v1.0
+     */
+    public static boolean setInt(Context context, String key, int value) {
+        if (context == null) {
+            return false;
+        }
+        try {
+            SharedPreferences share = getAppSharedPreferences(context);
+            SharedPreferences.Editor edi = share.edit();
+            edi.putInt(key, value);
+            edi.commit();
+            return true;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return false;
+
+    }
+
+    /**
+     * 功能说明:获取值。
+     *
+     * @param context
+     * @param key
+     * @param defaultValue
+     * @return
+     */
+    public static int getInt(Context context, String key, int defaultValue) {
+
+        if (context == null) {
+            return defaultValue;
+        }
+        try {
+            SharedPreferences share = getAppSharedPreferences(context);
+            return share.getInt(key, defaultValue);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return defaultValue;
+
     }
 
 
-    public static void setCommentGood(Context context, String commentId, boolean isGood) {
-        SharedPreferences sp = getPref(context, Pref.APP);
-        sp.edit().putBoolean("c" + commentId, isGood).commit();
-    }
 
 }

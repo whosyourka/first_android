@@ -1,4 +1,4 @@
-package com.katekit.common.view;
+package com.katekit.common.view.loading;
 
 import android.app.Dialog;
 import android.content.Context;

@@ -1,4 +1,4 @@
-package com.landi.utillibrary.util.sendDataProcessing;
+package com.katekit.common.util.sendDataProcessing;
 
 import android.util.Log;
 
@@ -9,13 +9,13 @@ import org.json.JSONObject;
 import java.util.HashMap;
 
 /**
- * Project Nameï¼štrunk
- * Packagee Nameï¼š  com.chinanetcenter.broadband
- * Descriptionï¼š
+ * Project Name£ºtrunk
+ * Packagee Name£º  com.chinanetcenter.broadband
+ * Description£º
  *
  * @author: huangmc
  * @date: 2015/8/21 11:40
- * Copyright (c) 2015å¹´, Mr.huang . All Rights Reserved.
+ * Copyright (c) 2015Äê, Mr.huang . All Rights Reserved.
  */
 public class ToJsonRxUtil {
 //    public String paraToJsonString(String[] strings){
@@ -46,7 +46,7 @@ public class ToJsonRxUtil {
         return jsonObject;
     }
 
-    public void showlog(String  log){
+    public void showlog(String log){
         Log.d("NetService-request",log);
 //        Logger.json(Constants.LOG_START_SUBMIT, log);
 //        LogUtil.i(Constants.LOG_START_SUBMIT, log);

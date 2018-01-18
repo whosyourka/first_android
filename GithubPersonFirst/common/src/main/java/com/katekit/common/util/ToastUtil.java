@@ -3,37 +3,42 @@ package com.katekit.common.util;
 import android.content.Context;
 import android.widget.Toast;
 
-public class ToastUtil {  
-	  
-    private static String oldMsg;  
-    protected static Toast toast   = null;  
-    private static long oneTime=0;  
-    private static long twoTime=0;
-      
-    public static void showToast(Context context, String s){
-        if(toast==null){
-            toast =Toast.makeText(context, s, Toast.LENGTH_SHORT);
+/**
+ * Created by »ÆÃ÷²Ó on 2017/7/12 16:59.
+ */
+public class ToastUtil {
+
+
+    private static String oldMsg;
+    protected static Toast toast = null;
+    private static long oneTime = 0;
+    private static long twoTime = 0;
+
+    public static void show(Context context, String s) {
+        if (toast == null) {
+            toast = Toast.makeText(context, s, Toast.LENGTH_SHORT);
             toast.show();
-            oneTime=System.currentTimeMillis();
-        }else{
-            twoTime=System.currentTimeMillis();
-            if(s != null && s.equals(oldMsg)){
-                if(twoTime-oneTime>Toast.LENGTH_SHORT){
+            oneTime = System.currentTimeMillis();
+        } else {
+            twoTime = System.currentTimeMillis();
+            if (s != null && s.equals(oldMsg)) {
+                if (twoTime - oneTime > 200) {
                     toast.show();
                 }
-            }else{
+            } else {
                 oldMsg = s;
                 toast.setText(s);
                 toast.show();
             }
         }
-        oneTime=twoTime;
+        oneTime = twoTime;
+    }
+    public static void show(Context context, String s, Boolean boolen) {
+        Toast.makeText(context, s, Toast.LENGTH_SHORT);
+    }
 
-    }  
-      
-      
-    public static void showToast(Context context, int resId){
-        showToast(context, context.getString(resId));  
-    }  
-  
-}  
+    public static void showToast(Context context, int resId) {
+        show(context, context.getString(resId));
+    }
+
+}

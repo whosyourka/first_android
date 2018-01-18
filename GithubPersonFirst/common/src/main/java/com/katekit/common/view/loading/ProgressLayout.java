@@ -1,4 +1,4 @@
-package com.katekit.common.view;
+package com.katekit.common.view.loading;
 
 import android.content.Context;
 import android.util.AttributeSet;

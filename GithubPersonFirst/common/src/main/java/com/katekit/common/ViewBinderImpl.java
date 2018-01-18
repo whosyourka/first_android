@@ -1,4 +1,4 @@
-package com.katekit.common.view;
+package com.katekit.common;
 
 
 /**

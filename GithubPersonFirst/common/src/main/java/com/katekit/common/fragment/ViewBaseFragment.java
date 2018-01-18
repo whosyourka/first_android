@@ -12,12 +12,9 @@ import com.katekit.common.exception.ReturnCodeException;
 import com.katekit.common.util.LogUtilSub;
 import com.katekit.common.util.PreventDoubleClickListener;
 import com.katekit.common.util.ToastUtil;
-import com.katekit.common.view.HalfTransparentProgressDialog;
-import com.katekit.common.view.TipsView;
-import com.katekit.common.view.ViewBinderImpl;
-
-import rx.Subscription;
-import rx.subscriptions.CompositeSubscription;
+import com.katekit.common.view.loading.HalfTransparentProgressDialog;
+import com.katekit.common.view.loading.TipsView;
+import com.katekit.common.ViewBinderImpl;
 
 /**
  * Project Name：workplace
@@ -290,28 +287,6 @@ public class ViewBaseFragment extends BaseFragment {
     }
 
 
-
-    protected CompositeSubscription mCompositeSubscription= new CompositeSubscription();
-
-    protected void bindSub(Subscription subscription){
-        if (mCompositeSubscription==null ){
-            mCompositeSubscription
-                    = new CompositeSubscription();
-        }
-        mCompositeSubscription.add(subscription);
-    }
-    protected void unbindSub(){
-        if (mCompositeSubscription!=null && !mCompositeSubscription.isUnsubscribed()){
-            mCompositeSubscription.unsubscribe();
-            mCompositeSubscription=null;
-        }
-    }
-
-    @Override
-    public void onDestroy() {
-        super.onDestroy();
-        unbindSub();
-    }
 
 
 }

@@ -4,8 +4,8 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.view.View;
 
-import com.landi.utillibrary.util.px2dp.DensityUtil;
 import com.landi.utillibrary.R;
+import com.landi.utillibrary.util.px2dp.DensityUtil;
 
 /**
  * Project Name£º work

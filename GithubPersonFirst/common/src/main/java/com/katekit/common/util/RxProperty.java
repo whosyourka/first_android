@@ -1,8 +1,9 @@
 package com.katekit.common.util;
 
-import rx.Observable;
-import rx.Subscription;
-import rx.subjects.BehaviorSubject;
+import org.reactivestreams.Subscription;
+
+import io.reactivex.Observable;
+import io.reactivex.subjects.BehaviorSubject;
 
 /**
  * Project Name：workplace
@@ -14,9 +15,10 @@ import rx.subjects.BehaviorSubject;
  * Copyright (c) 2015年, Mr.huang . All Rights Reserved.
  */
 public class RxProperty<T> {
+    // TODO: 2018/1/18 sub
     private final BehaviorSubject<T> assignSubject = BehaviorSubject.create();
-    public final Observable<T> whenAssigned = assignSubject.asObservable();
-    public final Observable<T> whenChanged = whenAssigned.distinctUntilChanged();
+//    public final Observable<T> whenAssigned = assignSubject.asObservable();
+//    public final Observable<T> whenChanged = whenAssigned.distinctUntilChanged();
     private Subscription subscription = null;
     private T value;
     public RxProperty() {
@@ -33,11 +35,11 @@ public class RxProperty<T> {
     }
     public void binding(Observable<T> observable) {
         this.unbinding();
-        this.subscription = observable.subscribe(x -> this.set(x));
+//        this.subscription = observable.subscribe(x -> this.set(x));
     }
     public void unbinding() {
         if (this.subscription != null) {
-            this.subscription.unsubscribe();
+//            this.subscription.unsubscribe();
             this.subscription = null;
         }
     }

@@ -14,114 +14,101 @@ import java.util.TimerTask;
 
 public class HideSoftKeyBordUtil {
 
-	private Activity activity;
+    private Activity activity;
 
-	public HideSoftKeyBordUtil(Activity act){
-		this.activity = act;
-	}
-
-
-	public void hideSoftInputMethod(EditText ed){
-		activity.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
-		int currentVersion = android.os.Build.VERSION.SDK_INT;
-		String methodName = null;
-		if(currentVersion >= 16){
-			// 4.2
-			methodName = "setShowSoftInputOnFocus";
-		}
-		else if(currentVersion >= 14){
-			// 4.0
-			methodName = "setSoftInputShownOnFocus";
-		}
-
-		if(methodName == null){
-			ed.setInputType(InputType.TYPE_NULL);
-		}
-		else{
-			Class<EditText> cls = EditText.class;
-			Method setShowSoftInputOnFocus;
-			try {
-				setShowSoftInputOnFocus = cls.getMethod(methodName, boolean.class);
-				setShowSoftInputOnFocus.setAccessible(true);
-				setShowSoftInputOnFocus.invoke(ed, false);
-			} catch (NoSuchMethodException e) {
-				ed.setInputType(InputType.TYPE_NULL);
-				e.printStackTrace();
-			} catch (IllegalAccessException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			} catch (IllegalArgumentException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			} catch (InvocationTargetException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		}
-	}
+    public HideSoftKeyBordUtil(Activity act) {
+        this.activity = act;
+    }
 
 
+    public void hideSoftInputMethod(EditText ed) {
+        activity.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
+        int currentVersion = android.os.Build.VERSION.SDK_INT;
+        String methodName = null;
+        if (currentVersion >= 16) {
+            // 4.2
+            methodName = "setShowSoftInputOnFocus";
+        } else if (currentVersion >= 14) {
+            // 4.0
+            methodName = "setSoftInputShownOnFocus";
+        }
 
-	/**
-	 *
-	 *
-	 *
-	 * @MethodName:closeInputMethod
-	 *
-	 * @Description:关闭系统软键盘
-	 *
-	 * @throws
-	 */
+        if (methodName == null) {
+            ed.setInputType(InputType.TYPE_NULL);
+        } else {
+            Class<EditText> cls = EditText.class;
+            Method setShowSoftInputOnFocus;
+            try {
+                setShowSoftInputOnFocus = cls.getMethod(methodName, boolean.class);
+                setShowSoftInputOnFocus.setAccessible(true);
+                setShowSoftInputOnFocus.invoke(ed, false);
+            } catch (NoSuchMethodException e) {
+                ed.setInputType(InputType.TYPE_NULL);
+                e.printStackTrace();
+            } catch (IllegalAccessException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            } catch (IllegalArgumentException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            } catch (InvocationTargetException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+        }
+    }
 
-	public void closeInputMethod() {
 
-		try {
+    /**
+     * @throws
+     * @MethodName:closeInputMethod
+     * @Description:关闭系统软键盘
+     */
 
-			((InputMethodManager) activity.getSystemService(Context.INPUT_METHOD_SERVICE))
+    public void closeInputMethod() {
 
-					.hideSoftInputFromWindow(activity.getCurrentFocus().getWindowToken(),
+        try {
 
-							InputMethodManager.HIDE_NOT_ALWAYS);
+            ((InputMethodManager) activity.getSystemService(Context.INPUT_METHOD_SERVICE))
 
-		} catch (Exception e) {
-		} finally {
-		}
+                    .hideSoftInputFromWindow(activity.getCurrentFocus().getWindowToken(),
 
-	}
+                            InputMethodManager.HIDE_NOT_ALWAYS);
 
-	/**
-	 *
-	 *
-	 *
-	 * @MethodName:openInputMethod
-	 *
-	 * @Description:打开系统软键盘
-	 *
-	 * @throws
-	 */
+        } catch (Exception e) {
+        } finally {
+        }
 
-	public void openInputMethod(final EditText editText) {
+    }
 
-		Timer timer = new Timer();
+    /**
+     * @throws
+     * @MethodName:openInputMethod
+     * @Description:打开系统软键盘
+     */
 
-		timer.schedule(new TimerTask() {
+    public void openInputMethod(final EditText editText) {
 
-			@Override
-			public void run() {
+        Timer timer = new Timer();
 
-				InputMethodManager inputManager = (InputMethodManager) editText
+        timer.schedule(new TimerTask() {
 
-						.getContext().getSystemService(
+            @Override
+            public void run() {
 
-								Context.INPUT_METHOD_SERVICE);
+                InputMethodManager inputManager = (InputMethodManager) editText
 
-				inputManager.showSoftInput(editText, 0);
+                        .getContext().getSystemService(
 
-			}
+                                Context.INPUT_METHOD_SERVICE);
 
-		}, 200);
+                inputManager.showSoftInput(editText, 0);
 
-	}
+            }
+
+        }, 200);
+
+    }
 
 
 }

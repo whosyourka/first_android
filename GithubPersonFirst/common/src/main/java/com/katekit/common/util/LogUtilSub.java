@@ -7,8 +7,6 @@ import com.katekit.common.exception.ReturnCodeException;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 
-import rx.Subscriber;
-
 /**
  * Project Name：workplace1
  * Packagee Name：  com.chinanetcenter.broadband.util
@@ -18,21 +16,21 @@ import rx.Subscriber;
  * @date: 2015/11/10 16:05
  * Copyright (c) 2015年, Mr.huang . All Rights Reserved.
  */
-public class LogUtilSub<T> extends Subscriber<T> {
+public class LogUtilSub<T>  {
 
 
-    @Override
+//    @Override
     public void onCompleted() {
         LogUtil.i(Constants.LOG_LAST_DIVIDE, "-----------------------------------------------");
     }
 
-    @Override
+//    @Override
      public void onError(Throwable e) {
         showError(e);
         onCompleted();
     }
 
-    @Override
+//    @Override
     public void onNext(T t) {
         showSuccess(t);
     }

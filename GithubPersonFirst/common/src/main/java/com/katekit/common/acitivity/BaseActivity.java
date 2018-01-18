@@ -3,8 +3,8 @@ package com.katekit.common.acitivity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import rx.Subscription;
-import rx.subscriptions.CompositeSubscription;
+import org.reactivestreams.Subscription;
+
 
 /**
  * Project Name：work1
@@ -30,34 +30,34 @@ public class BaseActivity extends AppCompatActivity {
     }
 
 
-    protected CompositeSubscription mCompositeSubscription=null;
+//    protected CompositeSubscription mCompositeSubscription=null;
     protected void bindSub(Subscription subscription){
-        if (mCompositeSubscription==null ){
-            mCompositeSubscription
-                    = new CompositeSubscription();
-        }
-        mCompositeSubscription.add(subscription);
+//        if (mCompositeSubscription==null ){
+//            mCompositeSubscription
+//                    = new CompositeSubscription();
+//        }
+//        mCompositeSubscription.add(subscription);
     }
     protected void unbindSub(){
-        if (mCompositeSubscription!=null && !mCompositeSubscription.isUnsubscribed()){
-            mCompositeSubscription.unsubscribe();
-            mCompositeSubscription=null;
-        }
+//        if (mCompositeSubscription!=null && !mCompositeSubscription.isUnsubscribed()){
+//            mCompositeSubscription.unsubscribe();
+//            mCompositeSubscription=null;
+//        }
     }
 
-    protected CompositeSubscription mSpecialOneRecycle=null;
+//    protected CompositeSubscription mSpecialOneRecycle=null;
     public void bindOneSub(Subscription subscription){
-        if (mSpecialOneRecycle==null ){
-            mSpecialOneRecycle
-                    = new CompositeSubscription();
-        }
-        mSpecialOneRecycle.add(subscription);
+//        if (mSpecialOneRecycle==null ){
+//            mSpecialOneRecycle
+//                    = new CompositeSubscription();
+//        }
+//        mSpecialOneRecycle.add(subscription);
     }
     public void unbindOneSub(){
-        if (mSpecialOneRecycle!=null && !mSpecialOneRecycle.isUnsubscribed()){
-            mSpecialOneRecycle.unsubscribe();
-            mSpecialOneRecycle=null;
-        }
+//        if (mSpecialOneRecycle!=null && !mSpecialOneRecycle.isUnsubscribed()){
+//            mSpecialOneRecycle.unsubscribe();
+//            mSpecialOneRecycle=null;
+//        }
     }
 
     @Override
@@ -70,14 +70,4 @@ public class BaseActivity extends AppCompatActivity {
         super.onDestroy();
         unbindSub();
     }
-    @Override
-    protected void onPause() {
-        super.onPause();
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-    }
-
 }
