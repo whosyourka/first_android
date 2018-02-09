@@ -37,7 +37,7 @@ public class ToastUtil {
         Toast.makeText(context, s, Toast.LENGTH_SHORT);
     }
 
-    public static void showToast(Context context, int resId) {
+    public static void show(Context context, int resId) {
         show(context, context.getString(resId));
     }
 

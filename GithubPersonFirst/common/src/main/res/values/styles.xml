@@ -47,5 +47,26 @@
     </style>
 
 
+    <!-- 对话框 -->
+    <style name="style_base_dialog" parent="@android:style/Theme.Dialog">
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 浮在界面上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 对话框背景 -->
+        <item name="android:background">@android:color/transparent</item>
+        <!-- 外部背景透明 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 对话框外的背景色：透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景是否模糊 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
 
+    <!-- 加载对话框 -->
+    <style name="loading_dialog" parent="@style/style_base_dialog">
+    </style>
 </resources>

@@ -5,7 +5,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 
-import com.katekit.common.util.RxProperty;
+import com.katekit.common.util.rx.RxProperty;
 
 import java.util.ArrayList;
 

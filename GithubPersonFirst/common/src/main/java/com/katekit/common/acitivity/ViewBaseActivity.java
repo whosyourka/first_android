@@ -10,7 +10,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.katekit.common.R;
-import com.katekit.common.util.PreventDoubleClickListener;
+import com.katekit.common.util.listener.PreventDoubleClickListener;
 
 
 /**

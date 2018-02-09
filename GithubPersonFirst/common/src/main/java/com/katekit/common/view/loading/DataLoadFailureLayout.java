@@ -18,9 +18,9 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.katekit.common.MsgSetter.Constants;
+import com.katekit.common.Constants;
 import com.katekit.common.R;
-import com.katekit.common.util.NetworkTypeUtil;
+import com.katekit.common.util.net.NetworkTypeUtil;
 
 
 public class DataLoadFailureLayout extends LinearLayout {

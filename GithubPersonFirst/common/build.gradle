@@ -1,11 +1,12 @@
 apply plugin: 'com.android.library'
-apply plugin: 'me.tatarka.retrolambda'//retrolambda使用
+apply plugin: 'kotlin-android'
+//apply plugin: 'me.tatarka.retrolambda'//retrolambda使用
 //setDefaultCon()
 android {
-    android.compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }//jdk8
+//    android.compileOptions {
+//        sourceCompatibility JavaVersion.VERSION_1_8
+//        targetCompatibility JavaVersion.VERSION_1_8
+//    }//jdk8
 
     compileSdkVersion rootProject.ext.android.compileSdkVersion
     buildToolsVersion rootProject.ext.android.buildToolsVersion
@@ -64,6 +65,10 @@ dependencies {
     //rxjava andrdoid
     compile rootProject.ext.dependencies["rxandroid"]
     compile rootProject.ext.dependencies["rxjava"]
+    //rxbind
+//    compile 'com.jakewharton.rxbinding:rxbinding-design:0.3.0'
+//    compile 'com.jakewharton.rxbinding:rxbinding-support-v4:0.3.0'
+//    compile 'com.jakewharton.rxbinding:rxbinding-appcompat-v7:0.3.0'
     //okhttp retrofit
     compile rootProject.ext.dependencies["retrofit2"]
     compile rootProject.ext.dependencies["okhttp3"]
@@ -76,6 +81,7 @@ dependencies {
     //性能检测
     debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5.4'
     releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.4'
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
 
     //中文转英语
 //    compile files('libs/pinyin4j-2.5.0.jar')
@@ -87,10 +93,7 @@ dependencies {
 //    compile 'com.joanzapata.android:base-adapter-helper:1.1.11'
     //robotium 测试
 //    compile 'com.jayway.android.robotium:robotium-solo:5.4.1'
-    //rxbind
-//    compile 'com.jakewharton.rxbinding:rxbinding-design:0.3.0'
-//    compile 'com.jakewharton.rxbinding:rxbinding-support-v4:0.3.0'
-//    compile 'com.jakewharton.rxbinding:rxbinding-appcompat-v7:0.3.0'
+
     //stickygrid
 //    compile 'com.tonicartos:stickygridheaders:1.0.1'
     //抓包
@@ -101,6 +104,9 @@ dependencies {
 //    compile rootProject.ext.dependencies["umeng"]
 
 
+}
+repositories {
+    mavenCentral()
 }
 
 

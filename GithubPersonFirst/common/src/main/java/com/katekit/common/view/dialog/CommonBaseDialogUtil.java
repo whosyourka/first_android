@@ -4,8 +4,8 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.view.View;
 
-import com.landi.utillibrary.R;
-import com.landi.utillibrary.util.px2dp.DensityUtil;
+import com.katekit.common.util.px2dp.DensityUtil;
+
 
 /**
  * Project Name£º work
@@ -25,11 +25,11 @@ public class CommonBaseDialogUtil {
     }
 
 
-    public static BaseDialog showComfirmDialogMsg(final Context ctx, String title, String content, final ChooseListener chooseListener) {
+    public static BaseDialog showComfirmDialogMsg(final Context ctx, String title, String content, String btnName, final ChooseListener chooseListener) {
         BaseDialog dialog = new BaseDialogBuilder(ctx)
                 .setTitle(title)
                 .setMessage(content)
-                .setSingleButton(R.string.action_confirm, new DialogInterface.OnClickListener() {
+                .setSingleButton(btnName, new DialogInterface.OnClickListener() {
 
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
@@ -82,6 +82,7 @@ public class CommonBaseDialogUtil {
         dialog.show();
         return dialog;
     }
+
     public static BaseDialog showCustomViewMsg(final Context ctx, String title, View view, String cancelName, String ensureName, final ChooseListener chooseListener) {
         BaseDialog dialog;
 
@@ -112,7 +113,7 @@ public class CommonBaseDialogUtil {
                 })
                 .create();
         dialog.show();
-        DensityUtil.setMax(ctx,dialog);
+        DensityUtil.setMax(ctx, dialog);
         return dialog;
     }
 }

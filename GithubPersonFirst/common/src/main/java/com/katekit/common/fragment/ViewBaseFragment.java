@@ -7,10 +7,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.katekit.common.MsgSetter.Constants;
+import com.katekit.common.Constants;
 import com.katekit.common.exception.ReturnCodeException;
-import com.katekit.common.util.LogUtilSub;
-import com.katekit.common.util.PreventDoubleClickListener;
+import com.katekit.common.util.log.LogUtilSub;
+import com.katekit.common.util.listener.PreventDoubleClickListener;
 import com.katekit.common.util.ToastUtil;
 import com.katekit.common.view.loading.HalfTransparentProgressDialog;
 import com.katekit.common.view.loading.TipsView;
@@ -147,7 +147,7 @@ public class ViewBaseFragment extends BaseFragment {
     //处理错误
     public void CatchThrowableToast(Throwable e) {
         if (CatchThrowableToast(getActivity(), e)) {
-            ToastUtil.showToast(getActivity(), Constants.LOG_APP_ERROR);
+            ToastUtil.show(getActivity(), Constants.LOG_APP_ERROR);
         }
     }
 
@@ -163,7 +163,7 @@ public class ViewBaseFragment extends BaseFragment {
 //            }
 //        } else
         if (e instanceof ReturnCodeException) {
-            ToastUtil.showToast(context, e.toString());
+            ToastUtil.show(context, e.toString());
         } else {
             return true;
         }

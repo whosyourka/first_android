@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- 自定义alertdialog -->
+    <dimen name="custom_dialog_width">300dp</dimen>
+    <dimen name="custom_dialog_height">184dp</dimen>
+    <dimen name="custom_dialog_title_height">37dp</dimen>
+    <dimen name="custom_dialog_button_height">41dp</dimen>
+    <dimen name="custom_dialog_message_height">106dp</dimen>
+    <dimen name="custom_dialog_message_margin_top">34dp</dimen>
+    <dimen name="custom_dialog_title_16sp">16sp</dimen>
+    <dimen name="custom_dialog_message_14sp">14sp</dimen>
+    <dimen name="custom_dialog_button_16sp">16sp</dimen>
+    <dimen name="custom_dialog_corners">20dp</dimen>
+    <dimen name="custom_dialog_divider_size">1px</dimen>
+
+</resources>

@@ -1,14 +1,7 @@
 package com.landi.utillibrary.util
 
-import android.util.Log
-import com.google.gson.Gson
-import com.landi.utillibrary.util.net.Info.NetData
-import io.reactivex.BackpressureStrategy
-import io.reactivex.Flowable
+import com.katekit.common.net.IDownLoad.DownloadProgressInterceptor
 import okhttp3.OkHttpClient
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
 import retrofit2.Retrofit
 import java.util.concurrent.TimeUnit
 
@@ -23,7 +16,7 @@ object NetService {
     private val TIME_OUT_MAX = 30L
 
     val TAG_RELOGIN: String = "relogin"
-    val url = BuildConfig.manageUrl;
+    val url = "";
 
 
     private var client = getOkhttp(DownloadProgressInterceptor(null))
@@ -59,8 +52,8 @@ object NetService {
         return Retrofit.Builder()
                 .client(client)
                 .baseUrl(url)
-                .addConverterFactory(ScalarsConverterFactory.create())
-                .addConverterFactory(GsonConverterFactory.create())
+//                .addConverterFactory(ScalarsConverterFactory.create())
+//                .addConverterFactory(GsonConverterFactory.create())
                 .build()
     }
 
@@ -90,52 +83,51 @@ object NetService {
     }
 
 
-    //泛型处理接收
-    fun <T> exchangeGsonData(className: Class<T>, request: Call<String>?): Flowable<NetData<T>>? = Flowable.create({ subcribe ->
-
-        if (request == null) {
-            subcribe.onError(Exception("获取request为空"))
-        } else {
-            request.enqueue(object : Callback<String> {
-                override fun onResponse(call: Call<String>?, response: Response<String>?) {
-                    when {
-                        response == null -> subcribe.onError(Exception("获取response为空"))
-                        response.body().isNullOrEmpty() -> subcribe.onError(Exception("获取数据为空"))
-                        else -> {
-                            try {
-                                Log.d("NetService-response", response.body());
-                                val netData: NetData<T> = NetData(response.body(), Gson().fromJson(response.body(), className))
-                                when {
-                                    netData.data == null -> subcribe.onError(Exception("获取data为空"))
-                                    else -> {
-                                        try {
-                                            val defaultResponseInfo = Gson().fromJson(netData.orignData, DefaultResponseInfo::class.java)
-                                            if (defaultResponseInfo != null && "4".equals(defaultResponseInfo.responseState.code)) {
-                                                subcribe.onError(ReLoginException(TAG_RELOGIN))
-                                                return
-                                            }
-                                        } catch (e: Exception) {
-                                            e.printStackTrace()
-                                        }
-                                        subcribe.onNext(netData)
-                                        subcribe.onComplete()
-                                    }
-                                }
-                            } catch (e: Exception) {
-                                e.printStackTrace()
-                                subcribe.onError(Exception("获取data数据出现异常"))
-                            }
-                        }
-                    }
-                }
-
-                override fun onFailure(call: Call<String>?, t: Throwable) {
-                    subcribe.onError(t)
-                }
-
-            })
-        }
-    }, BackpressureStrategy.LATEST)
+//    fun <T> exchangeGsonData(className: Class<T>, request: Call<String>?): Flowable<NetData<T>>? = Flowable.create({ subcribe ->
+//
+//        if (request == null) {
+//            subcribe.onError(Exception("获取request为空"))
+//        } else {
+//            request.enqueue(object : Callback<String> {
+//                override fun onResponse(call: Call<String>?, response: Response<String>?) {
+//                    when {
+//                        response == null -> subcribe.onError(Exception("获取response为空"))
+//                        response.body().isNullOrEmpty() -> subcribe.onError(Exception("获取数据为空"))
+//                        else -> {
+//                            try {
+//                                Log.d("NetService-response", response.body());
+//                                val netData: NetData<T> = NetData(response.body(), Gson().fromJson(response.body(), className))
+//                                when {
+//                                    netData.data == null -> subcribe.onError(Exception("获取data为空"))
+//                                    else -> {
+//                                        try {
+//                                            val defaultResponseInfo = Gson().fromJson(netData.orignData, DefaultResponseInfo::class.java)
+//                                            if (defaultResponseInfo != null && "4".equals(defaultResponseInfo.responseState.code)) {
+//                                                subcribe.onError(ReLoginException(TAG_RELOGIN))
+//                                                return
+//                                            }
+//                                        } catch (e: Exception) {
+//                                            e.printStackTrace()
+//                                        }
+//                                        subcribe.onNext(netData)
+//                                        subcribe.onComplete()
+//                                    }
+//                                }
+//                            } catch (e: Exception) {
+//                                e.printStackTrace()
+//                                subcribe.onError(Exception("获取data数据出现异常"))
+//                            }
+//                        }
+//                    }
+//                }
+//
+//                override fun onFailure(call: Call<String>?, t: Throwable) {
+//                    subcribe.onError(t)
+//                }
+//
+//            })
+//        }
+//    }, BackpressureStrategy.LATEST)
 
 
 }

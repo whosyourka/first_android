@@ -3,6 +3,13 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <!-- 通用alertDialog -->
+    <color name="custom_dialog_button_focused">#34bd62</color>
+    <color name="custom_dialog_vertical_divider_gray">#a0a0a0</color>
+    <color name="custom_dialog_horizontal_divider_gray">#a0a0a0</color>
+    <color name="custom_dialog_textcolor_normal">#666666</color>
+    <color name="custom_dialog_textcolor_highlight">#34bd62</color>
+    <color name="frame_color">#babcbd</color><!--  通用圆角边框色  表格区标题栏分隔线颜色 -->
 
     <color name="white">#FFFFFF</color><!--白色 -->
     <color name="ivory">#FFFFF0</color><!--象牙色 -->

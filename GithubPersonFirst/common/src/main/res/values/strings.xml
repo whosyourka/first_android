@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">common</string>
+
+    <!-- 通用alertDialog -->
+    <string name="action_confirm">确定</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_ignore">忽略</string>
+    <string name="custom_dialog_title">友情提示</string>
+    <color name="background_gray">#f0f0f0</color>
 </resources>

@@ -13,7 +13,7 @@ import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.landi.utillibrary.R;
+import com.katekit.common.R;
 
 
 /**
