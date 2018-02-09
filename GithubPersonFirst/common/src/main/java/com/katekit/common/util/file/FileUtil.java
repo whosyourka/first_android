@@ -1,60 +1,73 @@
 package com.katekit.common.util.file;
 
-import android.app.Application;
-import android.content.Context;
-import android.content.res.AssetManager;
-import android.os.Build;
-import android.os.Environment;
-
-import com.katekit.common.Constants;
-
-import java.io.ByteArrayOutputStream;
 import java.io.File;
+import java.io.FileOutputStream;
 import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+/**
+ * Created by 黄明灿 on 2018/1/17 17:17.
+ * Describe :
+ */
 
 public class FileUtil {
 
-
-
-    public static String readFileFromAssets(Context context, String fileName) {
+    /**
+     * 复制单个文件
+     * @param inStream
+     * @param fileName
+     */
+    public static void copyFile(InputStream inStream, String fileName) {
         try {
-            if (null == context || null == fileName)
-                return null;
-            AssetManager am = context.getAssets();
-            InputStream input = am.open(fileName);
-            ByteArrayOutputStream output = new ByteArrayOutputStream();
-            byte[] buffer = new byte[1024];
-            int len = 0;
-            while ((len = input.read(buffer)) != -1) {
-                output.write(buffer, 0, len);
+            if (new File(fileName).exists()){
+                new File(fileName).delete();
             }
-            output.close();
-            input.close();
-            return output.toString();
-        } catch (Exception e) {
+            int bytesum = 0;
+            int byteread = 0;
+            if (inStream != null) { //文件存在时
+                FileOutputStream fs = new FileOutputStream(fileName);
+                byte[] buffer = new byte[1024];
+                while((byteread = inStream.read(buffer)) != -1){
+                    bytesum += byteread; //字节数 文件大小
+                    fs.write(buffer, 0, byteread);
+                }
+                fs.close();
+                inStream.close();
+            }
+        }catch (Exception e) {
             e.printStackTrace();
         }
-        return "";
     }
 
+    /*
+     * 得到一个文件夹下所有文件
+     */
+    public static List<String> getAllFileNameInFold(String fold_path) {
+        List<String> file_paths = new ArrayList<String>();
 
-    // 如果有SD卡则创建目录。没有则选择data下的file目录
-    public static String getAppPath(Application application) {
-        if (FileUtil.isExternalStorageExist()) {
-            File path = new File(Constants.APP_FILE_PATH);
-            if (!path.exists()) {
-                path.mkdirs();
+        LinkedList<String> folderList = new LinkedList<String>();
+        folderList.add(fold_path);
+        while (folderList.size() > 0) {
+            File file = new File(folderList.peekLast());
+            folderList.removeLast();
+            File[] files = file.listFiles();
+            ArrayList<File> fileList = new ArrayList<File>();
+            for (int i = 0; i < files.length; i++) {
+                if (files[i].isDirectory()) {
+                    folderList.add(files[i].getPath());
+                } else {
+                    fileList.add(files[i]);
+                }
             }
-            return Constants.APP_FILE_PATH;
-        } else {
-            return application.getFilesDir().getAbsolutePath();
+            for (File f : fileList) {
+                file_paths.add(f.getAbsoluteFile().getPath());
+            }
         }
+        return file_paths;
     }
-    public static boolean isExternalStorageExist() {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD) {
-            return Environment.MEDIA_MOUNTED.equals(Environment.getExternalStorageState());
-        }
-        return true;
-    }
+
+
 
 }
