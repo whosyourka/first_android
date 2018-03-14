@@ -1,6 +1,6 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
-apply plugin: 'fastdex.app'// todo
+apply plugin: 'fastdex.app'// 使用fastdex进行编译
 setDefaultCon(android)
 android {
     def appName = "first.person.com.katekit.githubpersonfirst"

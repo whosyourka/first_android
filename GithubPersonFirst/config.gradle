@@ -6,23 +6,36 @@ ext {
             targetSdkVeersion: 27,
     ]
     dependencies = [
-            "rxandroid"                          : 'io.reactivex.rxjava2:rxjava:2.1.0',
-            "rxjava"                             : 'io.reactivex.rxjava2:rxandroid:2.0.1',
-            "retrofit2"                          : 'com.squareup.retrofit2:retrofit:2.3.0',
-            "okhttp3"                            : 'com.squareup.okhttp3:okhttp:3.8.0',
-            "interceptor"                        : 'com.squareup.okhttp3:logging-interceptor:3.4.1',
-            "gson"                               : 'com.google.code.gson:gson:2.8.1',
-            "converter-gson"                     : 'com.squareup.retrofit2:converter-gson:2.0.2',
-            "scalars"                            : 'com.squareup.retrofit2:converter-scalars:2.3.0',//转换器
-            "logger"                             : 'com.orhanobut:logger:1.13',
+            "rxandroid"        : 'io.reactivex.rxjava2:rxjava:2.1.0',
+            "rxjava"           : 'io.reactivex.rxjava2:rxandroid:2.0.1',
+            "retrofit2"        : 'com.squareup.retrofit2:retrofit:2.3.0',
 
-            "junit"                              : 'junit:junit:4.12',
+            "okhttp3"          : 'com.squareup.okhttp3:okhttp:3.8.0',
+            "interceptor"      : 'com.squareup.okhttp3:logging-interceptor:3.4.1',
+            "gson"             : 'com.google.code.gson:gson:2.8.1',
+            "converter-gson"   : 'com.squareup.retrofit2:converter-gson:2.0.2',
+            "scalars"          : 'com.squareup.retrofit2:converter-scalars:2.3.0',//转换器
 
-            "appcompat-v7"                       : 'com.android.support:appcompat-v7:' + android.buildToolsVersion,
-            "support-v4"                         : 'com.android.support:support-v4:' + android.buildToolsVersion,
-            "recyclerview-v7"                    : 'com.android.support:recyclerview-v7:' + android.buildToolsVersion,
-            "design"                             : 'com.android.support:design:23.1.1',
-            "MaterialDesign"                     : 'com.github.navasmdc:MaterialDesign:1.5@aar',
+            "leakcanary-debug"           : 'com.squareup.leakcanary:leakcanary-android:1.5.4',
+            "leakcanary-release"           : 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.4',
+
+            "logger"           : 'com.orhanobut:logger:1.13',
+            "glide"            : 'com.github.bumptech.glide:glide:4.4.0',
+
+
+
+
+            "junit"            : 'junit:junit:4.12',
+            "espresso"         : 'com.android.support.test.espresso:espresso-core:2.2.2',
+
+
+
+            "appcompat-v7"     : 'com.android.support:appcompat-v7:' + android.buildToolsVersion,
+            "support-v4"       : 'com.android.support:support-v4:' + android.buildToolsVersion,
+            "recyclerview-v7"  : 'com.android.support:recyclerview-v7:' + android.buildToolsVersion,
+            "design"           : 'com.android.support:design:23.1.1',
+            "MaterialDesign"   : 'com.github.navasmdc:MaterialDesign:1.5@aar',
+            "constraint-layout": 'com.android.support.constraint:constraint-layout:1.0.2',
 
 //            "test"           : 'test',
     ]
@@ -40,7 +53,7 @@ ext {
     addBuildTimeListener = this.&addBuildTimeListener
 
     setApkName = this.&setApkName
-    getDefaultSigningConfig = this.&getDefaultSigningConfig //todo 签名
+    getDefaultSigningConfig = this.&getDefaultSigningConfig //todo 具体项目具体修改
 
 }
 //获取时间戳
@@ -78,10 +91,10 @@ def setDefaultCon(android) {
     }
     // todo
     android.dexOptions {
-            preDexLibraries true
-            javaMaxHeapSize "3g"
-            dexInProcess = true
-            maxProcessCount 12
+        preDexLibraries true
+        javaMaxHeapSize "3g"
+        dexInProcess = true
+        maxProcessCount 12
     }
     // todo
     android.lintOptions {

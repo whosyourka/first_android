@@ -44,12 +44,12 @@ dependencies {
     api rootProject.ext.dependencies["support-v4"]
     api rootProject.ext.dependencies["recyclerview-v7"]
     api rootProject.ext.dependencies["design"]
+    api rootProject.ext.dependencies["constraint-layout"]
 //        implementation 'com.android.support:percent:27.0.2'
-    api 'com.android.support.constraint:constraint-layout:1.0.2'
 
 
     testApi rootProject.ext.dependencies["junit"]
-    androidTestApi('com.android.support.test.espresso:espresso-core:2.2.2', {
+    androidTestApi( rootProject.ext.dependencies["espresso"], {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
 
@@ -69,11 +69,11 @@ dependencies {
     //log输出
     api rootProject.ext.dependencies["logger"]
     //图片框架
-    api 'com.github.bumptech.glide:glide:4.4.0'
+    api rootProject.ext.dependencies["glide"]
     //性能检测
-    debugApi 'com.squareup.leakcanary:leakcanary-android:1.5.4'
-    releaseApi 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.4'
-    api "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    debugApi rootProject.ext.dependencies["leakcanary-debug"]
+    releaseApi rootProject.ext.dependencies["leakcanary-release"]
+    api "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version" // todo
 
     //中文转英语
 //    compile files('libs/pinyin4j-2.5.0.jar')
