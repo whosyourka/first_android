@@ -1,13 +1,7 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
-//apply plugin: 'me.tatarka.retrolambda'//retrolambda使用
-//setDefaultCon()
+setDefaultCon(android)
 android {
-//    android.compileOptions {
-//        sourceCompatibility JavaVersion.VERSION_1_8
-//        targetCompatibility JavaVersion.VERSION_1_8
-//    }//jdk8
-
     compileSdkVersion rootProject.ext.android.compileSdkVersion
     buildToolsVersion rootProject.ext.android.buildToolsVersion
 
@@ -28,13 +22,7 @@ android {
 //                app_id_name: appName
 //        ]
     }
-    //java dex性能设置
-    dexOptions {
-        preDexLibraries true
-        javaMaxHeapSize "3g"
-        dexInProcess = true
-        maxProcessCount 12
-    }
+
     buildTypes {
         release {
             buildConfigField "boolean", "Debug", "false"

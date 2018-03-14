@@ -36,7 +36,7 @@ ext {
 //    appVersionGitName = appVersionName + "." + gitVersion
 
     //设置对外部可以使用的输出函数
-    setDefaultCon = this.&defaultConfig //todo 设置
+    setDefaultCon = this.&setDefaultCon
     addBuildTimeListener = this.&addBuildTimeListener
 
     setApkName = this.&setApkName
@@ -70,14 +70,20 @@ def disableDebugBuild() {
     }
 }
 
-def defaultConfig() {
-    android.dexOptions {
-        incremental true
-    }
+def setDefaultCon(android) {
+
     android.compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    // todo
+    android.dexOptions {
+            preDexLibraries true
+            javaMaxHeapSize "3g"
+            dexInProcess = true
+            maxProcessCount 12
+    }
+    // todo
     android.lintOptions {
         // turn off checking the given issue id's
         disable 'TypographyFractions', 'TypographyQuotes'

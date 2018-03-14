@@ -11,8 +11,6 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:3.0.1'
 
-        classpath 'me.tatarka:gradle-retrolambda:3.2.0'//set retrolambda object
-
         classpath 'com.github.typ0520:fastdex-gradle:0.8.6'
 
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version" //类似instant run
@@ -34,6 +32,10 @@ allprojects {
 }
 
 apply from:"config.gradle"//配置通用module
+
+subprojects{
+
+}
 
 task clean(type: Delete) {
     delete rootProject.buildDir

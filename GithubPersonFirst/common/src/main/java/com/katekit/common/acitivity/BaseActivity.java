@@ -2,6 +2,7 @@ package com.katekit.common.acitivity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.Button;
 
 import org.reactivestreams.Subscription;
 
@@ -16,18 +17,6 @@ import org.reactivestreams.Subscription;
  * Copyright (c) 2016年, Mr.huang . All Rights Reserved.
  */
 public class BaseActivity extends AppCompatActivity {
-    protected String TAG = this.getClass().getSimpleName();
-    //获取extras
-    protected Bundle getMyExtras() {
-        if (getIntent()!=null && getIntent().getExtras()!=null) {
-            return getIntent().getExtras();
-        }
-        return null;
-    }
-    //结束
-    public void finishThis(){
-        BaseActivity.this.finish();
-    }
 
 
 //    protected CompositeSubscription mCompositeSubscription=null;
@@ -63,6 +52,10 @@ public class BaseActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Button button = new Button(this);
+//        button.setOnClickListener(v -> {
+//            ToastUtil.show(this,"haha");
+//        });
     }
 
     @Override

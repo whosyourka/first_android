@@ -1,13 +1,8 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
-//apply plugin: 'me.tatarka.retrolambda'//retrolambda使用
-apply plugin: 'fastdex.app'
-//setDefaultCon()
+apply plugin: 'fastdex.app'// todo
+setDefaultCon(android)
 android {
-//    android.compileOptions {
-//        sourceCompatibility JavaVersion.VERSION_1_8
-//        targetCompatibility JavaVersion.VERSION_1_8
-//    }//jdk8
     def appName = "first.person.com.katekit.githubpersonfirst"
     setApkName(appName, applicationVariants)
 
@@ -28,13 +23,6 @@ android {
 //        config(getDefaultSigningConfig())
 //    }
 
-    //对应gradle-wrapper
-    dexOptions {
-        preDexLibraries true
-        javaMaxHeapSize "3g"
-        dexInProcess = true
-        maxProcessCount 12
-    }
     buildTypes {
         release {
             minifyEnabled false
@@ -57,7 +45,4 @@ dependencies {
 
     compile project(':common')
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
-}
-repositories {
-    mavenCentral()
 }
