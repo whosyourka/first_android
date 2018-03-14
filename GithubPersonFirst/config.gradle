@@ -17,6 +17,7 @@ ext {
             "logger"                             : 'com.orhanobut:logger:1.13',
 
             "junit"                              : 'junit:junit:4.12',
+
             "appcompat-v7"                       : 'com.android.support:appcompat-v7:' + android.buildToolsVersion,
             "support-v4"                         : 'com.android.support:support-v4:' + android.buildToolsVersion,
             "recyclerview-v7"                    : 'com.android.support:recyclerview-v7:' + android.buildToolsVersion,
@@ -168,13 +169,14 @@ def setApkName(String appName, applicationVariants) {
     applicationVariants.all { variants ->
         variants.outputs.all {
             variants.assemble.doLast {
+                def releaseApkName = appName + '_V' + appVersionName + '_Build' +
+                        new Date().format("yyMMdd").toString() + '.apk'
+                outputFileName = releaseApkName
                 copy {
-                    def releaseApkName = "./apk" + appName + '_V' + appVersionName + '_Build' +
-                            new Date().format("yyMMdd").toString() + '.apk'
                     println './app/build/outputs/apk/release/' + outputFileName
                     from('./app/build/outputs/apk/release/' + outputFileName)
                     into('../apk/')
-                    rename(outputFileName, releaseApkName)
+//                    rename(outputFileName, releaseApkName)
                 }
             }
         }

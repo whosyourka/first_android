@@ -22,11 +22,13 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
 //        buildConfigField("String", "APP_ID_NAME", "\"" + appName + "\"")
 //        manifestPlaceholders = [
 //                app_id_name: appName
 //        ]
     }
+    //java dex性能设置
     dexOptions {
         preDexLibraries true
         javaMaxHeapSize "3g"
@@ -49,39 +51,41 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile rootProject.ext.dependencies["appcompat-v7"]
-    compile rootProject.ext.dependencies["support-v4"]
-    compile rootProject.ext.dependencies["recyclerview-v7"]
-    compile rootProject.ext.dependencies["design"]
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    api rootProject.ext.dependencies["appcompat-v7"]
+    api rootProject.ext.dependencies["support-v4"]
+    api rootProject.ext.dependencies["recyclerview-v7"]
+    api rootProject.ext.dependencies["design"]
 //        implementation 'com.android.support:percent:27.0.2'
-    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    api 'com.android.support.constraint:constraint-layout:1.0.2'
 
-    testCompile rootProject.ext.dependencies["junit"]
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+
+    testApi rootProject.ext.dependencies["junit"]
+    androidTestApi('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
 
+
     //rxjava andrdoid
-    compile rootProject.ext.dependencies["rxandroid"]
-    compile rootProject.ext.dependencies["rxjava"]
+    api rootProject.ext.dependencies["rxandroid"]
+    api rootProject.ext.dependencies["rxjava"]
     //rxbind
 //    compile 'com.jakewharton.rxbinding:rxbinding-design:0.3.0'
 //    compile 'com.jakewharton.rxbinding:rxbinding-support-v4:0.3.0'
 //    compile 'com.jakewharton.rxbinding:rxbinding-appcompat-v7:0.3.0'
     //okhttp retrofit
-    compile rootProject.ext.dependencies["retrofit2"]
-    compile rootProject.ext.dependencies["okhttp3"]
+    api rootProject.ext.dependencies["retrofit2"]
+    api rootProject.ext.dependencies["okhttp3"]
     //gson
-    compile 'com.google.code.gson:gson:2.6.2'
+    api 'com.google.code.gson:gson:2.6.2'
     //log输出
-    compile rootProject.ext.dependencies["logger"]
+    api rootProject.ext.dependencies["logger"]
     //图片框架
-    compile 'com.github.bumptech.glide:glide:4.4.0'
+    api 'com.github.bumptech.glide:glide:4.4.0'
     //性能检测
-    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5.4'
-    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.4'
-    compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    debugApi 'com.squareup.leakcanary:leakcanary-android:1.5.4'
+    releaseApi 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.4'
+    api "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
 
     //中文转英语
 //    compile files('libs/pinyin4j-2.5.0.jar')
@@ -104,9 +108,6 @@ dependencies {
 //    compile rootProject.ext.dependencies["umeng"]
 
 
-}
-repositories {
-    mavenCentral()
 }
 
 
