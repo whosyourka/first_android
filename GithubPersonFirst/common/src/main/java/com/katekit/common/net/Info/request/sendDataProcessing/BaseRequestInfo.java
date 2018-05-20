@@ -1,7 +1,9 @@
-package com.katekit.common.net.Info.request;
+package com.katekit.common.net.Info.request.sendDataProcessing;
 
 import com.google.gson.JsonObject;
 import com.landi.utillibrary.util.net.Info.BaseInfo;
+
+import io.reactivex.Flowable;
 
 /**
  * Created by »ÆÃ÷²Ó on 2017/10/13 8:50.
@@ -38,11 +40,11 @@ public class BaseRequestInfo extends BaseInfo {
         return this;
     }
 
-//    public Flowable<String> toStringFlowable() {
-//        SendParams sendParams = new SendParams();
-//        sendParams.add("requestParam", requestJson)
-//                .add("pagingInfo", pageJson)
-//                .add("data", dataJson);
-//        return sendParams.toStringObservalbe();
-//    }
+    public Flowable<String> toStringFlowable() {
+        SendParams sendParams = new SendParams();
+        sendParams.add("requestParam", requestJson)
+                .add("pagingInfo", pageJson)
+                .add("data", dataJson);
+        return sendParams.toStringObservalbe();
+    }
 }

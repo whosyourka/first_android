@@ -1,5 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
+apply plugin: 'com.jakewharton.hugo'
 setDefaultCon(android)
 android {
     compileSdkVersion rootProject.ext.android.compileSdkVersion
@@ -16,7 +17,7 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
+//        提供给java和xml使用
 //        buildConfigField("String", "APP_ID_NAME", "\"" + appName + "\"")
 //        manifestPlaceholders = [
 //                app_id_name: appName
@@ -39,7 +40,7 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    api fileTree(dir: 'libs', include: ['*.jar'])
     api rootProject.ext.dependencies["appcompat-v7"]
     api rootProject.ext.dependencies["support-v4"]
     api rootProject.ext.dependencies["recyclerview-v7"]
@@ -47,16 +48,22 @@ dependencies {
     api rootProject.ext.dependencies["constraint-layout"]
 //        implementation 'com.android.support:percent:27.0.2'
 
+    //官方设计
+//    compile 'com.github.navasmdc:MaterialDesign:1.5@aar'
+
 
     testApi rootProject.ext.dependencies["junit"]
-    androidTestApi( rootProject.ext.dependencies["espresso"], {
+    androidTestApi(rootProject.ext.dependencies["espresso"], {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
+    //robotium 测试
+//    compile 'com.jayway.android.robotium:robotium-solo:5.4.1'
 
 
     //rxjava andrdoid
     api rootProject.ext.dependencies["rxandroid"]
     api rootProject.ext.dependencies["rxjava"]
+    api 'com.jakewharton.rxrelay2:rxrelay:2.0.0'
     //rxbind
 //    compile 'com.jakewharton.rxbinding:rxbinding-design:0.3.0'
 //    compile 'com.jakewharton.rxbinding:rxbinding-support-v4:0.3.0'
@@ -64,8 +71,9 @@ dependencies {
     //okhttp retrofit
     api rootProject.ext.dependencies["retrofit2"]
     api rootProject.ext.dependencies["okhttp3"]
+    api rootProject.ext.dependencies["scalars"]
     //gson
-    api 'com.google.code.gson:gson:2.6.2'
+    api rootProject.ext.dependencies["gson"]
     //log输出
     api rootProject.ext.dependencies["logger"]
     //图片框架
@@ -73,18 +81,13 @@ dependencies {
     //性能检测
     debugApi rootProject.ext.dependencies["leakcanary-debug"]
     releaseApi rootProject.ext.dependencies["leakcanary-release"]
-    api "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version" // todo
-
+    api rootProject.ext.dependencies["kotlin"]
     //中文转英语
 //    compile files('libs/pinyin4j-2.5.0.jar')
-    //官方设计
-//    compile 'com.github.navasmdc:MaterialDesign:1.5@aar'
     //orm注释 数据库
 //    compile 'io.realm:realm-android:0.84.1'
     //adaptter-helper 适配器专用
 //    compile 'com.joanzapata.android:base-adapter-helper:1.1.11'
-    //robotium 测试
-//    compile 'com.jayway.android.robotium:robotium-solo:5.4.1'
 
     //stickygrid
 //    compile 'com.tonicartos:stickygridheaders:1.0.1'

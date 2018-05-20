@@ -9,8 +9,6 @@ import android.widget.EditText;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-import java.util.Timer;
-import java.util.TimerTask;
 
 public class HideSoftKeyBordUtil {
 
@@ -60,55 +58,25 @@ public class HideSoftKeyBordUtil {
 
 
     /**
-     * @throws
-     * @MethodName:closeInputMethod
-     * @Description:关闭系统软键盘
+     * 打开软键盘
+     * @param context
+     * @param editText 输入框
      */
-
-    public void closeInputMethod() {
-
-        try {
-
-            ((InputMethodManager) activity.getSystemService(Context.INPUT_METHOD_SERVICE))
-
-                    .hideSoftInputFromWindow(activity.getCurrentFocus().getWindowToken(),
-
-                            InputMethodManager.HIDE_NOT_ALWAYS);
-
-        } catch (Exception e) {
-        } finally {
-        }
+    public static void openKeyboard(Context context, EditText editText)
+    {
+        InputMethodManager imm = (InputMethodManager) context.getSystemService(Context.INPUT_METHOD_SERVICE);
+        imm.showSoftInput(editText, InputMethodManager.SHOW_IMPLICIT);
 
     }
 
     /**
-     * @throws
-     * @MethodName:openInputMethod
-     * @Description:打开系统软键盘
+     * 关闭软键盘
+     * @param context
+     * @param editText 输入框
      */
-
-    public void openInputMethod(final EditText editText) {
-
-        Timer timer = new Timer();
-
-        timer.schedule(new TimerTask() {
-
-            @Override
-            public void run() {
-
-                InputMethodManager inputManager = (InputMethodManager) editText
-
-                        .getContext().getSystemService(
-
-                                Context.INPUT_METHOD_SERVICE);
-
-                inputManager.showSoftInput(editText, 0);
-
-            }
-
-        }, 200);
-
+    public static void closeKeyboard(Context context, EditText editText)
+    {
+        InputMethodManager imm = (InputMethodManager) context.getSystemService(Context.INPUT_METHOD_SERVICE);
+        imm.hideSoftInputFromWindow(editText.getWindowToken(), 0);
     }
-
-
 }

@@ -1,20 +1,16 @@
 package com.katekit.common.fragment;
 
 import android.app.Activity;
-import android.os.Bundle;
 import android.text.TextUtils;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.katekit.common.Constants;
 import com.katekit.common.exception.ReturnCodeException;
-import com.katekit.common.util.log.LogUtilSub;
-import com.katekit.common.util.listener.PreventDoubleClickListener;
 import com.katekit.common.util.ToastUtil;
+import com.katekit.common.util.listener.PreventDoubleClickListener;
 import com.katekit.common.view.loading.HalfTransparentProgressDialog;
 import com.katekit.common.view.loading.TipsView;
-import com.katekit.common.ViewBinderImpl;
 
 /**
  * Project Name：workplace
@@ -28,29 +24,9 @@ import com.katekit.common.ViewBinderImpl;
 public class ViewBaseFragment extends BaseFragment {
     protected String TAG = this.getClass().getSimpleName();
 
-    //获取extras
-    protected Bundle getMyExtras() {
-        return getActivity().getIntent().getExtras();
-    }
 
-    //结束
-    protected void finishThis() {
-        getActivity().finish();
-    }
-    protected void finishOKThis() {
-        getActivity().setResult(Activity.RESULT_OK);
-        getActivity().finish();
-    }
-
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        return super.onCreateView(inflater, container, savedInstanceState);
-    }
-
-
-    //处理刷新
-    protected TipsView mTipsView;  // 用于提示加载和网络
+    //用于提示加载和网络成功失败
+    protected TipsView mTipsView;
 
     protected void setRefresh() {
     }
@@ -170,121 +146,121 @@ public class ViewBaseFragment extends BaseFragment {
         return false;
     }
 
-    protected void CatchThrowableView(Throwable e) {
+//    protected void CatchThrowableView(Throwable e) {
+//
+//        if (getActivity() == null) {
+//            return;
+//        }
+////        if (e instanceof RetrofitError) {
+////            showNetError();
+////        } else
+//        if (e instanceof ReturnCodeException) {
+//            showErrorMsg(e.toString());
+//        } else {
+//            showErrorMsg(Constants.LOG_APP_ERROR);
+//        }
+//    }
+//
+//
+//    //show the msg in the fragment
+//    public class ShowMsgSub<T> extends LogUtilSub<T> {
+//
+//
+//        @Override
+//        public void onError(Throwable e) {
+//            super.onError(e);
+//            hidePreLoading();
+//            hideAll();
+//            CatchThrowableView(e);
+//        }
+//
+//        @Override
+//        public void onNext(T t) {
+//            super.onNext(t);
+//            hidePreLoading();
+//            hideAll();
+//        }
+//    }
+//
+//    //use toast to show the msg  and  its for the outside loading
+//    public class ToastMsgSub<T> extends LogUtilSub<T> {
+//
+//
+//        @Override
+//        public void onError(Throwable e) {
+//            super.onError(e);
+//            hidePreLoading();
+//            hideAll();
+//            CatchThrowableToast(e);
+//        }
+//
+//        @Override
+//        public void onNext(T t) {
+//            super.onNext(t);
+//            hidePreLoading();
+//            hideAll();
+//        }
+//
+//
+//    }//show the msg in the fragment
 
-        if (getActivity() == null) {
-            return;
-        }
-//        if (e instanceof RetrofitError) {
-//            showNetError();
-//        } else
-        if (e instanceof ReturnCodeException) {
-            showErrorMsg(e.toString());
-        } else {
-            showErrorMsg(Constants.LOG_APP_ERROR);
-        }
-    }
-
-
-    //show the msg in the fragment
-    public class ShowMsgSub<T> extends LogUtilSub<T> {
-
-
-        @Override
-        public void onError(Throwable e) {
-            super.onError(e);
-            hidePreLoading();
-            hideAll();
-            CatchThrowableView(e);
-        }
-
-        @Override
-        public void onNext(T t) {
-            super.onNext(t);
-            hidePreLoading();
-            hideAll();
-        }
-    }
-
-    //use toast to show the msg  and  its for the outside loading
-    public class ToastMsgSub<T> extends LogUtilSub<T> {
-
-
-        @Override
-        public void onError(Throwable e) {
-            super.onError(e);
-            hidePreLoading();
-            hideAll();
-            CatchThrowableToast(e);
-        }
-
-        @Override
-        public void onNext(T t) {
-            super.onNext(t);
-            hidePreLoading();
-            hideAll();
-        }
-
-
-    }//show the msg in the fragment
-
-    protected final int PRE_LOADING_NONE = 0;
-    protected final int PRE_LOADING_TRANSPARENT = 1;
-    protected final int PRE_LOADING_WHITE = 2;
-    protected final int AFTER_LOADING_NONE = 0;
-    protected final int AFTER_LOADING_TOAST = 1;
-    protected final int AFTER_LOADING_SHOW_VIEW = 2;
-
-    public class ShowMsgBinder extends ViewBinderImpl {
-
-        private int dealWithPreLoading = 0;
-        private int dealWithAfterLoading = 0;
-
-        public ShowMsgBinder() {
-
-        }
-
-        public ShowMsgBinder(int beforeLoading, int afterLoading) {
-            dealWithAfterLoading = afterLoading;
-            dealWithPreLoading = beforeLoading;
-        }
-
-        @Override
-        public void onBeforeData() {
-            switch (dealWithPreLoading) {
-                case PRE_LOADING_NONE:
-                    break;
-                case PRE_LOADING_TRANSPARENT:
-                    showPreLoading();
-                    break;
-                case PRE_LOADING_WHITE:
-                    showLoading();
-                    break;
-            }
-
-        }
-
-        @Override
-        public void onErrorData(Throwable error) {
-            switch (dealWithAfterLoading) {
-                case AFTER_LOADING_NONE:
-                    break;
-                case AFTER_LOADING_TOAST:
-                    CatchThrowableToast(error);
-                    break;
-                case AFTER_LOADING_SHOW_VIEW:
-                    CatchThrowableView(error);
-                    break;
-            }
-
-        }
-
-        @Override
-        public void onAfterData() {
-            hidePreLoading();
-            hideAll();
-        }
-    }
+//    protected final int PRE_LOADING_NONE = 0;
+//    protected final int PRE_LOADING_TRANSPARENT = 1;
+//    protected final int PRE_LOADING_WHITE = 2;
+//    protected final int AFTER_LOADING_NONE = 0;
+//    protected final int AFTER_LOADING_TOAST = 1;
+//    protected final int AFTER_LOADING_SHOW_VIEW = 2;
+//
+//    public class ShowMsgBinder extends ViewBinderImpl {
+//
+//        private int dealWithPreLoading = 0;
+//        private int dealWithAfterLoading = 0;
+//
+//        public ShowMsgBinder() {
+//
+//        }
+//
+//        public ShowMsgBinder(int beforeLoading, int afterLoading) {
+//            dealWithAfterLoading = afterLoading;
+//            dealWithPreLoading = beforeLoading;
+//        }
+//
+//        @Override
+//        public void onBeforeData() {
+//            switch (dealWithPreLoading) {
+//                case PRE_LOADING_NONE:
+//                    break;
+//                case PRE_LOADING_TRANSPARENT:
+//                    showPreLoading();
+//                    break;
+//                case PRE_LOADING_WHITE:
+//                    showLoading();
+//                    break;
+//            }
+//
+//        }
+//
+//        @Override
+//        public void onErrorData(Throwable error) {
+//            switch (dealWithAfterLoading) {
+//                case AFTER_LOADING_NONE:
+//                    break;
+//                case AFTER_LOADING_TOAST:
+//                    CatchThrowableToast(error);
+//                    break;
+//                case AFTER_LOADING_SHOW_VIEW:
+//                    CatchThrowableView(error);
+//                    break;
+//            }
+//
+//        }
+//
+//        @Override
+//        public void onAfterData() {
+//            hidePreLoading();
+//            hideAll();
+//        }
+//    }
 
 
 

@@ -1,5 +1,8 @@
-package com.katekit.common.util.sendDataProcessing;
+package com.katekit.common.net.Info.request.sendDataProcessing;
 
+
+import com.google.gson.Gson;
+import com.orhanobut.logger.Logger;
 
 import org.json.JSONObject;
 
@@ -11,13 +14,13 @@ import io.reactivex.functions.Function;
 
 
 /**
- * Project Name£ºwork1
- * Packagee Name£º  com.chinanetcenter.broadband.module.net
- * Description£º
+ * Project Nameï¼šwork1
+ * Packagee Nameï¼š  com.chinanetcenter.broadband.module.net
+ * Descriptionï¼š
  *
  * @author: huangmc
  * @date: 2015/12/22 14:26
- * Copyright (c) 2015Äê, Mr.huang . All Rights Reserved.
+ * Copyright (c) 2015å¹´, Mr.huang . All Rights Reserved.
  */
 public class SendParams {
     HashMap<String, Object> hashMap = new HashMap<>();
@@ -33,7 +36,7 @@ public class SendParams {
         return Flowable.just(hashMap).map(new Function<HashMap<String, Object>, String>() {
             @Override
             public String apply(@NonNull HashMap<String, Object> hashMap) throws Exception {
-                return new ToJsonRxUtil().paraToJsonString(hashMap);
+                return paraToJsonString(hashMap);
             }
         });
     }
@@ -42,8 +45,23 @@ public class SendParams {
         return Flowable.just(hashMap).map(new Function<HashMap<String, Object>, JSONObject>() {
             @Override
             public JSONObject apply(@NonNull HashMap<String, Object> hashMap) throws Exception {
-                return new ToJsonRxUtil().paraToJsonJson(hashMap);
+                return  paraToJsonJson(hashMap);
             }
         });
+    }
+
+    public String paraToJsonString(HashMap<String,Object> hashMap){
+        String params=new Gson().toJson(hashMap);
+        showlog(params.toString());
+        return params;
+    }
+    public JSONObject paraToJsonJson(HashMap<String,Object> hashMap){
+        JSONObject jsonObject=new JSONObject(hashMap);
+        showlog(jsonObject.toString());
+        return jsonObject;
+    }
+
+    public void showlog(String log){
+        Logger.d( log);
     }
 }

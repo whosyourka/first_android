@@ -10,24 +10,23 @@ ext {
             "rxjava"           : 'io.reactivex.rxjava2:rxandroid:2.0.1',
             "retrofit2"        : 'com.squareup.retrofit2:retrofit:2.3.0',
 
+
             "okhttp3"          : 'com.squareup.okhttp3:okhttp:3.8.0',
             "interceptor"      : 'com.squareup.okhttp3:logging-interceptor:3.4.1',
             "gson"             : 'com.google.code.gson:gson:2.8.1',
             "converter-gson"   : 'com.squareup.retrofit2:converter-gson:2.0.2',
             "scalars"          : 'com.squareup.retrofit2:converter-scalars:2.3.0',//转换器
 
+
             "leakcanary-debug"           : 'com.squareup.leakcanary:leakcanary-android:1.5.4',
             "leakcanary-release"           : 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.4',
 
-            "logger"           : 'com.orhanobut:logger:1.13',
+            "logger"           : 'com.orhanobut:logger:2.1.1',
             "glide"            : 'com.github.bumptech.glide:glide:4.4.0',
-
-
 
 
             "junit"            : 'junit:junit:4.12',
             "espresso"         : 'com.android.support.test.espresso:espresso-core:2.2.2',
-
 
 
             "appcompat-v7"     : 'com.android.support:appcompat-v7:' + android.buildToolsVersion,
@@ -37,6 +36,7 @@ ext {
             "MaterialDesign"   : 'com.github.navasmdc:MaterialDesign:1.5@aar',
             "constraint-layout": 'com.android.support.constraint:constraint-layout:1.0.2',
 
+            "kotlin"           : "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version",
 //            "test"           : 'test',
     ]
 
@@ -89,7 +89,7 @@ def setDefaultCon(android) {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-    // todo
+    // todo  jvm参数设置
     android.dexOptions {
         preDexLibraries true
         javaMaxHeapSize "3g"

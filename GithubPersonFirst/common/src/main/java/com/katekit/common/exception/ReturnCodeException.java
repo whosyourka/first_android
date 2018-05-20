@@ -11,12 +11,26 @@ package com.katekit.common.exception;
  */
 public class ReturnCodeException extends Exception {
     private String msg;
+    private String code;
     public ReturnCodeException() {
     }
 
     public ReturnCodeException(String message) {
         super(message);
-        msg = message;
+        this.msg = message;
+    }
+    public ReturnCodeException(String message,String code) {
+        super(message);
+        this.msg = message;
+        this.code = code;
+    }
+
+    public String getMsg() {
+        return msg;
+    }
+
+    public String getCode() {
+        return code;
     }
 
     @Override

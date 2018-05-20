@@ -48,21 +48,7 @@ public class NetworkTypeUtil {
         return TYPE_NONE;
     }
 
-    /**
-     * 获取网络类型名称，主要用在build http请求时候的参数
-     *
-     * @return
-     */
-    public static String getNetworkString(Context context) {
-        int networkType = getNetworkType(context);
-        if (networkType == TYPE_WIFI) {
-            return "wifi";
-        } else if (networkType == TYPE_MOBILE) {
-            return "3g";
-        } else {
-            return "none";
-        }
-    }
+
 
     // 获取详细的网络信息，对于移动数据网，返回具体的网络制式in generation.
     public static int getSpecificNetworkType(Context context){
@@ -110,43 +96,10 @@ public class NetworkTypeUtil {
         return type;
     }
 
-    // 把networkType转成字符串
-    public static String toString(int networkType) {
-        switch (networkType) {
-            case NetworkTypeUtil.TYPE_NONE:
-                return "None";
-            case NetworkTypeUtil.TYPE_WIFI:
-                return "Wifi";
-            case NetworkTypeUtil.TYPE_MOBILE:
-                return "Mobile";
-            case NetworkTypeUtil.TYPE_2G:
-                return "2G";
-            case NetworkTypeUtil.TYPE_3G:
-                return "3G";
-            case NetworkTypeUtil.TYPE_4G:
-                return "4G";
-            default:
-                return "None";
-        }
-    }
 
-    public static boolean  isWifiState(Context context) {
-        ConnectivityManager connectivityManager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
-        NetworkInfo activeNetInfo = connectivityManager.getActiveNetworkInfo();
-        if (activeNetInfo != null && activeNetInfo.getType() == ConnectivityManager.TYPE_WIFI) {
-            return true;
-        }
-        return false;
-    }
 
-    public static boolean isMobileState(Context context) {
-        ConnectivityManager connectivityManager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
-        NetworkInfo activeNetInfo = connectivityManager.getActiveNetworkInfo();
-        if (activeNetInfo != null && activeNetInfo.getType() == ConnectivityManager.TYPE_MOBILE) {
-            return true;
-        }
-        return false;
-    }
+
+
 
 
 }

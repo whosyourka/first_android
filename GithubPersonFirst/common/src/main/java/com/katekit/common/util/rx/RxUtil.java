@@ -3,14 +3,9 @@ package com.katekit.common.util.rx;
 
 import org.reactivestreams.Publisher;
 
-import io.reactivex.BackpressureStrategy;
 import io.reactivex.Flowable;
-import io.reactivex.FlowableEmitter;
-import io.reactivex.FlowableOnSubscribe;
 import io.reactivex.FlowableTransformer;
 import io.reactivex.android.schedulers.AndroidSchedulers;
-import io.reactivex.annotations.NonNull;
-import io.reactivex.functions.Consumer;
 import io.reactivex.schedulers.Schedulers;
 
 /**
@@ -18,49 +13,21 @@ import io.reactivex.schedulers.Schedulers;
  */
 
 public class RxUtil {
-//    FlowableTransformer<Object, Object> myTransformer = new FlowableTransformer<Object, Object>() {
+
+//    public final static FlowableTransformer schedulersTransformer = new FlowableTransformer() {
 //        @Override
-//        public Publisher<Object> apply(@NonNull Flowable<Object> upstream) {
-//            return null;
+//        public Flowable apply(@NonNull Flowable upstream) {
+//            return upstream.subscribeOn(Schedulers.io())
+//                    .observeOn(AndroidSchedulers.mainThread());
 //        }
 //    };
 
-    public final static FlowableTransformer schedulersTransformer = new FlowableTransformer() {
-        @Override
-        public Flowable apply(@NonNull Flowable upstream) {
-            return upstream.subscribeOn(Schedulers.io())
-                    .observeOn(AndroidSchedulers.mainThread());
-        }
-    };
-    FlowableTransformer schedulersTransformers = new FlowableTransformer() {
-        @Override
-        public Publisher apply(@NonNull final Flowable upstream) {
-            return Flowable.create(new FlowableOnSubscribe() {
-                @Override
-                public void subscribe(@NonNull FlowableEmitter e) throws Exception {
-                    upstream.subscribe(new Consumer() {
-                        @Override
-                        public void accept(Object o) throws Exception {
-
-                        }
-                    }, new Consumer<Throwable>() {
-                        @Override
-                        public void accept(Throwable throwable) throws Exception {
-
-                        }
-                    });
-                }
-            }, BackpressureStrategy.LATEST);
-        }
-    };
-
-    @SuppressWarnings("unchecked")
-    public static <T> FlowableTransformer<T, T> applySchedulers() {
-        return (FlowableTransformer<T, T>) schedulersTransformer;
-    }
+//    @SuppressWarnings("unchecked")
+//    public static <T> FlowableTransformer<T, T> applySchedulers() {
+//        return (FlowableTransformer<T, T>) schedulersTransformer;
+//    }
 
     public static <T> FlowableTransformer<T, T> toMain() {
-
         return new FlowableTransformer<T, T>() {
 
             @Override

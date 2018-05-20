@@ -19,8 +19,6 @@ import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.text.TextPaint;
 
-import com.katekit.common.Constants;
-
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -34,8 +32,8 @@ import java.io.InputStream;
  *
  * @author Ryan.Tang
  */
-public final class ImageTools {
-
+public final class ImageChangeTools {
+    public static final String PHOTO_FILE_SUFFIX = ".jpg"; //照片保存文件后缀名
     /**
      * Transfer drawable to bitmap
      *
@@ -266,7 +264,7 @@ public final class ImageTools {
      * @return
      */
     public static Bitmap getPhotoFromSDCard(String path, String photoName) {
-        Bitmap photoBitmap = BitmapFactory.decodeFile(path + "/" + photoName + Constants.PHOTO_FILE_SUFFIX);
+        Bitmap photoBitmap = BitmapFactory.decodeFile(path + "/" + photoName + PHOTO_FILE_SUFFIX);
         if (photoBitmap == null) {
             return null;
         } else {

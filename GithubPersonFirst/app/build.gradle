@@ -1,16 +1,14 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
-apply plugin: 'fastdex.app'// 使用fastdex进行编译
+apply plugin: 'com.jakewharton.hugo'
+//apply plugin: 'fastdex.app'// 使用fastdex进行编译
 setDefaultCon(android)
 android {
-    def appName = "first.person.com.katekit.githubpersonfirst"
-    setApkName(appName, applicationVariants)
-
     compileSdkVersion rootProject.ext.android.compileSdkVersion
     buildToolsVersion rootProject.ext.android.buildToolsVersion
 
+    def appName = "first.person.com.katekit.githubpersonfirst"
     defaultConfig {
-
         applicationId appName
         minSdkVersion rootProject.ext.android.minSdkVersion
         targetSdkVersion rootProject.ext.android.targetSdkVersion
@@ -33,16 +31,18 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+
+    setApkName(appName, applicationVariants)
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    testApi rootProject.ext.dependencies["junit"]
-    androidTestApi('com.android.support.test.espresso:espresso-core:2.2.2', {
-        exclude group: 'com.android.support', module: 'support-annotations'
-    })
+//    testApi rootProject.ext.dependencies["junit"]
+//    androidTestApi( rootProject.ext.dependencies["espresso"], {
+//        exclude group: 'com.android.support', module: 'support-annotations'
+//    })
 
-    compile project(':common')
-    compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    implementation project(':common')
 }

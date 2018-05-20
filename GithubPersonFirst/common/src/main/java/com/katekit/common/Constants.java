@@ -1,7 +1,5 @@
 package com.katekit.common;
 
-import android.os.Environment;
-
 /**
  * Project Name：trunk
  * Packagee Name：  com.chinanetcenter.broadband
@@ -12,8 +10,7 @@ import android.os.Environment;
  * Copyright (c) 2015年, All Rights Reserved.
  */
 public class Constants {
-    public static final String PHOTO_FILE_SUFFIX = ".jpg"; //照片保存文件后缀名
-    public static final String APP_FILE_PATH = Environment.getExternalStorageDirectory()  +"/Constants/"; // SD卡上面目录，有sd情况下存放所有相关的文件
+
 
     //log
 

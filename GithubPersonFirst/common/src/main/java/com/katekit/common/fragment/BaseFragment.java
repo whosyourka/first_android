@@ -1,6 +1,10 @@
 package com.katekit.common.fragment;
 
+import android.os.Bundle;
 import android.support.v4.app.Fragment;
+
+import io.reactivex.disposables.CompositeDisposable;
+import io.reactivex.disposables.Disposable;
 
 /**
  * Project Name：NetUser
@@ -14,6 +18,31 @@ import android.support.v4.app.Fragment;
 public class BaseFragment extends Fragment {
 
 
+    protected CompositeDisposable mCompositeSubscription=null;
+    protected void bindSub(Disposable disposable){
+        if (mCompositeSubscription==null ){
+            mCompositeSubscription
+                    = new CompositeDisposable();
+        }
+        mCompositeSubscription.add(disposable);
+    }
+    protected void unbindSub(){
+        if (mCompositeSubscription!=null && !mCompositeSubscription.isDisposed()){
+            mCompositeSubscription.clear();
+            mCompositeSubscription=null;
+        }
+    }
 
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        unbindSub();
+    }
 
 }

@@ -12,10 +12,10 @@ import java.util.List;
 
 
 /**
- * Created by »ÆÃ÷²Ó on 2018/1/10 10:34.
+ * Created by é»„æ˜ç¿ on 2018/1/10 10:34.
  * Describe :
  * <p>
- * ÒÔÏÂÎªÎ£ÏÕÈ¨ÏŞ£¬ĞèÉêÇë
+ * ä»¥ä¸‹ä¸ºå±é™©æƒé™ï¼Œéœ€ç”³è¯·
  * group:android.permission-group.CONTACTS
  * permission:android.permission.WRITE_CONTACTS
  * permission:android.permission.GET_ACCOUNTS
@@ -59,12 +59,12 @@ import java.util.List;
  * permission:android.permission.SEND_SMS
  * permission:android.permission.READ_CELL_BROADCASTS
  * <p>
- * ¼ì²éÈ¨ÏŞ ÇëÇóÈ¨ÏŞ ´¦ÀíÈ¨ÏŞÇëÇóÏìÓ¦ Ê§°ÜÔòÌáÊ¾
- * »òÕßÌáÊ¾¿Í»§²¢´ò¿ª±¾Ó¦ÓÃĞÅÏ¢½çÃæ£¬ÓÉÓÃ»§×Ô¼ºÊÖ¶¯¿ªÆôÕâ¸öÈ¨ÏŞ¡£(×¢ÊÍ)
+ * æ£€æŸ¥æƒé™ è¯·æ±‚æƒé™ å¤„ç†æƒé™è¯·æ±‚å“åº” å¤±è´¥åˆ™æç¤º
+ * æˆ–è€…æç¤ºå®¢æˆ·å¹¶æ‰“å¼€æœ¬åº”ç”¨ä¿¡æ¯ç•Œé¢ï¼Œç”±ç”¨æˆ·è‡ªå·±æ‰‹åŠ¨å¼€å¯è¿™ä¸ªæƒé™ã€‚(æ³¨é‡Š)
  * <p>
- * target sdk >= 23  µÍÓÚ 23Òª×öÅĞ¶Ï
+ * target sdk >= 23  ä½äº 23è¦åšåˆ¤æ–­
  * <p>
- * Êµ¼Ê´úÂë½¨Òé£º·ÅÔÚ¿ªÍ·»òÕßÔÚĞèÒª¶ÔÓ¦µÄÈ¨ÏŞÇ°ÆôÓÃ checkPermission
+ * å®é™…ä»£ç å»ºè®®ï¼šæ”¾åœ¨å¼€å¤´æˆ–è€…åœ¨éœ€è¦å¯¹åº”çš„æƒé™å‰å¯ç”¨ checkPermission
  */
 public class CheckPermissionsUtils {
     public static final int PERMISSON_REQUESTCODE = 0;
@@ -72,14 +72,14 @@ public class CheckPermissionsUtils {
     public interface PermissionListener {
 
         /**
-         * Í¨¹ıÊÚÈ¨
+         * é€šè¿‡æˆæƒ
          *
          * @param permission
          */
         void permissionGranted(@NonNull String[] permission);
 
         /**
-         * ¾Ü¾øÊÚÈ¨
+         * æ‹’ç»æˆæƒ
          *
          * @param permission
          */
@@ -139,7 +139,7 @@ public class CheckPermissionsUtils {
     }
 
     /**
-     * »ñÈ¡È¨ÏŞ¼¯ÖĞĞèÒªÉêÇëÈ¨ÏŞµÄÁĞ±í
+     * è·å–æƒé™é›†ä¸­éœ€è¦ç”³è¯·æƒé™çš„åˆ—è¡¨
      *
      * @param permissions
      * @return
@@ -162,7 +162,7 @@ public class CheckPermissionsUtils {
     /**
      * @param requestCode
      * @param permissions
-     * @param paramArrayOfInt È¨ÏŞ·µ»Ø´¦Àí½á¹û
+     * @param paramArrayOfInt æƒé™è¿”å›å¤„ç†ç»“æœ
      */
     public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] paramArrayOfInt) {
         if (requestCode == PERMISSON_REQUESTCODE) {
@@ -186,14 +186,14 @@ public class CheckPermissionsUtils {
 
 
     /**
-     * ÏÔÊ¾ÌáÊ¾ĞÅÏ¢
+     * æ˜¾ç¤ºæç¤ºä¿¡æ¯
      */
     private void showMissingPermissionDialog() {
 //        AlertDialog.Builder builder = new AlertDialog.Builder(activity);
 //        builder.setTitle(R.string.notifyTitle);
 //        builder.setMessage(R.string.notifyMsg);
 //
-//        // ¾Ü¾ø, ÍË³öÓ¦ÓÃ
+//        // æ‹’ç», é€€å‡ºåº”ç”¨
 //        builder.setNegativeButton(R.string.cancel,
 //                new DialogInterface.OnClickListener() {
 //                    @Override
@@ -216,7 +216,7 @@ public class CheckPermissionsUtils {
     }
 
     /**
-     * Æô¶¯Ó¦ÓÃµÄÉèÖÃ
+     * å¯åŠ¨åº”ç”¨çš„è®¾ç½®
      */
     private void startAppSettings() {
 //        Intent intent = new Intent(
