@@ -4,7 +4,6 @@ import android.util.Log;
 
 import com.katekit.common.BuildConfig;
 import com.orhanobut.logger.AndroidLogAdapter;
-import com.orhanobut.logger.CsvFormatStrategy;
 import com.orhanobut.logger.DiskLogAdapter;
 import com.orhanobut.logger.FormatStrategy;
 import com.orhanobut.logger.LogStrategy;
@@ -15,7 +14,7 @@ import com.orhanobut.logger.PrettyFormatStrategy;
  * Created by 黄明灿 on 2018/3/13 9:28.
  * Describe :
  */
-public class LogUtil {
+public class LogUtil{
     public static void initLog() {
         FormatStrategy formatStrategyDefault = PrettyFormatStrategy.newBuilder()
 //                .showThreadInfo(false)  // (Optional) Whether to show thread info or not. Default true
@@ -48,22 +47,6 @@ public class LogUtil {
 
 
         FormatStrategy diskStrategy = CsvFormatStrategy.newBuilder()
-                .logStrategy(new LogStrategy() {
-                    private int last;
-                    @Override
-                    public void log(int priority, String tag, String message) {
-                        Log.println(priority, randomKey() + tag, message);
-                    }
-
-                    private String randomKey() {
-                        int random = (int) (10 * Math.random());
-                        if (random == last) {
-                            random = (random + 1) % 10;
-                        }
-                        last = random;
-                        return String.valueOf(random);
-                    }
-                }) // (Optional) Changes the log strategy to print out. Default LogCat
                 .tag("LogUtil disk")
                 .build();
         Logger.addLogAdapter(new DiskLogAdapter(diskStrategy) {
@@ -84,6 +67,14 @@ public class LogUtil {
         Logger.d(msg);
     }
 
+    public static void e(String tag, String msg) {
+        Logger.e(tag,msg);
+    }
+
+    public static void e(String msg) {
+        Logger.e(msg);
+    }
+
     public static void i(String tag, String msg) {
         Logger.i(tag,msg);
     }
@@ -91,5 +82,6 @@ public class LogUtil {
     public static void i(String msg) {
         Logger.i(msg);
     }
+
 
 }
