@@ -3,13 +3,13 @@ package com.katekit.common.compoment.location;
 /**
  * Created by zhanghang on 2017/8/30.
  * <p>
- * »ñÈ¡¾«¶ÈºÍÎ¬¶È¹¤¾ßÀà
+ * è·å–ç²¾åº¦å’Œç»´åº¦å·¥å…·ç±»
  * <p>
- * Ê¹ÓÃ£º
+ * ä½¿ç”¨ï¼š
  * LocationUtils.getInstance(this).loadPosition(new LocationListener).start();
  * <p>
- * ×¢ÒâÊÂÏî£º
- * 1.ÔÚÊ¹ÓÃ±¾¹¤¾ßÀàÇ°£¬Çë¼ì²éÈ¨ÏŞ£¬
+ * æ³¨æ„äº‹é¡¹ï¼š
+ * 1.åœ¨ä½¿ç”¨æœ¬å·¥å…·ç±»å‰ï¼Œè¯·æ£€æŸ¥æƒé™ï¼Œ
  */
 
 public class LocationUtils {
@@ -52,14 +52,14 @@ public class LocationUtils {
 //
 //                if (aMapLocation != null) {
 //                    if (aMapLocation.getErrorCode() == 0) {
-//                        double longitude = aMapLocation.getLongitude();//»ñÈ¡¾­¶È
-//                        double latitue = aMapLocation.getLatitude();//»ñÈ¡Î³¶È
+//                        double longitude = aMapLocation.getLongitude();//è·å–ç»åº¦
+//                        double latitue = aMapLocation.getLatitude();//è·å–çº¬åº¦
 //                        onPositonResult.onResult(longitude, latitue);
-//                        //Í£Ö¹¶¨Î»¡£
+//                        //åœæ­¢å®šä½ã€‚
 //                        stop();
 //                        return;
 //                    } else {
-//                        //¶¨Î»Ê§°ÜÊ±£¬¿ÉÍ¨¹ıErrCode£¨´íÎóÂë£©ĞÅÏ¢À´È·¶¨Ê§°ÜµÄÔ­Òò£¬errInfoÊÇ´íÎóĞÅÏ¢£¬Ïê¼û´íÎóÂë±í¡£
+//                        //å®šä½å¤±è´¥æ—¶ï¼Œå¯é€šè¿‡ErrCodeï¼ˆé”™è¯¯ç ï¼‰ä¿¡æ¯æ¥ç¡®å®šå¤±è´¥çš„åŸå› ï¼ŒerrInfoæ˜¯é”™è¯¯ä¿¡æ¯ï¼Œè¯¦è§é”™è¯¯ç è¡¨ã€‚
 //                        Log.e("AmapError", "location Error, ErrCode:"
 //                                + aMapLocation.getErrorCode() + ", errInfo:"
 //                                + aMapLocation.getErrorInfo());
@@ -81,8 +81,8 @@ public class LocationUtils {
 //
 //
 //    private void stop() {
-//        mLocationClient.stopLocation();//Í£Ö¹¶¨Î»ºó£¬±¾µØ¶¨Î»·şÎñ²¢²»»á±»Ïú»Ù
-//        mLocationClient.onDestroy();//Ïú»Ù¶¨Î»¿Í»§¶Ë£¬Í¬Ê±Ïú»Ù±¾µØ¶¨Î»·şÎñ¡£
+//        mLocationClient.stopLocation();//åœæ­¢å®šä½åï¼Œæœ¬åœ°å®šä½æœåŠ¡å¹¶ä¸ä¼šè¢«é”€æ¯
+//        mLocationClient.onDestroy();//é”€æ¯å®šä½å®¢æˆ·ç«¯ï¼ŒåŒæ—¶é”€æ¯æœ¬åœ°å®šä½æœåŠ¡ã€‚
 //    }
 //
 //    public interface OnPositonResult {
@@ -94,23 +94,23 @@ public class LocationUtils {
 //    public static LocationInfo getLocation(Context context) {
 //        if (checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && checkSelfPermission(Manifest.permission
 //                .ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-//        }//¼ì²é
+//        }//æ£€æŸ¥
 //
 ////        LocationManager locationManager = (LocationManager) context.getSystemService(Context.LOCATION_SERVICE);
-////        //»ñÈ¡ËùÓĞ¿ÉÓÃµÄÎ»ÖÃÌá¹©Æ÷
+////        //è·å–æ‰€æœ‰å¯ç”¨çš„ä½ç½®æä¾›å™¨
 ////        String locationProvider = "";
 ////        List<String> providers = locationManager.getProviders(true);
 ////        if (providers.contains(LocationManager.GPS_PROVIDER)) {
-////            //Èç¹ûÊÇGPS
+////            //å¦‚æœæ˜¯GPS
 ////            locationProvider = LocationManager.GPS_PROVIDER;
 ////        } else if (providers.contains(LocationManager.NETWORK_PROVIDER)) {
-////            //Èç¹ûÊÇNetwork
+////            //å¦‚æœæ˜¯Network
 ////            locationProvider = LocationManager.NETWORK_PROVIDER;
 ////        }
 ////        if (!TextUtils.isEmpty(locationProvider)) {
 ////            Location location = locationManager.getLastKnownLocation(locationProvider);
 ////            if (location != null) {
-////                //²»Îª¿Õ,ÏÔÊ¾µØÀíÎ»ÖÃ¾­Î³¶È
+////                //ä¸ä¸ºç©º,æ˜¾ç¤ºåœ°ç†ä½ç½®ç»çº¬åº¦
 ////                return new LocationInfo(location.getLongitude()+"",location.getLatitude()+"");
 ////            }
 ////        }

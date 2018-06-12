@@ -51,9 +51,9 @@ dependencies {
     //官方设计
 //    compile 'com.github.navasmdc:MaterialDesign:1.5@aar'
 
-
-    testApi rootProject.ext.dependencies["junit"]
-    androidTestApi(rootProject.ext.dependencies["espresso"], {
+    testImplementation rootProject.ext.dependencies["testrunner"]
+    androidTestImplementation rootProject.ext.dependencies["junit"]
+    testImplementation(rootProject.ext.dependencies["espresso"], {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     //robotium 测试

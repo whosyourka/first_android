@@ -26,6 +26,7 @@ ext {
 
 
             "junit"            : 'junit:junit:4.12',
+            "testrunner"            : 'com.android.support.test:runner:1.0.2',
             "espresso"         : 'com.android.support.test.espresso:espresso-core:2.2.2',
 
 

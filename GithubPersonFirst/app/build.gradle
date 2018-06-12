@@ -39,10 +39,10 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-//    testApi rootProject.ext.dependencies["junit"]
-//    androidTestApi( rootProject.ext.dependencies["espresso"], {
-//        exclude group: 'com.android.support', module: 'support-annotations'
-//    })
-
     implementation project(':common')
+    androidTestImplementation rootProject.ext.dependencies["testrunner"]
+    testImplementation rootProject.ext.dependencies["junit"]
+    testImplementation(rootProject.ext.dependencies["espresso"], {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
 }

@@ -1,7 +1,7 @@
 package com.katekit.common.compoment.location;
 
 /**
- * Created by »ÆÃ÷²Ó on 2017/9/5 10:47.
+ * Created by é»„æ˜ç¿ on 2017/9/5 10:47.
  */
 
 public class LocationInfo {

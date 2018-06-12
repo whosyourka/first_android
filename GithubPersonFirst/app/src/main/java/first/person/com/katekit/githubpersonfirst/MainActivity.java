@@ -3,29 +3,13 @@ package first.person.com.katekit.githubpersonfirst;
 import android.app.Activity;
 import android.os.Bundle;
 
-import com.katekit.common.util.log.LogUtil;
-
-import io.reactivex.Flowable;
-
 public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        LogUtil.initLog();
-        LogUtil.i("string i");
-        LogUtil.d("string d");
-        LogUtil.e("string e");
-        LogUtil.i("string e");
-        Flowable.just("")
-                .map(it->{
-                    LogUtil.i("string Flowable");
-                    int a = 1;
-                    int b = 0;
-                    int c = 1/0;
-                    return it;
-                }).subscribe();
+
 
 //        Observer observer = new Observer<String>() {
 //            @Override
@@ -100,4 +84,6 @@ public class MainActivity extends Activity {
 
 
     }
+
+
 }
