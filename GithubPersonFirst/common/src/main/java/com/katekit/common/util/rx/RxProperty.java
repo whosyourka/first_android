@@ -13,7 +13,6 @@ import io.reactivex.processors.BehaviorProcessor;
  * Copyright (c) 2015年, Mr.huang . All Rights Reserved.
  */
 public class RxProperty<T> {
-    // TODO: 2018/1/18 sub
     private final BehaviorProcessor<T> assignSubject = BehaviorProcessor.create();
     public final Observable<T> whenAssigned = assignSubject.toObservable();
     public final Observable<T> whenChanged = whenAssigned.distinctUntilChanged();
@@ -31,15 +30,4 @@ public class RxProperty<T> {
         this.value = value;
         this.assignSubject.onNext(value);
     }
-    public void binding(Observable<T> observable) {
-//        this.unbinding();
-//        this.subscription =
-//                observable.subscribe(x -> this.set(x));
-    }
-//    public void unbinding() {
-//        if (this.subscription != null) {
-//            this.subscription.unsubscribe();
-//            this.subscription = null;
-//        }
-//    }
 }

@@ -5,30 +5,30 @@ import android.content.DialogInterface;
 import android.view.KeyEvent;
 
 /**
- * Project Name£º work
- * Packagee Name£º com.landicorp.android.view
- * Description£º
+ * Project Nameï¼š work
+ * Packagee Nameï¼š com.landicorp.android.view
+ * Descriptionï¼š
  *
  * @author: huangmc
  * @date: 10:55
- * Copyright (c) 2015Äê, Mr.huang . All Rights Reserved.
+ * Copyright (c) 2015å¹´, Mr.huang . All Rights Reserved.
  */
 public class BaseDialog extends NoCancelDialog {
-	public static final int FLAG_HOMEKEY_DISPATCHED = 0x80000000;
+    public static final int FLAG_HOMEKEY_DISPATCHED = 0x80000000;
 
     public BaseDialog(Context context) {
         super(context);
-		this.getWindow().setFlags(FLAG_HOMEKEY_DISPATCHED, FLAG_HOMEKEY_DISPATCHED);// ¹Ø¼ü´úÂë
+        this.getWindow().setFlags(FLAG_HOMEKEY_DISPATCHED, FLAG_HOMEKEY_DISPATCHED);// å…³é”®ä»£ç 
     }
 
     public BaseDialog(Context context, int theme) {
         super(context, theme);
-		this.getWindow().setFlags(FLAG_HOMEKEY_DISPATCHED, FLAG_HOMEKEY_DISPATCHED);// ¹Ø¼ü´úÂë
+        this.getWindow().setFlags(FLAG_HOMEKEY_DISPATCHED, FLAG_HOMEKEY_DISPATCHED);// å…³é”®ä»£ç 
     }
 
     protected BaseDialog(Context context, boolean cancelable, DialogInterface.OnCancelListener cancelListener) {
         super(context, cancelable, cancelListener);
-		this.getWindow().setFlags(FLAG_HOMEKEY_DISPATCHED, FLAG_HOMEKEY_DISPATCHED);// ¹Ø¼ü´úÂë
+        this.getWindow().setFlags(FLAG_HOMEKEY_DISPATCHED, FLAG_HOMEKEY_DISPATCHED);// å…³é”®ä»£ç 
     }
 
     protected boolean diableHome(){
@@ -38,22 +38,22 @@ public class BaseDialog extends NoCancelDialog {
         return true;
     }
     /**
-     *  º¯ÊıÃû³Æ £ºdispatchKeyEvent
-     *  ¹¦ÄÜÃèÊö £º
-     *  ²ÎÊıËµÃ÷ £º
+     *  å‡½æ•°åç§° ï¼šdispatchKeyEvent
+     *  åŠŸèƒ½æè¿° ï¼š
+     *  å‚æ•°è¯´æ˜ ï¼š
      *  	@param event
      *  	@return
-     *  ·µ»ØÖµ£º
+     *  è¿”å›å€¼ï¼š
      */
     @Override
     public boolean dispatchKeyEvent(KeyEvent event) {
-        // ÆÁ±ÎµôHOME°´¼ü
+        // å±è”½æ‰HOMEæŒ‰é”®
         if (event.getKeyCode() == KeyEvent.KEYCODE_HOME) {
             if (diableHome()) {
                 return true;
             }
         }
-        // ÆÁ±ÎµôMENU°´¼ü
+        // å±è”½æ‰MENUæŒ‰é”®
         if (event.getKeyCode() == KeyEvent.KEYCODE_MENU) {
             if (diableMenu()) {
                 return true;

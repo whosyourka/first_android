@@ -12,26 +12,26 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 /**
- * Created by »ÆÃ÷²Ó on 2017/9/29 14:06.
+ * Created by é»„æ˜ç¿ on 2017/9/29 14:06.
  */
 
 public class RecycleViewDivider extends RecyclerView.ItemDecoration {
 
     private Paint mPaint;
     private Drawable mDivider;
-    private int mDividerHeight = 2;//·Ö¸îÏß¸ß¶È£¬Ä¬ÈÏÎª1px
-    private int mOrientation;//ÁĞ±íµÄ·½Ïò£ºLinearLayoutManager.VERTICAL»òLinearLayoutManager.HORIZONTAL
+    private int mDividerHeight = 2;//åˆ†å‰²çº¿é«˜åº¦ï¼Œé»˜è®¤ä¸º1px
+    private int mOrientation;//åˆ—è¡¨çš„æ–¹å‘ï¼šLinearLayoutManager.VERTICALæˆ–LinearLayoutManager.HORIZONTAL
     private static final int[] ATTRS = new int[]{android.R.attr.listDivider};
 
     /**
-     * Ä¬ÈÏ·Ö¸îÏß£º¸ß¶ÈÎª2px£¬ÑÕÉ«Îª»ÒÉ«
+     * é»˜è®¤åˆ†å‰²çº¿ï¼šé«˜åº¦ä¸º2pxï¼Œé¢œè‰²ä¸ºç°è‰²
      *
      * @param context
-     * @param orientation ÁĞ±í·½Ïò
+     * @param orientation åˆ—è¡¨æ–¹å‘
      */
     public RecycleViewDivider(Context context, int orientation) {
         if (orientation != LinearLayoutManager.VERTICAL && orientation != LinearLayoutManager.HORIZONTAL) {
-            throw new IllegalArgumentException("ÇëÊäÈëÕıÈ·µÄ²ÎÊı£¡");
+            throw new IllegalArgumentException("è¯·è¾“å…¥æ­£ç¡®çš„å‚æ•°ï¼");
         }
         mOrientation = orientation;
 
@@ -41,11 +41,11 @@ public class RecycleViewDivider extends RecyclerView.ItemDecoration {
     }
 
     /**
-     * ×Ô¶¨Òå·Ö¸îÏß
+     * è‡ªå®šä¹‰åˆ†å‰²çº¿
      *
      * @param context
-     * @param orientation ÁĞ±í·½Ïò
-     * @param drawableId  ·Ö¸îÏßÍ¼Æ¬
+     * @param orientation åˆ—è¡¨æ–¹å‘
+     * @param drawableId  åˆ†å‰²çº¿å›¾ç‰‡
      */
     public RecycleViewDivider(Context context, int orientation, int drawableId) {
         this(context, orientation);
@@ -54,12 +54,12 @@ public class RecycleViewDivider extends RecyclerView.ItemDecoration {
     }
 
     /**
-     * ×Ô¶¨Òå·Ö¸îÏß
+     * è‡ªå®šä¹‰åˆ†å‰²çº¿
      *
      * @param context
-     * @param orientation   ÁĞ±í·½Ïò
-     * @param dividerHeight ·Ö¸îÏß¸ß¶È
-     * @param dividerColor  ·Ö¸îÏßÑÕÉ«
+     * @param orientation   åˆ—è¡¨æ–¹å‘
+     * @param dividerHeight åˆ†å‰²çº¿é«˜åº¦
+     * @param dividerColor  åˆ†å‰²çº¿é¢œè‰²
      */
     public RecycleViewDivider(Context context, int orientation, int dividerHeight, int dividerColor) {
         this(context, orientation);
@@ -70,14 +70,14 @@ public class RecycleViewDivider extends RecyclerView.ItemDecoration {
     }
 
 
-    //»ñÈ¡·Ö¸îÏß³ß´ç
+    //è·å–åˆ†å‰²çº¿å°ºå¯¸
     @Override
     public void getItemOffsets(Rect outRect, View view, RecyclerView parent, RecyclerView.State state) {
         super.getItemOffsets(outRect, view, parent, state);
         outRect.set(0, 0, 0, mDividerHeight);
     }
 
-    //»æÖÆ·Ö¸îÏß
+    //ç»˜åˆ¶åˆ†å‰²çº¿
     @Override
     public void onDraw(Canvas c, RecyclerView parent, RecyclerView.State state) {
         super.onDraw(c, parent, state);
@@ -88,7 +88,7 @@ public class RecycleViewDivider extends RecyclerView.ItemDecoration {
         }
     }
 
-    //»æÖÆºáÏò item ·Ö¸îÏß
+    //ç»˜åˆ¶æ¨ªå‘ item åˆ†å‰²çº¿
     private void drawHorizontal(Canvas canvas, RecyclerView parent) {
         final int left = parent.getPaddingLeft();
         final int right = parent.getMeasuredWidth() - parent.getPaddingRight();
@@ -108,7 +108,7 @@ public class RecycleViewDivider extends RecyclerView.ItemDecoration {
         }
     }
 
-    //»æÖÆ×İÏò item ·Ö¸îÏß
+    //ç»˜åˆ¶çºµå‘ item åˆ†å‰²çº¿
     private void drawVertical(Canvas canvas, RecyclerView parent) {
         final int top = parent.getPaddingTop();
         final int bottom = parent.getMeasuredHeight() - parent.getPaddingBottom();

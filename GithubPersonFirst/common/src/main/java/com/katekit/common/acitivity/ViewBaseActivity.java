@@ -2,6 +2,7 @@ package com.katekit.common.acitivity;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.view.ViewGroup;
 
 import com.katekit.common.R;
@@ -32,18 +33,34 @@ public class ViewBaseActivity extends BaseActivity {
 
     private Fragment currentFragment = null;
 
-    public void setFragment(Fragment fragment) {
-        getSupportFragmentManager().beginTransaction().add(R.id.fl_public_layout, fragment, fragment.getTag()).commitAllowingStateLoss();
-        currentFragment = fragment;
+
+    public void changeFragment(Class classObject) {
+        changeFragment(classObject, null);
     }
 
-    public void changeFragment(Fragment fragment) {
-        if (fragment.isAdded()) {
-            getSupportFragmentManager().beginTransaction().hide(currentFragment).show(fragment).commitAllowingStateLoss();
-        } else {
-            getSupportFragmentManager().beginTransaction().hide(currentFragment).add(R.id.fl_public_layout, fragment, fragment.getTag()).commitAllowingStateLoss();
+    public void changeFragment(Class classObject, Bundle bundle) {
+        try {
+            Class cls = Class.forName(classObject.getName());
+            Fragment fragment = (Fragment) cls.newInstance();
+            if (bundle != null) {
+                fragment.setArguments(bundle);
+            }
+            if (currentFragment == null) {
+                getSupportFragmentManager().beginTransaction().setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
+                        .add(R.id.fl_public_layout, fragment, fragment.getClass().getName()).commitAllowingStateLoss();
+            } else {
+                getSupportFragmentManager().beginTransaction().setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
+                        .hide(currentFragment).remove(currentFragment).add(R.id.fl_public_layout, fragment, fragment.getClass().getName()).commitAllowingStateLoss();
+            }
+            currentFragment = fragment;
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
         }
-        currentFragment = fragment;
+
     }
 
 }

@@ -11,7 +11,7 @@ public class MatchUtil {
 
     public static final String REGEX_IDENTITY = "(^\\d{15}$)|(^\\d{18}$)|(^\\d{17}(\\d|X|x)$)";
 
-    //必须包字母和数字的组合长度在8-20之间
+    //蹇呴』鍖呭瓧姣嶅拰鏁板瓧鐨勭粍鍚堥暱搴﹀湪8-20涔嬮棿
     public static final String REGEX_PASSWORD = "^(?![\\d]+$)(?![a-zA-Z]+$)(?![^\\da-zA-Z]+$).{8,20}$";
 //    public static final String REGEX_PASSWORD = "^(?=.*\\d)(?=.*[a-zA-Z]).{8,20}$";
 

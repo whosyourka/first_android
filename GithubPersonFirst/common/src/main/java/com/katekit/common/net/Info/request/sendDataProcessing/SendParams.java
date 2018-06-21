@@ -2,7 +2,8 @@ package com.katekit.common.net.Info.request.sendDataProcessing;
 
 
 import com.google.gson.Gson;
-import com.orhanobut.logger.Logger;
+import com.katekit.common.Constants;
+import com.katekit.common.util.log.LogUtil;
 
 import org.json.JSONObject;
 
@@ -62,6 +63,6 @@ public class SendParams {
     }
 
     public void showlog(String log){
-        Logger.d( log);
+        LogUtil.d(Constants.NETSERVICE_REQUEST,log);
     }
 }

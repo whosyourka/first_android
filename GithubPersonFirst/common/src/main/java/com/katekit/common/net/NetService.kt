@@ -1,12 +1,15 @@
 package com.landi.utillibrary.util
 
-import android.util.Log
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
+import com.katekit.common.Constants
+import com.katekit.common.exception.ReturnCodeException
 import com.katekit.common.net.IDownLoad.DownloadProgressInterceptor
+import com.katekit.common.util.log.LogUtil
 import com.landi.utillibrary.util.net.Info.NetData
 import io.reactivex.BackpressureStrategy
 import io.reactivex.Flowable
+import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import retrofit2.Call
 import retrofit2.Callback
@@ -17,7 +20,7 @@ import java.util.concurrent.TimeUnit
 
 
 /**
- * Created by 黄明�? on 2017/6/8.
+ * Created by 黄明灿 on 2017/6/8.
  */
 object NetService {
 
@@ -25,13 +28,17 @@ object NetService {
     private val TIMEOUT_CONNECTION: Long = 30
     private val TIME_OUT_MAX = 30L
 
-    val url = "";
+    val url = "http://www.baidu.com";
 
     private var client = getOkhttp(DownloadProgressInterceptor(null))
 
     private fun getOkhttp(downloadProgressInterceptor: DownloadProgressInterceptor): OkHttpClient {
         return OkHttpClient.Builder()
                 .addInterceptor(downloadProgressInterceptor)
+                .addInterceptor(Interceptor {
+                    LogUtil.d("%s:%s", Constants.NETSERVICE_URL,it.request().url())
+                    it.proceed(it.request())
+                })
                 .retryOnConnectionFailure(true)
                 .connectTimeout(TIMEOUT_CONNECTION, TimeUnit.SECONDS)
                 .readTimeout(TIMEOUT_READ, TimeUnit.SECONDS)
@@ -45,7 +52,7 @@ object NetService {
                 .build()
     }
 
-    private var retrofit = getRetrofit(url,null)
+    private var retrofit = getRetrofit(url, null)
 
     private fun getRetrofit(url: String, client: OkHttpClient?): Retrofit {
         if (client == null) {
@@ -64,20 +71,14 @@ object NetService {
                 .build()
     }
 
-//    init {
-//        client = getOkhttp(DownloadProgressInterceptor(null))
-//        retrofit = getRetrofit(url)
-//    }
-//
-//
-//    fun setNewNetObject(url: String): Boolean {
-//        if (url.isNullOrEmpty()) {
-//            retrofit = getRetrofit(NetService.url)
-//            return true
-//        } else {
-//            return false
-//        }
-//    }
+    fun setNewNetObject(url: String): Boolean {
+        if (url.isNullOrEmpty()) {
+            retrofit = getRetrofit(url, null)
+            return true
+        } else {
+            return false
+        }
+    }
 
     fun getNewNetObject(url: String): Retrofit {
         return getRetrofit(url, null)
@@ -94,37 +95,34 @@ object NetService {
 
     fun <T> exchangeGsonData(className: TypeToken<T>, request: Call<String>?): Flowable<NetData<T>>? = Flowable.create({ subcribe ->
         if (request == null) {
-            subcribe.onError(Exception("request is null"))
+            subcribe.onError(ReturnCodeException("request is null"))
         } else {
             request.enqueue(object : Callback<String> {
                 override fun onResponse(call: Call<String>?, response: Response<String>?) {
                     when {
-                        response == null -> subcribe.onError(Exception("response is null"))
-                        response.body().isNullOrEmpty() -> subcribe.onError(Exception("response body is null"))
+                        response == null -> subcribe.onError(ReturnCodeException("response is null"))
+                        response.body().isNullOrEmpty() -> subcribe.onError(ReturnCodeException("response body is null"))
                         else -> {
-                            try {
-                                Log.d("NetService-response", response.body());
-                                val netData: NetData<T> = NetData(response.body(), Gson().fromJson(response.body(), className.type))
-                                when {
-                                    netData.data == null -> subcribe.onError(Exception("netData.data is null"))
-                                    else -> {
-                                        subcribe.onNext(netData)
-                                        subcribe.onComplete()
-                                    }
-                                }
-                            } catch (e: Exception) {
-                                e.printStackTrace()
-                                subcribe.onError(Exception("response data error"))
+                            LogUtil.d("%s:%s",Constants.NETSERVICE_RESPONSE, response.body());
+                            val netData: NetData<T> = NetData(response.body(), Gson().fromJson(response.body(), className.type))
+                            if (netData.data == null) {
+                                subcribe.onError(ReturnCodeException("netData.data is null"))
+                            } else {
+                                //可处理逻辑，一般处理returnCode等,成功则继续，否则就
+                                subcribe.onNext(netData)
+                                subcribe.onComplete()
                             }
                         }
                     }
                 }
 
                 override fun onFailure(call: Call<String>?, t: Throwable) {
+                    // http通讯错误
                     subcribe.onError(t)
                 }
 
             })
         }
     }, BackpressureStrategy.LATEST)
+
 }

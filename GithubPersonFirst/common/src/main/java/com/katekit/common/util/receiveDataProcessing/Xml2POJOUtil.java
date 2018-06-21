@@ -1,19 +1,19 @@
 package com.katekit.common.util.receiveDataProcessing;
 
 /**
- * Created by »ÆÃ÷²Ó on 2017/9/1 16:22.
+ * Created by é»„æ˜ç¿ on 2017/9/1 16:22.
  */
 
 public class Xml2POJOUtil<T> {
 
 
-//    public static <T> T xmlStringToObject(String XMLPathAndName, T object, Class classObject) {//²»Ö§³ÖÊı×é ºÍ ¶à»ù±¾ÀàĞÍ
+//    public static <T> T xmlStringToObject(String XMLPathAndName, T object, Class classObject) {//ä¸æ”¯æŒæ•°ç»„ å’Œ å¤šåŸºæœ¬ç±»å‹
 //        try {
 //            if (object == null) {
 //                object = (T) object.getClass().newInstance();
 //            }
 //
-//            // »ñÈ¡ÊµÌåÀàµÄËùÓĞÊôĞÔ£¬·µ»ØFieldÊı×é
+//            // è·å–å®ä½“ç±»çš„æ‰€æœ‰å±æ€§ï¼Œè¿”å›Fieldæ•°ç»„
 ////            ArrayList<Field> field = new ArrayList<>();
 ////            Field[] tmpFiled = object.getClass().getDeclaredFields();
 ////            for (Field file : tmpFiled) {
@@ -24,9 +24,9 @@ public class Xml2POJOUtil<T> {
 ////                field.add(file);
 ////            }
 //
-//            //½«×Ö·û´®×ª»¯Îªxml
+//            //å°†å­—ç¬¦ä¸²è½¬åŒ–ä¸ºxml
 //            Document doc = DocumentHelper.parseText(XMLPathAndName);
-//            //»ñµÃ¸ù½Úµã
+//            //è·å¾—æ ¹èŠ‚ç‚¹
 //            Element node = doc.getRootElement();
 //            addChildString(node, object, classObject);
 //        } catch (Exception e) {
@@ -67,7 +67,7 @@ public class Xml2POJOUtil<T> {
 //    }
 //
 //
-//    public static String xmlToObject(Object object) {//²»Ö§³ÖÊı×é ºÍ ¶à»ù±¾ÀàĞÍ
+//    public static String xmlToObject(Object object) {//ä¸æ”¯æŒæ•°ç»„ å’Œ å¤šåŸºæœ¬ç±»å‹
 //
 //        try {
 //            if (object == null) {
@@ -75,7 +75,7 @@ public class Xml2POJOUtil<T> {
 //            }
 //            Document document = DocumentFactory.getInstance().createDocument();
 //            document.setXMLEncoding("utf-8");
-//            Element request = DocumentHelper.createElement("PlatReqInfo");//ĞèĞŞ¸Ä
+//            Element request = DocumentHelper.createElement("PlatReqInfo");//éœ€ä¿®æ”¹
 //            document.setRootElement(request);
 //
 //            addChildElement(object, request);

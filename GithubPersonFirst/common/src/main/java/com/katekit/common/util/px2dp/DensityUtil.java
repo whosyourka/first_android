@@ -10,8 +10,8 @@ import android.view.Gravity;
 import android.view.WindowManager;
 
 /**
- * Created by »ÆÃ÷²Ó on 2017/7/12 18:59.
- * Describe : ÆÁÄ»ÏñËØ
+ * Created by é»„æ˜ç¿ on 2017/7/12 18:59.
+ * Describe : å±å¹•åƒç´ 
  */
 public class DensityUtil {
     public static void setMaxWidth(Context context, Dialog dialog) {
@@ -19,7 +19,7 @@ public class DensityUtil {
         Display display = windowManager.getDefaultDisplay();
         WindowManager.LayoutParams lp = dialog.getWindow().getAttributes();
         lp.gravity = Gravity.BOTTOM;
-        lp.width = (int) (display.getWidth()); // ÉèÖÃ¿í¶È
+        lp.width = (int) (display.getWidth()); // è®¾ç½®å®½åº¦
         dialog.getWindow().setAttributes(lp);
     }
 
@@ -28,13 +28,13 @@ public class DensityUtil {
         Display display = windowManager.getDefaultDisplay();
         WindowManager.LayoutParams lp = dialog.getWindow().getAttributes();
         lp.gravity = Gravity.BOTTOM;
-        lp.height = (int) (display.getHeight()); // ÉèÖÃ¸ß¶È
-        lp.width = (int) (display.getWidth()); // ÉèÖÃ¿í¶È
+        lp.height = (int) (display.getHeight()); // è®¾ç½®é«˜åº¦
+        lp.width = (int) (display.getWidth()); // è®¾ç½®å®½åº¦
         dialog.getWindow().setAttributes(lp);
     }
 
     /**
-     * »ñÈ¡ÆÁÄ»ÃÜ¶È
+     * è·å–å±å¹•å¯†åº¦
      *
      * @param context
      */
@@ -43,7 +43,7 @@ public class DensityUtil {
     }
 
     /**
-     * ½«pxÖµ×ª»»Îªdip»òdpÖµ£¬±£Ö¤³ß´ç´óĞ¡²»±ä
+     * å°†pxå€¼è½¬æ¢ä¸ºdipæˆ–dpå€¼ï¼Œä¿è¯å°ºå¯¸å¤§å°ä¸å˜
      */
     public static int px2dip(Context context, float pxValue) {
         final float scale = context.getResources().getDisplayMetrics().density;
@@ -51,7 +51,7 @@ public class DensityUtil {
     }
 
     /**
-     * ½«dip»òdpÖµ×ª»»ÎªpxÖµ£¬±£Ö¤³ß´ç´óĞ¡²»±ä
+     * å°†dipæˆ–dpå€¼è½¬æ¢ä¸ºpxå€¼ï¼Œä¿è¯å°ºå¯¸å¤§å°ä¸å˜
      */
     public static int dip2px(Context context, float dipValue) {
         final float scale = context.getResources().getDisplayMetrics().density;
@@ -59,7 +59,7 @@ public class DensityUtil {
     }
 
     /**
-     * ½«pxÖµ×ª»»ÎªspÖµ£¬±£Ö¤ÎÄ×Ö´óĞ¡²»±ä
+     * å°†pxå€¼è½¬æ¢ä¸ºspå€¼ï¼Œä¿è¯æ–‡å­—å¤§å°ä¸å˜
      */
     public static int px2sp(Context context, float pxValue) {
         final float fontScale = context.getResources().getDisplayMetrics().scaledDensity;
@@ -67,7 +67,7 @@ public class DensityUtil {
     }
 
     /**
-     * ½«spÖµ×ª»»ÎªpxÖµ£¬±£Ö¤ÎÄ×Ö´óĞ¡²»±ä
+     * å°†spå€¼è½¬æ¢ä¸ºpxå€¼ï¼Œä¿è¯æ–‡å­—å¤§å°ä¸å˜
      */
     public static int sp2px(Context context, float spValue) {
         final float fontScale = context.getResources().getDisplayMetrics().scaledDensity;
@@ -75,7 +75,7 @@ public class DensityUtil {
     }
 
     /**
-     * »ñÈ¡ÆÁÄ»µÄ¿í¶È
+     * è·å–å±å¹•çš„å®½åº¦
      *
      * @param context
      * @return
@@ -89,7 +89,7 @@ public class DensityUtil {
     }
 
     /**
-     * ¸ù¾İ±ÈÀı¼ÆËã¸ß¶È
+     * æ ¹æ®æ¯”ä¾‹è®¡ç®—é«˜åº¦
      *
      * @param context
      * @param ratio
@@ -102,7 +102,7 @@ public class DensityUtil {
     }
 
     /**
-     * »ñÈ¡ÆÁÄ»¿í¶ÈºÍ¸ß¶È£¬µ¥Î»Îªpx
+     * è·å–å±å¹•å®½åº¦å’Œé«˜åº¦ï¼Œå•ä½ä¸ºpx
      *
      * @param context
      * @return
@@ -116,7 +116,7 @@ public class DensityUtil {
     }
 
     /**
-     * »ñÈ¡ÆÁÄ»³¤¿í±È
+     * è·å–å±å¹•é•¿å®½æ¯”
      *
      * @param context
      * @return

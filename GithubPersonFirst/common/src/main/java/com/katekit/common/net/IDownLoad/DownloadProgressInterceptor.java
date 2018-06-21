@@ -6,7 +6,7 @@ import okhttp3.Interceptor;
 import okhttp3.Response;
 
 /**
- * Created by »ÆÃ÷²Ó on 2017/11/15 9:27.
+ * Created by é»„æ˜ç¿ on 2017/11/15 9:27.
  */
 
 public class DownloadProgressInterceptor implements Interceptor {

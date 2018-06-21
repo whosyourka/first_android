@@ -6,7 +6,7 @@ import com.landi.utillibrary.util.net.Info.BaseInfo;
 import io.reactivex.Flowable;
 
 /**
- * Created by »ÆÃ÷²Ó on 2017/10/13 8:50.
+ * Created by é»„æ˜ç¿ on 2017/10/13 8:50.
  */
 
 public class BaseRequestInfo extends BaseInfo {

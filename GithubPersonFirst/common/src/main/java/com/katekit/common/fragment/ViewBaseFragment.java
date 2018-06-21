@@ -8,9 +8,9 @@ import android.view.ViewGroup;
 import com.katekit.common.Constants;
 import com.katekit.common.exception.ReturnCodeException;
 import com.katekit.common.util.ToastUtil;
-import com.katekit.common.util.listener.PreventDoubleClickListener;
 import com.katekit.common.view.loading.HalfTransparentProgressDialog;
 import com.katekit.common.view.loading.TipsView;
+import com.katekit.common.view.recycleview.PreventDoubleClickListener;
 
 /**
  * Project Name：workplace
@@ -22,7 +22,7 @@ import com.katekit.common.view.loading.TipsView;
  * Copyright (c) 2015年, Mr.huang . All Rights Reserved.
  */
 public class ViewBaseFragment extends BaseFragment {
-    protected String TAG = this.getClass().getSimpleName();
+
 
 
     //用于提示加载和网络成功失败

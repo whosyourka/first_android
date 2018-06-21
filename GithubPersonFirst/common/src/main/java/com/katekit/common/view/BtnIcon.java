@@ -6,13 +6,13 @@ import android.graphics.drawable.StateListDrawable;
 import android.view.View;
 
 /**
- * Project Name£º work
- * Packagee Name£º com.landicorp.android.view
- * Description£º
+ * Project Nameï¼š work
+ * Packagee Nameï¼š com.landicorp.android.view
+ * Descriptionï¼š
  *
  * @author: huangmc
  * @date: 18:23
- * Copyright (c) 2015Äê, Mr.huang . All Rights Reserved.
+ * Copyright (c) 2015å¹´, Mr.huang . All Rights Reserved.
  */
 public class BtnIcon extends View {
     private Context mContext;
@@ -22,8 +22,8 @@ public class BtnIcon extends View {
         this.mContext = context;
     }
 
-    // ÒÔÏÂÕâ¸ö·½·¨Ò²¿ÉÒÔ°ÑÄãµÄÍ¼Æ¬Êı×é´«¹ıÀ´£¬ÒÔStateListDrawableÀ´ÉèÖÃÍ¼Æ¬×´Ì¬£¬À´±íÏÖbuttonµÄ¸÷ÖĞ×´Ì¬¡£Î´Ñ¡
-    // ÖĞ£¬°´ÏÂ£¬Ñ¡ÖĞĞ§¹û¡£
+    // ä»¥ä¸‹è¿™ä¸ªæ–¹æ³•ä¹Ÿå¯ä»¥æŠŠä½ çš„å›¾ç‰‡æ•°ç»„ä¼ è¿‡æ¥ï¼Œä»¥StateListDrawableæ¥è®¾ç½®å›¾ç‰‡çŠ¶æ€ï¼Œæ¥è¡¨ç°buttonçš„å„ä¸­çŠ¶æ€ã€‚æœªé€‰
+    // ä¸­ï¼ŒæŒ‰ä¸‹ï¼Œé€‰ä¸­æ•ˆæœã€‚
     public StateListDrawable setbg(Integer[] mImageIds) {
         StateListDrawable bg = new StateListDrawable();
         Drawable normal = mContext.getResources().getDrawable(mImageIds[0]);

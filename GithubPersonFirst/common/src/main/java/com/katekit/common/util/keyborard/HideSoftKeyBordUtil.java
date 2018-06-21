@@ -58,9 +58,9 @@ public class HideSoftKeyBordUtil {
 
 
     /**
-     * ´ò¿ªÈí¼üÅÌ
+     * æ‰“å¼€è½¯é”®ç›˜
      * @param context
-     * @param editText ÊäÈë¿ò
+     * @param editText è¾“å…¥æ¡†
      */
     public static void openKeyboard(Context context, EditText editText)
     {
@@ -70,9 +70,9 @@ public class HideSoftKeyBordUtil {
     }
 
     /**
-     * ¹Ø±ÕÈí¼üÅÌ
+     * å…³é—­è½¯é”®ç›˜
      * @param context
-     * @param editText ÊäÈë¿ò
+     * @param editText è¾“å…¥æ¡†
      */
     public static void closeKeyboard(Context context, EditText editText)
     {

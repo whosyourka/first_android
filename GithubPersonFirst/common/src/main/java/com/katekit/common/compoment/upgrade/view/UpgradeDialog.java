@@ -1,7 +1,7 @@
 package com.katekit.common.compoment.upgrade.view;
 
 /**
- * Created by »ÆÃ÷²Ó on 2017/11/14 14:19.
+ * Created by é»„æ˜ç¿ on 2017/11/14 14:19.
  */
 
 public class UpgradeDialog {
@@ -9,13 +9,13 @@ public class UpgradeDialog {
 //
 //    public void startUpgrade(final Context context, boolean isShowLoading) {
 //        if (isShowLoading) {
-//            LodingLayout.show(context, "ÕıÔÚ²éÑ¯ÊÇ·ñÓĞĞÂ°æ±¾");
+//            LodingLayout.show(context, "æ­£åœ¨æŸ¥è¯¢æ˜¯å¦æœ‰æ–°ç‰ˆæœ¬");
 //        }
 //        mPresenter.searchNewVersion(new UpgradeContract.SearchVersionView() {
 //
 //            @Override
 //            public void needUpgrade() {
-//                CommonBaseDialogUtil.showChooseDialogMsg(context, "Éı¼¶", "ÄúÓĞĞÂ°æ±¾£¬ÊÇ·ñÉı¼¶£¿", new CommonBaseDialogUtil.ChooseListener() {
+//                CommonBaseDialogUtil.showChooseDialogMsg(context, "å‡çº§", "æ‚¨æœ‰æ–°ç‰ˆæœ¬ï¼Œæ˜¯å¦å‡çº§ï¼Ÿ", new CommonBaseDialogUtil.ChooseListener() {
 //                    @Override
 //                    public void chooseYes() {
 //                        mPresenter.startUpgrade("www.baidu.com", new UpgradeContract.UpgradeView() {
@@ -26,7 +26,7 @@ public class UpgradeDialog {
 //
 //                            @Override
 //                            public void downloadSueecss(String path) {
-//                                // Í¨¹ıIntent°²×°APKÎÄ¼ş
+//                                // é€šè¿‡Intentå®‰è£…APKæ–‡ä»¶
 //                                Intent intent = new Intent(Intent.ACTION_VIEW);
 //                                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 //                                intent.setDataAndType(Uri.parse("file://" + path), "application/vnd.android.package-archive");
@@ -59,7 +59,7 @@ public class UpgradeDialog {
 //
 //            @Override
 //            public void needNotUpgrade() {
-//                CommonBaseDialogUtil.showComfirmDialogMsg(context, "Éı¼¶", "ÄúÒÑ¾­ÊÇ×îĞÂ°æ±¾ÁË", new CommonBaseDialogUtil.ChooseListener() {
+//                CommonBaseDialogUtil.showComfirmDialogMsg(context, "å‡çº§", "æ‚¨å·²ç»æ˜¯æœ€æ–°ç‰ˆæœ¬äº†", new CommonBaseDialogUtil.ChooseListener() {
 //                    @Override
 //                    public void chooseYes() {
 //

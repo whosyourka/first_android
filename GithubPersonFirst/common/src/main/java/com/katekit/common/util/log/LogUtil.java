@@ -59,25 +59,19 @@ public class LogUtil{
 
     }
 
-    public static void d(String tag, String msg) {
-        Logger.d(tag,msg);
+    public static void d(String msg ,Object... args) {
+        Logger.d(msg,args);
     }
 
     public static void d(String msg) {
         Logger.d(msg);
     }
 
-    public static void e(String tag, String msg) {
-        Logger.e(tag,msg);
-    }
 
     public static void e(String msg) {
         Logger.e(msg);
     }
 
-    public static void i(String tag, String msg) {
-        Logger.i(tag,msg);
-    }
 
     public static void i(String msg) {
         Logger.i(msg);

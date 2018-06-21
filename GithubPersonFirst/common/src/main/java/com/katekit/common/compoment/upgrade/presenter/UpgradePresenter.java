@@ -3,7 +3,7 @@ package com.katekit.common.compoment.upgrade.presenter;
 import com.katekit.common.compoment.upgrade.contract.UpgradeContract;
 
 /**
- * Created by »ÆÃ÷²Ó on 2017/11/14 17:01.
+ * Created by é»„æ˜ç¿ on 2017/11/14 17:01.
  */
 
 public class UpgradePresenter implements UpgradeContract.Presenter {
@@ -52,7 +52,7 @@ public class UpgradePresenter implements UpgradeContract.Presenter {
 //                    public String apply(InputStream inputStream) throws Exception {
 //                        try {
 //                            if (!FileUtils.writeIntoNewFile(inputStream, FileUtils.APK_FILE_NAME)) {
-//                                throw new Exception("±£´æÎÄ¼şµ½±¾»úÊ§°Ü!");
+//                                throw new Exception("ä¿å­˜æ–‡ä»¶åˆ°æœ¬æœºå¤±è´¥!");
 //                            }
 //                            return FileUtils.getNewFilePath(FileUtils.APK_FILE_NAME);
 //                        } catch (Exception e) {

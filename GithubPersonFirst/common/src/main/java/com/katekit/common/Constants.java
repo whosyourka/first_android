@@ -12,23 +12,12 @@ package com.katekit.common;
 public class Constants {
 
 
-    //log
 
-    public static final String LOG_START_TIME="rxjava-start:TIME";
-    public static final String LOG_START_DIVIDE="rxjava-start:DIVIDE";
+    //网络发送和接收信息
+    public static final String NETSERVICE_RESPONSE="netService_response";
+    public static final String NETSERVICE_REQUEST="netService_response";
+    public static final String NETSERVICE_URL="rxjava-start:URL";
 
-    public static final String LOG_START_SUBMIT="rxjava-start:sendParam";
-    public static final String LOG_START_URL="rxjava-start:URL";
-
-    public static final String LOG_START_MSG="rxjava-start-Msg";
-    public static final String LOG_START_CODE="rxjava-start-Code";
-    public static final String LOG_START_TYPE="rxjava-start-Type";
-    public static final String LOG_START_CONTENT="rxjava-start-Content";
-
-    public static final String LOG_LAST_ERROR="rxjava-last-error";
-    public static final String LOG_LAST_SUCCESS="rxjava-last-success";
-
-    public static final String LOG_LAST_DIVIDE="rxjava-last:DIVIDE";
 
 
 
