@@ -53,7 +53,7 @@ ext {
     setDefaultCon = this.&setDefaultCon
     addBuildTimeListener = this.&addBuildTimeListener
 
-    setApkName = this.&setApkName
+    setApkName = this.&setApkName //todo 具体项目具体修改
     getDefaultSigningConfig = this.&getDefaultSigningConfig //todo 具体项目具体修改
 
 }
