@@ -1,8 +1,10 @@
 package first.person.com.katekit.githubpersonfirst;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import io.reactivex.Flowable;
+import io.reactivex.Notification;
 import io.reactivex.flowables.ConnectableFlowable;
 import io.reactivex.schedulers.TestScheduler;
 import io.reactivex.subscribers.TestSubscriber;
@@ -136,6 +138,18 @@ public class TestFlowableTest {
         });
         scheduler.advanceTimeBy(10, SECONDS);
         testObserver.assertValueCount(4);
+
+    }
+    @Test
+    public void myMaterialize() {
+        TestScheduler scheduler = new TestScheduler();
+        TestFlowable.myMaterialize();
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        Assert.assertEquals(1,1);
 
     }
 

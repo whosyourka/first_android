@@ -1,8 +1,12 @@
 package first.person.com.katekit.githubpersonfirst;
 
+import org.reactivestreams.Publisher;
+import org.reactivestreams.Subscriber;
+
 import java.util.concurrent.TimeUnit;
 
 import io.reactivex.Flowable;
+import io.reactivex.Notification;
 import io.reactivex.Scheduler;
 import io.reactivex.flowables.ConnectableFlowable;
 
@@ -100,5 +104,16 @@ public class TestFlowable {
                 }).take(100)
                 .replay();
 //                .share();
+    }
+    public static void myMaterialize() {
+        Byte a = 1;
+        Integer b = a.intValue();
+        Flowable.just("").materialize().subscribe(it->{
+            System.out.println("it:" + it.getValue());
+        },e->{
+            System.out.println("er:" + e.getMessage());
+        },()->{
+            System.out.println("com:");
+        });
     }
 }

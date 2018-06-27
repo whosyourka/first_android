@@ -53,9 +53,7 @@ dependencies {
 
     testImplementation rootProject.ext.dependencies["testrunner"]
     androidTestImplementation rootProject.ext.dependencies["junit"]
-    testImplementation(rootProject.ext.dependencies["espresso"], {
-        exclude group: 'com.android.support', module: 'support-annotations'
-    })
+    testImplementation(rootProject.ext.dependencies["espresso"])
     //robotium 测试
 //    compile 'com.jayway.android.robotium:robotium-solo:5.4.1'
 
