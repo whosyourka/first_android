@@ -5,7 +5,7 @@ import retrofit2.http.Body;
 import retrofit2.http.POST;
 
 /**
- * Created by »ÆÃ÷²Ó on 2017/10/11 10:07.
+ * Created by é»„æ˜ç¿ on 2017/10/11 10:07.
  */
 
 public interface ILoginService {

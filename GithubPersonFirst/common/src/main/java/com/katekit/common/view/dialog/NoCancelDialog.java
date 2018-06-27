@@ -1,10 +1,3 @@
-/************************************************************
- *	ç‰ˆæƒæ‰?æœ?  (c)2013,   è”¡å¿—æ?<p>	
- *  æ–‡ä»¶åç§°	ï¼šNoCancelDialog.java<p>
- *
- *  åˆ›å»ºæ—¶é—´	ï¼?2016-1-17 ä¸‹åˆ4:24:07 
- *  å½“å‰ç‰ˆæœ¬å·ï¼šv1.0
- ************************************************************/
 package com.katekit.common.view.dialog;
 
 import android.app.Dialog;
@@ -14,19 +7,12 @@ import android.view.Window;
 
 import java.lang.reflect.Method;
 
-/************************************************************
- *  ÄÚÈİÕªÒª	£º<p>
- *
- *  ×÷Õß	£º²ÌÖ¾ÁÖ
- *  ´´½¨Ê±¼ä	£º2016-1-17 ÏÂÎç4:24:07
- *  µ±Ç°°æ±¾ºÅ£ºv1.0
- ************************************************************/
 public class NoCancelDialog extends Dialog {
 
 	/**
-	 * ¹¹Ôìº¯Êı£º
-	 * º¯Êı¹¦ÄÜ:
-	 * ²ÎÊıËµÃ÷£º
+	 * æ„é€ å‡½æ•°ï¼š
+	 * å‡½æ•°åŠŸèƒ½:
+	 * å‚æ•°è¯´æ˜ï¼š
 	 * 		@param context
 	 */
 	public NoCancelDialog(Context context) {
@@ -34,7 +20,7 @@ public class NoCancelDialog extends Dialog {
 	}
 
 	public NoCancelDialog(Context context, boolean cancelable,
-                          OnCancelListener cancelListener) {
+						  OnCancelListener cancelListener) {
 		super(context, cancelable, cancelListener);
 	}
 
@@ -43,10 +29,10 @@ public class NoCancelDialog extends Dialog {
 	}
 
 	/**
-	 *  º¯ÊıÃû³Æ £ºonAttachedToWindow
-	 *  ¹¦ÄÜÃèÊö £º
-	 *  ²ÎÊıËµÃ÷ £º
-	 *  ·µ»ØÖµ£º
+	 *  å‡½æ•°åç§° ï¼šonAttachedToWindow
+	 *  åŠŸèƒ½æè¿° ï¼š
+	 *  å‚æ•°è¯´æ˜ ï¼š
+	 *  è¿”å›å€¼ï¼š
 	 */
 	@Override
 	public void onAttachedToWindow() {
@@ -65,20 +51,20 @@ public class NoCancelDialog extends Dialog {
 	}
 
 	/**
-	 *  º¯ÊıÃû³Æ £ºdispatchKeyEvent
-	 *  ¹¦ÄÜÃèÊö £º
-	 *  ²ÎÊıËµÃ÷ £º
+	 *  å‡½æ•°åç§° ï¼šdispatchKeyEvent
+	 *  åŠŸèƒ½æè¿° ï¼š
+	 *  å‚æ•°è¯´æ˜ ï¼š
 	 *  	@param event
 	 *  	@return
-	 *  ·µ»ØÖµ£º
+	 *  è¿”å›å€¼ï¼š
 	 */
 	@Override
 	public boolean dispatchKeyEvent(KeyEvent event) {
-		// ÆÁ±ÎµôHOME°´¼ü
+		// å±è”½æ‰HOMEæŒ‰é”®
 		if (event.getKeyCode() == KeyEvent.KEYCODE_HOME) {
 			return true;
 		}
-		// ÆÁ±ÎµôMENU°´¼ü
+		// å±è”½æ‰MENUæŒ‰é”®
 		if (event.getKeyCode() == KeyEvent.KEYCODE_MENU) {
 			return true;
 		}

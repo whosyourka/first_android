@@ -8,13 +8,13 @@ import com.katekit.common.util.px2dp.DensityUtil;
 
 
 /**
- * Project Name£∫ work
- * Packagee Name£∫ com.landicorp.android.view
- * Description£∫
+ * Project NameÔºö work
+ * Packagee NameÔºö com.landicorp.android.view
+ * DescriptionÔºö
  *
  * @author: huangmc
  * @date: 11:15
- * Copyright (c) 2015ƒÍ, Mr.huang . All Rights Reserved.
+ * Copyright (c) 2015Âπ¥, Mr.huang . All Rights Reserved.
  */
 public class CommonBaseDialogUtil {
 
@@ -47,7 +47,7 @@ public class CommonBaseDialogUtil {
     }
 
     public static BaseDialog showChooseDialogMsg(final Context ctx, String title, String content, final ChooseListener chooseListener) {
-        return showChooseDialogMsg(ctx, title, content, "∑Ò", " «", chooseListener);
+        return showChooseDialogMsg(ctx, title, content, "Âê¶", "ÊòØ", chooseListener);
     }
 
     public static BaseDialog showChooseDialogMsg(final Context ctx, String title, String content, String cancelName, String ensureName, final ChooseListener

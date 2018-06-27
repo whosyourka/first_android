@@ -34,11 +34,11 @@ public class BaseDialogBuilder {
     private String neturalButtonText;
     private String singleButtonText;
     private View contentView;
-    private Drawable icon; //±êÌâµÄÍ¼±ê
-    private int drawablePadding; //±êÌâÍ¼±êµÄpaddingÖµ
-    private int messagePadding; //ÖĞ¼äÏûÏ¢µÄpaddingÖµ
+    private Drawable icon; //æ ‡é¢˜çš„å›¾æ ‡
+    private int drawablePadding; //æ ‡é¢˜å›¾æ ‡çš„paddingå€¼
+    private int messagePadding; //ä¸­é—´æ¶ˆæ¯çš„paddingå€¼
     private boolean cancelable;
-    private int messageGravity = Gravity.CENTER; //messageµÄgravity
+    private int messageGravity = Gravity.CENTER; //messageçš„gravity
 
     private DialogInterface.OnClickListener positiveButtonClickListener,
             negativeButtonClickListener, neturalButtonClickListener, singleButtonClickListener;
@@ -191,7 +191,7 @@ public class BaseDialogBuilder {
 
     /**
      * Set the singleButton resource and it's listener
-     * Ö»ÓĞÒ»¸ö°´Å¥µÄÊ±ºòÊ¹ÓÃ
+     * åªæœ‰ä¸€ä¸ªæŒ‰é’®çš„æ—¶å€™ä½¿ç”¨
      *
      * @param singleButtonText
      * @param listener
@@ -207,7 +207,7 @@ public class BaseDialogBuilder {
 
     /**
      * Set the single button text and it's listener
-     * Ö»ÓĞÒ»¸ö°´Å¥µÄÊ±ºòÊ¹ÓÃ
+     * åªæœ‰ä¸€ä¸ªæŒ‰é’®çš„æ—¶å€™ä½¿ç”¨
      *
      * @param singleButtonText
      * @param listener
@@ -345,7 +345,7 @@ public class BaseDialogBuilder {
                     .findViewById(R.id.neturalButton));
             netural.setText(neturalButtonText);
             netural.setVisibility(View.VISIBLE);
-            View line = (View) layout.findViewById(R.id.line2);// ÏÔÊ¾Ïß
+            View line = (View) layout.findViewById(R.id.line2);// æ˜¾ç¤ºçº¿
             line.setVisibility(View.VISIBLE);
             if (neturalButtonClickListener != null) {
                 ((TextView) layout.findViewById(R.id.neturalButton))

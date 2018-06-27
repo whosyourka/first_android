@@ -15,6 +15,9 @@ import com.orhanobut.logger.PrettyFormatStrategy;
  * Describe :
  */
 public class LogUtil{
+
+    private static final String CONTENT = "content:";
+
     public static void initLog() {
         FormatStrategy formatStrategyDefault = PrettyFormatStrategy.newBuilder()
 //                .showThreadInfo(false)  // (Optional) Whether to show thread info or not. Default true
@@ -59,29 +62,23 @@ public class LogUtil{
 
     }
 
-    public static void d(String tag, String msg) {
-        Logger.d(tag,msg);
+    public static void d(String msg ,Object... args) {
+        Logger.d(CONTENT +msg,args);
     }
 
     public static void d(String msg) {
-        Logger.d(msg);
+        Logger.d(CONTENT +msg);
     }
 
-    public static void e(String tag, String msg) {
-        Logger.e(tag,msg);
-    }
 
     public static void e(String msg) {
-        Logger.e(msg);
+        Logger.e(CONTENT +msg);
     }
 
-    public static void i(String tag, String msg) {
-        Logger.i(tag,msg);
+    public static void e(String msg ,Object... args) {
+        Logger.e(CONTENT +msg,args);
     }
 
-    public static void i(String msg) {
-        Logger.i(msg);
-    }
 
 
 }

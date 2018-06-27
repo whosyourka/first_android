@@ -58,8 +58,8 @@ public class SPHelper {
      * @throws null
      * @since v1.0
      */
-    public static boolean getBooleanValue(Context context, String key,
-                                          boolean defaultValue) {
+    public static boolean getBooleanValue(Context context, String key) {
+        boolean defaultValue = true;
         if (context == null) {
             return defaultValue;
         }
@@ -109,8 +109,8 @@ public class SPHelper {
      * @return
      * @throws null
      */
-    public static String getValue(Context context, String key,
-                                  String defValue) {
+    public static String getValue(Context context, String key) {
+        String defValue = "";
         if (context == null) {
             return defValue;
         }
@@ -126,56 +126,6 @@ public class SPHelper {
     }
 
 
-
-    /**
-     * 功能说明:设置值。
-     *
-     * @param context
-     * @param key
-     * @param value
-     * @throws null
-     * @since v1.0
-     */
-    public static boolean setInt(Context context, String key, int value) {
-        if (context == null) {
-            return false;
-        }
-        try {
-            SharedPreferences share = getAppSharedPreferences(context);
-            SharedPreferences.Editor edi = share.edit();
-            edi.putInt(key, value);
-            edi.commit();
-            return true;
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return false;
-
-    }
-
-    /**
-     * 功能说明:获取值。
-     *
-     * @param context
-     * @param key
-     * @param defaultValue
-     * @return
-     */
-    public static int getInt(Context context, String key, int defaultValue) {
-
-        if (context == null) {
-            return defaultValue;
-        }
-        try {
-            SharedPreferences share = getAppSharedPreferences(context);
-            return share.getInt(key, defaultValue);
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return defaultValue;
-
-    }
 
 
 

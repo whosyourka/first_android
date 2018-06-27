@@ -16,7 +16,7 @@ import io.reactivex.disposables.Disposable;
  * Copyright (c) 2015年, Mr.huang . All Rights Reserved.
  */
 public class BaseFragment extends Fragment {
-
+    protected String TAG = this.getClass().getSimpleName();
 
     protected CompositeDisposable mCompositeSubscription=null;
     protected void bindSub(Disposable disposable){

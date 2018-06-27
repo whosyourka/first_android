@@ -9,23 +9,11 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.schedulers.Schedulers;
 
 /**
- * Created by ª∆√˜≤” on 2017/10/23 10:06.
+ * Created by ÈªÑÊòéÁÅø on 2017/10/23 10:06.
  */
 
 public class RxUtil {
 
-//    public final static FlowableTransformer schedulersTransformer = new FlowableTransformer() {
-//        @Override
-//        public Flowable apply(@NonNull Flowable upstream) {
-//            return upstream.subscribeOn(Schedulers.io())
-//                    .observeOn(AndroidSchedulers.mainThread());
-//        }
-//    };
-
-//    @SuppressWarnings("unchecked")
-//    public static <T> FlowableTransformer<T, T> applySchedulers() {
-//        return (FlowableTransformer<T, T>) schedulersTransformer;
-//    }
 
     public static <T> FlowableTransformer<T, T> toMain() {
         return new FlowableTransformer<T, T>() {

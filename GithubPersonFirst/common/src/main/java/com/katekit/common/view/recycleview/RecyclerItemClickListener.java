@@ -7,8 +7,8 @@ import android.view.MotionEvent;
 import android.view.View;
 
 /**
- * Created by »ÆÃ÷²Ó on 2017/7/12 17:58.
- * Describe : recycleview×¨ÓÃÊÂ¼ş
+ * Created by é»„æ˜ç¿ on 2017/7/12 17:58.
+ * Describe : recycleviewä¸“ç”¨äº‹ä»¶
  */
 public class RecyclerItemClickListener implements RecyclerView.OnItemTouchListener {
     private OnItemClickListener mListener;
@@ -22,10 +22,10 @@ public class RecyclerItemClickListener implements RecyclerView.OnItemTouchListen
     public RecyclerItemClickListener(Context context, OnItemClickListener listener) {
         mListener = listener;
         mGestureDetector = new GestureDetector(context, new GestureDetector.SimpleOnGestureListener() {
-                @Override
-                public boolean onSingleTapUp(MotionEvent e) {
-                    return true;
-                }
+            @Override
+            public boolean onSingleTapUp(MotionEvent e) {
+                return true;
+            }
         });
     }
 

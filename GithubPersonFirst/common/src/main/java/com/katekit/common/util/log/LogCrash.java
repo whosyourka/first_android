@@ -16,6 +16,8 @@ public class LogCrash implements Thread.UncaughtExceptionHandler{
 
         Writer result = new StringWriter();
         e.printStackTrace(new PrintWriter(result));
+        //路径  String diskPath = Environment.getExternalStorageDirectory().getAbsolutePath();
+        //                String folder = diskPath + File.separatorChar + "logger";
         LogUtil.e(result.toString());
     }
 }

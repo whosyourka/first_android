@@ -4,7 +4,7 @@ import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.ViewGroup;
 
-import com.katekit.common.util.listener.RecyclerItemClickListener;
+import com.katekit.common.view.recycleview.RecyclerItemClickListener;
 
 import java.util.ArrayList;
 

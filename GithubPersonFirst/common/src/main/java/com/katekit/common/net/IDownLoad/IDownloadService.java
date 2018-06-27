@@ -6,7 +6,7 @@ import retrofit2.http.Streaming;
 import retrofit2.http.Url;
 
 /**
- * Created by »ÆÃ÷²Ó on 2017/11/15 10:03.
+ * Created by é»„æ˜ç¿ on 2017/11/15 10:03.
  */
 
 public interface IDownloadService {

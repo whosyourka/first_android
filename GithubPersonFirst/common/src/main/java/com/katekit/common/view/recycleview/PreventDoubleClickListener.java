@@ -1,4 +1,4 @@
-package com.katekit.common.util.listener;
+package com.katekit.common.view.recycleview;
 
 import android.view.View;
 import android.widget.AdapterView;

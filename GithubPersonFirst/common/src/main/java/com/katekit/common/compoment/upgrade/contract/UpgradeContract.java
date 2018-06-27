@@ -1,7 +1,7 @@
 package com.katekit.common.compoment.upgrade.contract;
 
 /**
- * Created by »ÆÃ÷²Ó on 2017/11/14 17:01.
+ * Created by é»„æ˜ç¿ on 2017/11/14 17:01.
  */
 
 public interface UpgradeContract {
