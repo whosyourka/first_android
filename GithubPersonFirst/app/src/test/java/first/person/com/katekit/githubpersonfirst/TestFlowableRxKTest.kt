@@ -8,7 +8,6 @@ class TestFlowableRxKTest {
     fun TestMyKt(){
 //        var kta = TestFlowableRx("haha","lala")
 //        var tt = Derived("haha","hehe");
-        var ttt= TestFlowableRx("111","222")
         Assert.assertEquals(1,1)
     }
     @Test
