@@ -51,8 +51,8 @@ dependencies {
     //官方设计
 //    compile 'com.github.navasmdc:MaterialDesign:1.5@aar'
 
-    testImplementation rootProject.ext.dependencies["testrunner"]
-    androidTestImplementation rootProject.ext.dependencies["junit"]
+    androidTestImplementation rootProject.ext.dependencies["testrunner"]
+    testImplementation rootProject.ext.dependencies["junit"]
     testImplementation(rootProject.ext.dependencies["espresso"])
     //robotium 测试
 //    compile 'com.jayway.android.robotium:robotium-solo:5.4.1'
@@ -79,7 +79,13 @@ dependencies {
     //性能检测
     debugApi rootProject.ext.dependencies["leakcanary-debug"]
     releaseApi rootProject.ext.dependencies["leakcanary-release"]
-    api rootProject.ext.dependencies["kotlin"]
+
+    api rootProject.ext.dependencies["kotlin-jdk8"]
+    api rootProject.ext.dependencies["kotlin8"]
+//    你的项目中使用 Kotlin 反射或者测试设施，你也需要添加相应的依赖
+//    compile "org.jetbrains.kotlin:kotlin-reflect"
+//    testCompile "org.jetbrains.kotlin:kotlin-test"
+//    testCompile "org.jetbrains.kotlin:kotlin-test-junit"
     //中文转英语
 //    compile files('libs/pinyin4j-2.5.0.jar')
     //orm注释 数据库
