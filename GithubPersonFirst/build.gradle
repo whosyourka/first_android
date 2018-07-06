@@ -1,7 +1,8 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
 buildscript {
-    ext.kotlin_version = '1.2.21'
+    ext.kotlin_version = '1.2.30'
+    ext.anko_version='0.10.5'
     repositories {
         jcenter()
         google()
@@ -14,12 +15,11 @@ buildscript {
 //        classpath 'com.github.typ0520:fastdex-gradle:0.8.6'
         classpath: classpath 'com.jakewharton.hugo:hugo-plugin:1.2.1'
 
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version" //类似instant run
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
 }
-
 allprojects {
     repositories {
         mavenCentral()
@@ -35,8 +35,6 @@ allprojects {
 apply from:"config.gradle"//配置通用module
 
 subprojects{
-
-
 }
 
 task clean(type: Delete) {

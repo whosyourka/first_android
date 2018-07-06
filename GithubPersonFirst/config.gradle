@@ -37,8 +37,7 @@ ext {
             "MaterialDesign"    : 'com.github.navasmdc:MaterialDesign:1.5@aar',
             "constraint-layout" : 'com.android.support.constraint:constraint-layout:1.0.2',
 
-            "kotlin-jdk8"       : "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version",
-            "kotlin8"           : "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version",
+            "kotlin"       : "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version",
 //            "test"           : 'test',
     ]
 

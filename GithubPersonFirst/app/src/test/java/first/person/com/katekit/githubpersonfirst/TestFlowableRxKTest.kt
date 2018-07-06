@@ -18,7 +18,7 @@ class TestFlowableRxKTest {
     fun TestLaunch(){
         var launch = LaunchKt()
         launch.myLaunch()
-        Thread.sleep(5000)
+//        Thread.sleep(5000)
         Assert.assertEquals(1,1)
     }
     @Test

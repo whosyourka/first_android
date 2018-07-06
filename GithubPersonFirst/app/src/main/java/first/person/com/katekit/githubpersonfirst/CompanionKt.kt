@@ -12,9 +12,9 @@ class CompanionKt {
         }
     }
     fun youar(){
-        create();
+        create()
     }
-}
-fun test(){
-    CompanionKt.create();
+    fun test(){
+        CompanionKt.create()
+    }
 }

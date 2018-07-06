@@ -1,6 +1,16 @@
 apply plugin: 'com.android.application'
-apply plugin: 'kotlin-android'
 apply plugin: 'com.jakewharton.hugo'
+
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+android.sourceSets {
+    main.java.srcDirs += 'src/main/kotlin'
+}
+kotlin {
+    experimental {
+        coroutines 'enable'
+    }
+}
 //apply plugin: 'fastdex.app'// 使用fastdex进行编译
 setDefaultCon(android)
 android {
@@ -39,17 +49,17 @@ android {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation project(':common')
+
     androidTestImplementation rootProject.ext.dependencies["testrunner"]
     testImplementation rootProject.ext.dependencies["junit"]
-    testImplementation(rootProject.ext.dependencies["espresso"], {
-        exclude group: 'com.android.support', module: 'support-annotations'
-    })
+    testImplementation(rootProject.ext.dependencies["espresso"])
     //    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30'
     //    //    implementation group: 'net.lingala.zip4j', name: 'zip4j', version: '1.3.2'//zip解压
     //    implementation 'pub.devrel:easypermissions:1.2.0'//权限
     //    implementation 'com.youth.banner:banner:1.4.10'  //banner
+
+    // Anko
+    implementation "org.jetbrains.anko:anko:$anko_version"
     //Android 工程使用
-    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:0.23.3'
-    //Java 工程使用
-    compile 'org.jetbrains.kotlinx:kotlinx-coroutines-core:0.23.3'
+//    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:0.23.4'
 }

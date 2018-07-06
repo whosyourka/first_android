@@ -17,7 +17,6 @@ public class MainActivityTest {
 
     @Test
     public void testMyflowable() {
-//        MainActivity.testmyflowable().test().assertComplete();
         Assert.assertEquals(1,1);
     }
 }

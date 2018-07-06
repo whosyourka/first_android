@@ -47,7 +47,6 @@ dependencies {
     api rootProject.ext.dependencies["design"]
     api rootProject.ext.dependencies["constraint-layout"]
 //        implementation 'com.android.support:percent:27.0.2'
-
     //官方设计
 //    compile 'com.github.navasmdc:MaterialDesign:1.5@aar'
 
@@ -79,9 +78,8 @@ dependencies {
     //性能检测
     debugApi rootProject.ext.dependencies["leakcanary-debug"]
     releaseApi rootProject.ext.dependencies["leakcanary-release"]
-
-    api rootProject.ext.dependencies["kotlin-jdk8"]
-    api rootProject.ext.dependencies["kotlin8"]
+    //KOTLIN
+    api rootProject.ext.dependencies["kotlin"]
 //    你的项目中使用 Kotlin 反射或者测试设施，你也需要添加相应的依赖
 //    compile "org.jetbrains.kotlin:kotlin-reflect"
 //    testCompile "org.jetbrains.kotlin:kotlin-test"
