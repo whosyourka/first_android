@@ -1,11 +1,16 @@
 package first.person.com.katekit.githubpersonfirst.anko
 
+import android.app.Activity
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.os.PersistableBundle
+import android.view.View
+import android.widget.Button
+import android.widget.LinearLayout
 import com.katekit.common.util.ToastUtil
 import first.person.com.katekit.githubpersonfirst.R
 import org.jetbrains.anko.*
+import org.jetbrains.anko.custom.ankoView
 import org.jetbrains.anko.sdk25.coroutines.onClick
 
 class AnkoFirstActivity : AppCompatActivity() {
@@ -31,13 +36,15 @@ class AnkoFirstActivity : AppCompatActivity() {
 //        }
         MyActivityUI().setContentView(this)
 
+
     }
 }
 
 class MyActivityUI : AnkoComponent<AnkoFirstActivity> {
+    private var btnLogin: Button? = null
     override fun createView(ui: AnkoContext<AnkoFirstActivity>) = with(ui) {
         verticalLayout {
-//            include<View>(R.layout.something) {
+            //            include<View>(R.layout.something) {
 //                backgroundColor = Color.RED
 //            }.lparams(width = matchParent) { margin = dip(12) }
             padding = dip(100)
@@ -49,20 +56,20 @@ class MyActivityUI : AnkoComponent<AnkoFirstActivity> {
                 hintResource = R.string.app_name
                 textSize = 24f
             }
-            button("Login") {
+            btnLogin = button("Login") {
                 textSize = 26f
-            }.lparams(width = wrapContent, height = wrapContent) {
-
-                topMargin = dip(R.dimen.activity_horizontal_margin)
+            }.lparams(width = matchParent, height = wrapContent) {
+                topMargin = dip(10)
                 bottomMargin = dip(30)
-                setPadding(0, 0, 20, 20)
             }
             themedButton("hahaha", theme = R.style.myTheme) {
                 onClick {
                     //                    ToastUtil.show(this@AnkoFirstActivity,"haha")
                     ToastUtil.show(ctx, "haha")
+                    btnLogin?.text = "啦啦啦"
                 }
             }
+
 
         }
     }
