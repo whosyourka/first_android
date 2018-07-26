@@ -1,12 +1,8 @@
-package first.person.com.katekit.githubpersonfirst;
-
-import org.reactivestreams.Publisher;
-import org.reactivestreams.Subscriber;
+package first.person.com.katekit.githubpersonfirst.test;
 
 import java.util.concurrent.TimeUnit;
 
 import io.reactivex.Flowable;
-import io.reactivex.Notification;
 import io.reactivex.Scheduler;
 import io.reactivex.flowables.ConnectableFlowable;
 

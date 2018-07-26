@@ -1,4 +1,4 @@
-package first.person.com.katekit.githubpersonfirst
+package first.person.com.katekit.githubpersonfirst.test
 
 class CompanionKt {
     init {
@@ -15,6 +15,6 @@ class CompanionKt {
         create()
     }
     fun test(){
-        CompanionKt.create()
+        create()
     }
 }

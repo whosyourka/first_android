@@ -1,4 +1,4 @@
-package first.person.com.katekit.githubpersonfirst;
+package first.person.com.katekit.githubpersonfirst.main;
 
 import android.app.Application;
 
@@ -16,4 +16,5 @@ public class MyApplication extends Application {
         LogUtil.initLog();
         Thread.setDefaultUncaughtExceptionHandler(new LogCrash());
     }
+
 }

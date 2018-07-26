@@ -3,8 +3,8 @@ package first.person.com.katekit.githubpersonfirst;
 import org.junit.Assert;
 import org.junit.Test;
 
+import first.person.com.katekit.githubpersonfirst.test.TestFlowable;
 import io.reactivex.Flowable;
-import io.reactivex.Notification;
 import io.reactivex.flowables.ConnectableFlowable;
 import io.reactivex.schedulers.TestScheduler;
 import io.reactivex.subscribers.TestSubscriber;

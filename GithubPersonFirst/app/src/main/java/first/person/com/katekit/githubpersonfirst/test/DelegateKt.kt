@@ -1,4 +1,4 @@
-package first.person.com.katekit.githubpersonfirst
+package first.person.com.katekit.githubpersonfirst.test
 
 import kotlin.properties.ReadOnlyProperty
 import kotlin.reflect.KProperty

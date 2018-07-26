@@ -1,5 +1,7 @@
 package first.person.com.katekit.githubpersonfirst
 
+import first.person.com.katekit.githubpersonfirst.test.CompanionKt
+import first.person.com.katekit.githubpersonfirst.test.LaunchKt
 import org.junit.Assert
 import org.junit.Test
 

@@ -12,6 +12,7 @@ kotlin {
     }
 }
 //apply plugin: 'fastdex.app'// 使用fastdex进行编译
+
 setDefaultCon(android)
 android {
     compileSdkVersion rootProject.ext.android.compileSdkVersion

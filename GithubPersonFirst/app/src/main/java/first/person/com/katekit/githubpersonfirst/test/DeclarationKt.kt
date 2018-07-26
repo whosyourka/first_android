@@ -1,4 +1,4 @@
-package first.person.com.katekit.githubpersonfirst
+package first.person.com.katekit.githubpersonfirst.test
 class DeclarationKt {
     interface Source<out T> {
         fun nextT(): T
