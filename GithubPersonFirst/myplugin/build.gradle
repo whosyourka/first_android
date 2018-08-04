@@ -37,10 +37,10 @@ dependencies {
     compile project(':MyPluginProcessor')
     compile project(':MyPluginAnnotations')
 
-    compile 'com.jakewharton:butterknife:8.8.1'
+    //aspectj
     compile 'org.aspectj:aspectjrt:1.8.13'
 }
-
+//aspectj
 import org.aspectj.bridge.IMessage
 import org.aspectj.bridge.MessageHandler
 import org.aspectj.tools.ajc.Main

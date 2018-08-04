@@ -1,4 +1,4 @@
-package com.example.myplugin;
+package com.example.myplugin.aspectj;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

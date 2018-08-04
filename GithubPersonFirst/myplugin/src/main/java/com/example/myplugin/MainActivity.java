@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import com.example.myplugin.aspectj.IFirstAnnotation;
 import com.example.mypluginannotations.MyAnnotations;
 
 import java.util.Random;
@@ -15,11 +16,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//        testAnnotaions();
         aspectClick(null);
-    }
-    private void testAnnotaions() {
-        System.out.println("testAnnotaions");
     }
 
     @IFirstAnnotation("测试Aspect")
