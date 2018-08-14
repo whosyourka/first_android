@@ -1,1 +1,1 @@
-include ':app', ':common', ':myplugin', ':MyPluginProcessor', ':MyPluginAnnotations'
+include ':app', ':common', ':myplugin', ':MyPluginProcessor', ':MyPluginAnnotations', ':MyGroovyPlugin'
