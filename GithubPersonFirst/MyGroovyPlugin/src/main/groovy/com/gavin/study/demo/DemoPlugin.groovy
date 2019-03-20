@@ -7,16 +7,30 @@ class DemoPlugin implements Plugin<Project>{
 
     @Override
     void apply(Project project) {
-        project.extensions.create("demo", DemoDomain, "demo domain override")
+        /**
+         * 供第三方调用传入
+         * demoDomain{
+         *     hello = "hi"
+         * }
+         */
+        project.extensions.create("demoDomain", DemoDomain, "demo domain override")
 
+        /**
+         * 类似jar unittest等android 插件命令
+         * 调用gradlew showHello
+         */
         project.tasks.create("showHello", DemoTask.class)
 
+        /**
+         *
+         */
         def multiDomains = project.container(MultiDomain.class) // 声明一个
         multiDomains.all {
             sourceDir = project.file("src/docs/${name}") // 定义默认值
         }
+        project.extensions.multiDomain = multiDomains
 
-        project.extensions.multiDomain = multiDomains;
+
 
     }
 }

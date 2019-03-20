@@ -5,14 +5,14 @@ buildscript {
     ext.anko_version='0.10.5'
     repositories {
         //groovy plugin
-        maven {
-            url 'file://Users/whosy/.m2/repository'
-        }
+//        maven {
+//            url 'file://Users/whosy/.m2/repository'
+//        }
         mavenLocal()
-
-        jcenter()
         google()
-        mavenCentral()
+        jcenter()
+
+//        mavenCentral()
     }
 
     dependencies {
@@ -35,9 +35,15 @@ buildscript {
 }
 allprojects {
     repositories {
-        mavenCentral()
-        jcenter()
+        //groovy plugin
+//        maven {
+//            url 'file://Users/whosy/.m2/repository'
+//        }
+        mavenLocal()
         google()
+        jcenter()
+
+//        mavenCentral()
         //兼容libs里面的aar
         flatDir {
             dirs 'libs'
@@ -48,7 +54,7 @@ allprojects {
 apply from:"config.gradle"//配置通用module
 //groovy plugin
 apply plugin: 'demo'
-demo{
+demoDomain{
     hello "haha"
 }
 

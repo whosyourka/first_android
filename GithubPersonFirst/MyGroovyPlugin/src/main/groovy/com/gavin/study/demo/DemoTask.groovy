@@ -11,11 +11,12 @@ class DemoTask extends DefaultTask{
     void sayHello(IncrementalTaskInputs incrementalTaskInputs){
 
         println "1111111````````````````````````1111"
-        println project.extensions.demo.hello
-        def domains = project.extensions.multiDomain as NamedDomainObjectContainer<MultiDomain>
-        domains.all {
-            println "name : ${name}; sourceDir : ${sourceDir.path}"
-        }
+        println project.extensions.demoDomain.hello
+        println "1111111````````````````````````222"
+//        def domains = project.extensions.multiDomain as NamedDomainObjectContainer<MultiDomain>
+//        domains.all {
+//            println "name : ${name}; sourceDir : ${sourceDir.path}"
+//        }
 
     }
 }

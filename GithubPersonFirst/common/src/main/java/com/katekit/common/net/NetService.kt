@@ -97,23 +97,24 @@ object NetService {
         if (request == null) {
             subcribe.onError(ReturnCodeException("request is null"))
         } else {
+
             request.enqueue(object : Callback<String> {
-                override fun onResponse(call: Call<String>?, response: Response<String>?) {
-                    when {
-                        response == null -> subcribe.onError(ReturnCodeException("response is null"))
-                        response.body().isNullOrEmpty() -> subcribe.onError(ReturnCodeException("response body is null"))
-                        else -> {
-                            LogUtil.d("%s:%s",Constants.NETSERVICE_RESPONSE, response.body());
-                            val netData: NetData<T> = NetData(response.body(), Gson().fromJson(response.body(), className.type))
-                            if (netData.data == null) {
-                                subcribe.onError(ReturnCodeException("netData.data is null"))
-                            } else {
-                                //可处理逻辑，一般处理returnCode等,成功则继续，否则就
-                                subcribe.onNext(netData)
-                                subcribe.onComplete()
-                            }
-                        }
-                    }
+                            override fun onResponse(call: Call<String>?, response: Response<String>?) {
+                                when {
+                                    response == null -> subcribe.onError(ReturnCodeException("response is null"))
+                                    response.body().isNullOrEmpty() -> subcribe.onError(ReturnCodeException("response body is null"))
+                                    else -> {
+                                        LogUtil.d("%s:%s",Constants.NETSERVICE_RESPONSE, response.body());
+                                        val netData: NetData<T> = NetData(response.body(), Gson().fromJson(response.body(), className.type))
+                                        if (netData.data == null) {
+                                            subcribe.onError(ReturnCodeException("netData.data is null"))
+                                        } else {
+                                            //可处理逻辑，一般处理returnCode等,成功则继续，否则就
+                                            subcribe.onNext(netData)
+                                            subcribe.onComplete()
+                                        }
+                                    }
+                                }
                 }
 
                 override fun onFailure(call: Call<String>?, t: Throwable) {
