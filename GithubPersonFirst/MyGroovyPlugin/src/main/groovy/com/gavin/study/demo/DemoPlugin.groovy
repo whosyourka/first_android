@@ -7,6 +7,8 @@ class DemoPlugin implements Plugin<Project>{
 
     @Override
     void apply(Project project) {
+        println "DemoPlugin start"
+//        project.gradle.addListener(new BuildTimeListener())
         /**
          * 供第三方调用传入
          * demoDomain{
@@ -20,6 +22,9 @@ class DemoPlugin implements Plugin<Project>{
          * 调用gradlew showHello
          */
         project.tasks.create("showHello", DemoTask.class)
+        project.tasks.whenTaskAdded {
+            println "DemoPlugin add task"
+        }
 
         /**
          *
@@ -28,9 +33,8 @@ class DemoPlugin implements Plugin<Project>{
         multiDomains.all {
             sourceDir = project.file("src/docs/${name}") // 定义默认值
         }
-        project.extensions.multiDomain = multiDomains
 
-
+        println "DemoPlugin end"
 
     }
 }

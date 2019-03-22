@@ -1,11 +1,7 @@
 //apply plugin: 'java-library'
 apply plugin: 'groovy'
 apply plugin: 'maven'
-repositories {
-    google()
-    jcenter()
 
-}
 dependencies {
     compile gradleApi()//gradle sdk
     compile localGroovy()//groovy sdk
