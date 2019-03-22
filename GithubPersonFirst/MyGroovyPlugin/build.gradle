@@ -2,6 +2,7 @@
 apply plugin: 'groovy'
 apply plugin: 'maven'
 
+
 dependencies {
     compile gradleApi()//gradle sdk
     compile localGroovy()//groovy sdk
@@ -21,6 +22,6 @@ uploadArchives {
 
         pom.groupId = 'com.whosyourka'
         pom.artifactId = 'groovy-plugin-test'
-        pom.version = '1.0.2'
+        pom.version = '1.0.3'
     }
 }

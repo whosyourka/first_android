@@ -30,7 +30,7 @@ buildscript {
         classpath 'org.aspectj:aspectjweaver:1.8.13'
 
         //groovy plugin
-        classpath 'com.whosyourka:groovy-plugin-test:1.0.2'
+        classpath 'com.whosyourka:groovy-plugin-test:1.0.3'
     }
 }
 allprojects {
@@ -52,12 +52,15 @@ allprojects {
 }
 
 apply from: "config.gradle"//配置通用module
-//groovy plugin
-apply plugin: 'demo'
-demoDomain {
-    hello "haha"
-}
 
+apply plugin: 'mygroovyplugin'
+apply plugin: 'demo'
+pluginInfo {
+    hello = "sss"
+}
+demoDomain{
+    hello = "sss"
+}
 
 subprojects {
 
