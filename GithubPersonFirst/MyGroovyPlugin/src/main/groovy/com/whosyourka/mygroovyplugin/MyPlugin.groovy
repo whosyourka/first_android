@@ -16,11 +16,29 @@ class MyPlugin implements Plugin<Project>{
 
     @Override
     void apply(Project project) {
-        addBuildTimeListener(project.gradle)
+
         println "MyPlugin start"
+        addBuildTimeListener(project.gradle)
+
         project.extensions.create("demoDomain", DemoDomain.class, "demoDomain")
         project.extensions.create("pluginInfo", PluginInfo.class,"pluginInfo")
-        project.tasks.create("pluginUtil", PluginUtil.class)
+        project.tasks.create("pluginUtilTask", PluginUtilTask.class)
+        project.tasks.create("showHello", DemoTask.class)
+
+        project.tasks.whenTaskAdded {
+            println("whenTaskAdded start")
+            println(project.extensions.pluginInfo.alias)
+            println("whenTaskAdded end")
+
+        }
+
+        project.afterEvaluate {
+            println("afterEvaluate start")
+            println(project.extensions.pluginInfo.alias)
+            println("afterEvaluate end")
+            pluginUtilTask.dependsOn showHello
+        }
+        println(project.extensions.pluginInfo.alias)
         println "MyPlugin end"
     }
 

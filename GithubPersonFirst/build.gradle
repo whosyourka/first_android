@@ -57,6 +57,9 @@ apply plugin: 'mygroovyplugin'
 apply plugin: 'demo'
 pluginInfo {
     hello = "sss"
+    alias = "name"
+    password = "pa"
+    filename = "file"
 }
 demoDomain{
     hello = "sss"
