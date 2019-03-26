@@ -11,16 +11,9 @@ import org.aspectj.lang.reflect.MethodSignature;
  */
 @Aspect
 public class MethodBehaviorAspect {
-    private static final String TAG = "aspect_aby";
-    @Pointcut("execution(@com.example.myplugin.IFirstAnnotation * *(..))")
-    public void firstMethodAnnotationBehavior() {
-        System.out.println("firstMethodAnnotationBehavior");
-    }
 
-    @Pointcut("execution(* com.example.myplugin.MainActivity.aspectClick(android.view.View))")
-    public void secondMethodAnnotationBehavior() {
-        System.out.println("secondMethodAnnotationBehavior");
-    }
+    @Pointcut("execution(@com.example.myplugin.aspectj.IFirstAnnotation * *(..))")
+    public void secondMethodAnnotationBehavior() {}
 
     @Around("secondMethodAnnotationBehavior()")
     public Object wavePointcutAround(ProceedingJoinPoint joinPoint) throws Throwable {
@@ -39,7 +32,6 @@ public class MethodBehaviorAspect {
         Object result = joinPoint.proceed();
         long duration = System.currentTimeMillis() - start;
         System.out.println(String.format("%s类中%s方法执行%s功能,耗时：%dms", className, methodName, value, duration));
-//        Toast.makeText(MyApplication.getContext(), String.format(Locale.CHINESE, "%s类中%s方法执行%s功能,耗时：%dms", className, methodName, value, duration), Toast.LENGTH_SHORT).show();
         return result;
     }
 
